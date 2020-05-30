@@ -21,6 +21,13 @@
 <body data-scroll-animation="true">
 <div class="body_wrapper">
 
+    <div class="preloader">
+        <div class="three-bounce">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+        </div>
+    </div>
 
     <div class="mobile_canvus_menu">
         <div class="close_btn">
@@ -34,12 +41,11 @@
                         <i class="linearicons-chevron-down"></i>
                     </a>
                     <ul class="list">
-                        <li><a href="symptom.html">Typical Symptoms</a></li>
+                        <li><a href="<?= BASEURL; ?>/Prevention/symptoms">Typical Symptoms</a></li>
                         <li><a href="<?= BASEURL; ?>/Prevention/symptom_checker">Symptom Checker</a></li>
                         <li><a href="<?= BASEURL; ?>/Prevention">Prevention</a></li>
                         <li><a href="<?= BASEURL; ?>/Prevention/virus_checker">Coronavirus Checker</a></li>
                         <li><a href="<?= BASEURL; ?>/Prevention/tracker">Tracker</a></li>
-                        <li><a href="maintenance.php">Maintenance</a></li>
                         <li><a href="<?= BASEURL; ?>/Prevention/faq">Faqs</a></li>
                     </ul>
                 </li>
@@ -51,28 +57,14 @@
                     <ul class="list">
                         <li><a href="<?= BASEURL; ?>/Pages">About</a></li>
                         <li><a href="<?= BASEURL; ?>/Pages/doctors">Doctors</a></li>
-                        <li><a href="sample-right-sidebar.html">Simple Sidebar</a></li>
-                        <li><a href="typography.html">Typhography</a></li>
-                        <li><a href="search.html">Search</a></li>
-                        <li><a href="search-nothing.html">Not Found</a></li>
-                        <li><a href="comingsoon.html">Coming Soon</a></li>
-                        <li><a href="404.html">Error</a></li>
                     </ul>
                 </li>
-                <li>
-                    <a href="<?= BASEURL; ?>/index.php">Blog
-                        <i class="linearicons-chevron-down"></i>
-                    </a>
-                    <ul class="list">
-                        <li><a href="<?= BASEURL; ?>/Blog">Blog</a></li>
-                        <li><a href="<?= BASEURL; ?>/Blog/single_blog">Blog Details</a></li>
-                    </ul>
-                </li>
+                <li><a href="<?= BASEURL; ?>/Blog">Blog</a></li>
                 <li><a href="<?= BASEURL; ?>/Contact">Contact</a></li>
             </ul>
         </div>
         <div class="menu_btm">
-            <a class="green_btn" href="#"><i class="linearicons-pulse"></i> Symptom Checker</a>
+            <a class="green_btn" href="<?= BASEURL; ?>/Prevention/symptom_checker"><i class="linearicons-pulse"></i> Symptom Checker</a>
         </div>
     </div>
 
@@ -194,28 +186,31 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="nav navbar-nav ml-auto">
-                            <li class="active"><a href="<?= BASEURL; ?>/Home">Home</a></li>
+                            <li><a href="<?= BASEURL; ?>/Home">Home</a></li>
                             <li class="dropdown submenu">
-                                <a class="dropdown-toggle" data-toggle="dropdown" href="<?= BASEURL; ?>/Prevention" role="button"
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="<?= BASEURL; ?>/Prevention"
+                                   role="button"
                                    aria-haspopup="true" aria-expanded="false">Prevention </a>
                                 <i class="linearicons-chevron-down mobile_dropdown" aria-hidden="true"
                                    data-toggle="dropdown"></i>
                                 <ul class="dropdown-menu">
                                     <li class="dropdown submenu">
-                                        <a class="dropdown-toggle" data-toggle="dropdown" href="<?= BASEURL; ?>/Prevention/symptoms"
+                                        <a class="dropdown-toggle" data-toggle="dropdown"
+                                           href="<?= BASEURL; ?>/Prevention/symptoms"
                                            role="button" aria-haspopup="true" aria-expanded="false">Symptoms
                                             <i class="linearicons-chevron-right mobile_dropdown" aria-hidden="true"
                                                data-toggle="dropdown"></i>
                                         </a>
                                         <ul class="dropdown-menu">
                                             <li><a href="<?= BASEURL; ?>/Prevention/symptoms">Typical Symptoms</a></li>
-                                            <li><a href="<?= BASEURL; ?>/Prevention/symptom_checker">Symptom Checker</a></li>
+                                            <li><a href="<?= BASEURL; ?>/Prevention/symptom_checker">Symptom Checker</a>
+                                            </li>
                                             <li><a href="<?= BASEURL; ?>/Prevention/">Prevention</a></li>
-                                            <li><a href="<?= BASEURL; ?>/Prevention/virus_checker">Coronavirus Checker</a></li>
+                                            <li><a href="<?= BASEURL; ?>/Prevention/virus_checker">Coronavirus
+                                                    Checker</a></li>
                                             <li><a href="<?= BASEURL; ?>/Prevention/tracker">Tracker</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="maintenance.php">Maintenance</a></li>
                                     <li><a href="<?= BASEURL; ?>/Prevention/faq">FAQS</a></li>
                                 </ul>
                             </li>
@@ -228,39 +223,14 @@
                                 <ul class="dropdown-menu">
                                     <li><a href="<?= BASEURL; ?>/Pages">About</a></li>
                                     <li><a href="<?= BASEURL; ?>/Pages/doctors">Doctors</a></li>
-                                    <li><a href="sample-right-sidebar.html">Simple Sidebar</a></li>
-                                    <li><a href="typography.html">Typhography</a></li>
-                                    <li class="dropdown submenu">
-                                        <a class="dropdown-toggle" data-toggle="dropdown" href="search.html"
-                                           role="button" aria-haspopup="true" aria-expanded="false">Search
-                                            <i class="linearicons-chevron-right mobile_dropdown" aria-hidden="true"
-                                               data-toggle="dropdown"></i>
-                                        </a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="search.html">Search</a></li>
-                                            <li><a href="search-nothing.html">Not Found</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="comingsoon.html">Coming Soon</a></li>
-                                    <li><a href="404.html">Error</a></li>
                                 </ul>
                             </li>
-                            <li class="dropdown submenu">
-                                <a class="dropdown-toggle" data-toggle="dropdown" href="<?= BASEURL; ?>/Blog" role="button"
-                                   aria-haspopup="true" aria-expanded="false">Blog
-                                </a>
-                                <i class="linearicons-chevron-down mobile_dropdown" aria-hidden="true"
-                                   data-toggle="dropdown"></i>
-                                <ul class="dropdown-menu">
-                                    <li><a href="<?= BASEURL; ?>/Blog">Blog</a></li>
-                                    <li><a href="<?= BASEURL; ?>/Blog/single_blog">Blog Details</a></li>
-                                </ul>
-                            </li>
+                            <li><a href="<?= BASEURL; ?>/Blog">Blog</a></li>
                             <li><a href="<?= BASEURL; ?>/Contact">Contact Us</a></li>
                         </ul>
                         <ul class="nav navbar-nav navbar-right">
                             <li class="checker_btn">
-                                <a href="#"><i class="linearicons-pulse"></i> Symptom Checker</a>
+                                <a href="<?= BASEURL; ?>/Prevention/symptom_checker"><i class="linearicons-pulse"></i> Symptom Checker</a>
                             </li>
                         </ul>
                     </div>
@@ -282,11 +252,3 @@
             </div>
         </div>
     </header>
-
-    <div class="preloader">
-        <div class="three-bounce">
-            <div class="one"></div>
-            <div class="two"></div>
-            <div class="three"></div>
-        </div>
-    </div>

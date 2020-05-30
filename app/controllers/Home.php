@@ -21,7 +21,7 @@ class Home extends Controller {
         $active = $json_data[0]['active'];
 
 
-        $this->view('templates/header');
+        $this->view('templates/header_a');
         $this->view('home/index');
         $this->view('templates/footer');
     }

@@ -7,7 +7,7 @@
             <ul class="nav justify-content-center">
                 <li><a href="<?= BASEURL; ?>/Home">Home</a></li>
                 <li><a href="<?= BASEURL; ?>/Prevention">Prevention</a></li>
-                <li><a href="checker.html">Symptom Checker</a></li>
+                <li><a href="<?= BASEURL; ?>/Prevention/symptom_checker">Symptom Checker</a></li>
             </ul>
         </div>
         <div class="row checker_box_inner">

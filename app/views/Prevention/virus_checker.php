@@ -48,12 +48,11 @@
                         <i class="linearicons-chevron-down"></i>
                     </a>
                     <ul class="list">
-                        <li><a href="symptom.html">Typical Symptoms</a></li>
+                        <li><a href="<?= BASEURL; ?>/Prevention/symptoms">Typical Symptoms</a></li>
                         <li><a href="<?= BASEURL; ?>/Prevention/symptom_checker">Symptom Checker</a></li>
                         <li><a href="<?= BASEURL; ?>/Prevention">Prevention</a></li>
                         <li><a href="<?= BASEURL; ?>/Prevention/virus_checker">Coronavirus Checker</a></li>
                         <li><a href="<?= BASEURL; ?>/Prevention/tracker">Tracker</a></li>
-                        <li><a href="maintenance.html">Maintenance</a></li>
                         <li><a href="<?= BASEURL; ?>/Prevention/faq">Faqs</a></li>
                     </ul>
                 </li>
@@ -65,23 +64,9 @@
                     <ul class="list">
                         <li><a href="<?= BASEURL; ?>/Pages">About</a></li>
                         <li><a href="<?= BASEURL; ?>/Pages/doctors">Doctors</a></li>
-                        <li><a href="sample-right-sidebar.html">Simple Sidebar</a></li>
-                        <li><a href="typography.html">Typhography</a></li>
-                        <li><a href="search.html">Search</a></li>
-                        <li><a href="search-nothing.html">Not Found</a></li>
-                        <li><a href="comingsoon.html">Coming Soon</a></li>
-                        <li><a href="404.html">Error</a></li>
                     </ul>
                 </li>
-                <li>
-                    <a href="<?= BASEURL; ?>/Blog">Blog
-                        <i class="linearicons-chevron-down"></i>
-                    </a>
-                    <ul class="list">
-                        <li><a href="<?= BASEURL; ?>/Blog">Blog</a></li>
-                        <li><a href="<?= BASEURL; ?>/Blog/single_blog">Blog Details</a></li>
-                    </ul>
-                </li>
+                <li><a href="<?= BASEURL; ?>/Blog">Blog</a></li>
                 <li><a href="<?= BASEURL; ?>/Contact">Contact</a></li>
             </ul>
         </div>

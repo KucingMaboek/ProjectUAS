@@ -6,7 +6,7 @@
             <ul class="nav justify-content-center wow fadeInUp" data-wow-delay="0.3s">
                 <li><a href="<?= BASEURL; ?>/Home">Home</a></li>
                 <li><a href="<?= BASEURL; ?>/Prevention">prevention</a></li>
-                <li><a href="symptom.html">What are the basic symptoms?</a></li>
+                <li><a href="<?= BASEURL; ?>/Prevention/symptoms">What are the basic symptoms?</a></li>
             </ul>
         </div>
     </div>

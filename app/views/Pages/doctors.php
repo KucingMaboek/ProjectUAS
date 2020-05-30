@@ -4,7 +4,7 @@
             <h6>Meet the Experts</h6>
             <h3>Our Doctors</h3>
             <ul class="nav justify-content-center">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.php">Home</a></li>
                 <li><a href="<?= BASEURL; ?>/Pages">About</a></li>
                 <li><a href="<?= BASEURL; ?>/Pages/doctors">Our Doctors</a></li>
             </ul>
