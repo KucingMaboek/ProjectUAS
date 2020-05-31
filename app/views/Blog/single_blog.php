@@ -1,12 +1,17 @@
 <section class="single_blog_img">
     <div class="container">
         <div class="single_blog_text">
-            <a class="tag" href="#">Quarantine</a>
-            <h2>How to treat COVID-19 coronavirus at home?</h2>
+            <a class="tag" href="#"><?= $data['blog']['category'] ?></a>
+            <h2><?= $data['blog']['title'] ?></h2>
             <ul class="nav">
-                <li><a href="#"><i class="linearicons-calendar-full"></i>Apr 18, 2020 </a></li>
+                <?php
+                $date = date('j F Y', strtotime(str_replace("-", "/", $data['blog']['date'])));
+                $data['users'] = $this->model('User_model')->getAllUsersNameById($data['blog']['authId']);
+                $author_name = $data['users']['full_name'];
+                ?>
+                <li><a href="#"><i class="linearicons-calendar-full"></i><?= $date ?></a></li>
                 <li><a href="#"><i class="linearicons-bubbles"></i>22</a></li>
-                <li><a href="#">by Sheryl Smith</a></li>
+                <li><a href="#">by <?= $author_name ?></a></li>
                 <li><a href="#"><i class="linearicons-radio-button" style="color: #01cfbe;"></i>4 min
                         read</a></li>
             </ul>
@@ -19,89 +24,96 @@
         <div class="row single_blog_inner">
             <div class="col-lg-9">
                 <div class="single_blog_text_inner">
-                    <div class="single_first_text">
-                        <h6>Medical experts around the world are working around the clock to develop a vaccine
-                            for COVID-19 as it continues to spread around the globe. But how are vaccines made
-                            and
-                            when are we likely to have one for coronavirus? We all know that vaccines exist for
-                            other
-                            viruses, like flu, but COVID-19 is a new illness that experts haven't seen before.
-                        </h6>
-                        <div class="media">
-                            <div class="d-flex">
-                                <span>D</span>
-                            </div>
-                            <div class="media-body">
-                                <p>r Diana Gall of Doctor 4 U, and Mr Parvinder Sagoo, pharmacist and clinical
-                                    advisor at Vaxxy, explain how vaccines are made, how coronavirus is being
-                                    mapped and when we will see a vaccine for Coronavirus COVID-19.
-                                </p>
-                            </div>
-                        </div>
-                        <p>A huge amount of misinformation about vaccines is often shared on social media,
-                            causing unnecessary concern around their safety. Myths about vaccines causing autism
-                            or containing heavy metals that can poison the body are scientifically unfounded.
-                            Vaccines are safe and the best way we can protect the population from disease.
-                            That's why the creation of a coronavirus vaccine is so important to control the
-                            pandemic.
-                        </p>
-                    </div>
-                    <div class="secand_part">
-                        <h4>How are vaccines made?</h4>
-                        <p>The most common way to make a vaccine involves using the virus antigen itself, Dr
-                            Gall explains. "In any vaccine, the strain of virus that needs an immunisation must
-                            be identified before anything can be done. However, once the strain is identified,
-                            the antigen is isolated and either weakened or made inactive through a chemical
-                            process," she
-                        </p>
-                        <h5>Virus proteins that are used to create vaccines are sometimes grown in cells that
-                            come from chicken embryos, or alternatively, they can be grown in a bioreactor like
-                            a Petri dish.
-                        </h5>
-                        <p>When a virus is weakened or inactive, it can't reproduce in order to cause illness,
-                            but the body's immune system can still create antibodies to fight it off. That way,
-                            if you do come into contact with an active form of the virus, your body should be
-                            equipped to fight it before it makes you ill.
-                        </p>
-                    </div>
-                    <div class="secand_part">
-                        <h4>Vaccines in an outbreak</h4>
-                        <p>During unprecedented times, like the current coronavirus outbreak, vaccines must
-                            still go through the same process, but because the demand is higher a fast-tracked
-                            process is usually possible.
-                        </p>
-                        <p>"Right now, health professionals around the globe are racing against the clock to get
-                            a vaccine for this virus. However, the issue is that creating a vaccine takes time.
-                            However, the fact that all efforts from health professionals around the globe will
-                            be focused on getting a vaccine could quicken the process," Mr Sagoo says.
-                        </p>
-                        <p>But in order to do this, scientists need to identify the exact strain of the virus
-                            causing the pandemic.
-                        </p>
-                        <p>"Before any vaccine can be produced, the exact strain causing the epidemic or
-                            pandemic must be identified and isolated, as with any other vaccine production," Dr
-                            Gall explains.
-                        </p>
-                        <img class="img-fluid" src="<?= BASEURL; ?>/assets/images/blog/single-blog-1.jpg" alt="">
-                        <p class="source">Source: The Guardian</p>
-                        <p>"Unfortunately, even in cases where an immunisation is desperately needed, it can
-                            take a long time to create one, and certain processes can only be accelerated so
-                            much before safety is compromised.
-                        </p>
-                        <p>"Any vaccine, including those made for a mass outbreak, are produced in the same
-                            ways. However, Moderna, the company behind one of the current vaccines being
-                            trialled for COVID-19, uses mRNA technology - a faster method than traditional
-                            vaccines."
-                        </p>
-                        <p>Messenger RNA (mRNA) is a molecule found in cells which carries DNA codes from the
-                            nucleus to the cytoplasm, where a process called protein synthesis is carried out.
-                        </p>
-                        <p>"The DNA sequence of the virus is transcribed into mRNA, meaning that the actual
-                            antigen of the virus itself isn't included in the vaccine,. Despite that, it still
-                            contains everything that the body needs to create specific antibodies to fight off
-                            the virus."
-                        </p>
-                    </div>
+                    <?= $data['blog']['content'] ?>
+                    <!--default blog content-->
+
+                    <!--                    <div class="single_first_text">-->
+                    <!--                        <h6>Medical experts around the world are working around the clock to develop a vaccine-->
+                    <!--                            for COVID-19 as it continues to spread around the globe. But how are vaccines made-->
+                    <!--                            and-->
+                    <!--                            when are we likely to have one for coronavirus? We all know that vaccines exist for-->
+                    <!--                            other-->
+                    <!--                            viruses, like flu, but COVID-19 is a new illness that experts haven't seen before.-->
+                    <!--                        </h6>-->
+                    <!--                        <div class="media">-->
+                    <!--                            <div class="d-flex">-->
+                    <!--                                <span>D</span>-->
+                    <!--                            </div>-->
+                    <!--                            <div class="media-body">-->
+                    <!--                                <p>r Diana Gall of Doctor 4 U, and Mr Parvinder Sagoo, pharmacist and clinical-->
+                    <!--                                    advisor at Vaxxy, explain how vaccines are made, how coronavirus is being-->
+                    <!--                                    mapped and when we will see a vaccine for Coronavirus COVID-19.-->
+                    <!--                                </p>-->
+                    <!--                            </div>-->
+                    <!--                        </div>-->
+                    <!--                        <p>A huge amount of misinformation about vaccines is often shared on social media,-->
+                    <!--                            causing unnecessary concern around their safety. Myths about vaccines causing autism-->
+                    <!--                            or containing heavy metals that can poison the body are scientifically unfounded.-->
+                    <!--                            Vaccines are safe and the best way we can protect the population from disease.-->
+                    <!--                            That's why the creation of a coronavirus vaccine is so important to control the-->
+                    <!--                            pandemic.-->
+                    <!--                        </p>-->
+                    <!--                    </div>-->
+                    <!--                    <div class="secand_part">-->
+                    <!--                        <h4>How are vaccines made?</h4>-->
+                    <!--                        <p>The most common way to make a vaccine involves using the virus antigen itself, Dr-->
+                    <!--                            Gall explains. "In any vaccine, the strain of virus that needs an immunisation must-->
+                    <!--                            be identified before anything can be done. However, once the strain is identified,-->
+                    <!--                            the antigen is isolated and either weakened or made inactive through a chemical-->
+                    <!--                            process," she-->
+                    <!--                        </p>-->
+                    <!--                        <h5>Virus proteins that are used to create vaccines are sometimes grown in cells that-->
+                    <!--                            come from chicken embryos, or alternatively, they can be grown in a bioreactor like-->
+                    <!--                            a Petri dish.-->
+                    <!--                        </h5>-->
+                    <!--                        <p>When a virus is weakened or inactive, it can't reproduce in order to cause illness,-->
+                    <!--                            but the body's immune system can still create antibodies to fight it off. That way,-->
+                    <!--                            if you do come into contact with an active form of the virus, your body should be-->
+                    <!--                            equipped to fight it before it makes you ill.-->
+                    <!--                        </p>-->
+                    <!--                    </div>-->
+                    <!--                    <div class="secand_part">-->
+                    <!--                        <h4>Vaccines in an outbreak</h4>-->
+                    <!--                        <p>During unprecedented times, like the current coronavirus outbreak, vaccines must-->
+                    <!--                            still go through the same process, but because the demand is higher a fast-tracked-->
+                    <!--                            process is usually possible.-->
+                    <!--                        </p>-->
+                    <!--                        <p>"Right now, health professionals around the globe are racing against the clock to get-->
+                    <!--                            a vaccine for this virus. However, the issue is that creating a vaccine takes time.-->
+                    <!--                            However, the fact that all efforts from health professionals around the globe will-->
+                    <!--                            be focused on getting a vaccine could quicken the process," Mr Sagoo says.-->
+                    <!--                        </p>-->
+                    <!--                        <p>But in order to do this, scientists need to identify the exact strain of the virus-->
+                    <!--                            causing the pandemic.-->
+                    <!--                        </p>-->
+                    <!--                        <p>"Before any vaccine can be produced, the exact strain causing the epidemic or-->
+                    <!--                            pandemic must be identified and isolated, as with any other vaccine production," Dr-->
+                    <!--                            Gall explains.-->
+                    <!--                        </p>-->
+                    <!--                        <img class="img-fluid" src="-->
+                    <? //= BASEURL; ?><!--/assets/images/blog/single-blog-1.jpg" alt="">-->
+                    <!--                        <p class="source">Source: The Guardian</p>-->
+                    <!--                        <p>"Unfortunately, even in cases where an immunisation is desperately needed, it can-->
+                    <!--                            take a long time to create one, and certain processes can only be accelerated so-->
+                    <!--                            much before safety is compromised.-->
+                    <!--                        </p>-->
+                    <!--                        <p>"Any vaccine, including those made for a mass outbreak, are produced in the same-->
+                    <!--                            ways. However, Moderna, the company behind one of the current vaccines being-->
+                    <!--                            trialled for COVID-19, uses mRNA technology - a faster method than traditional-->
+                    <!--                            vaccines."-->
+                    <!--                        </p>-->
+                    <!--                        <p>Messenger RNA (mRNA) is a molecule found in cells which carries DNA codes from the-->
+                    <!--                            nucleus to the cytoplasm, where a process called protein synthesis is carried out.-->
+                    <!--                        </p>-->
+                    <!--                        <p>"The DNA sequence of the virus is transcribed into mRNA, meaning that the actual-->
+                    <!--                            antigen of the virus itself isn't included in the vaccine,. Despite that, it still-->
+                    <!--                            contains everything that the body needs to create specific antibodies to fight off-->
+                    <!--                            the virus."-->
+                    <!--                        </p>-->
+                    <!--                    </div>-->
+
+                    <!--end of default page content-->
+
                     <div class="single_blog_bottom">
                         <div class="row m-0 justify-content-between">
                             <div class="left">
@@ -124,12 +136,21 @@
                     </div>
                     <div class="post_navigation row">
                         <div class="col-6">
-                            <a href="#"><i class="linearicons-arrow-left"></i> Previous post</a>
-                            <h4>What can I do under the new rules?</h4>
+                            <?php
+                            $total = count($this->model('Blog_model')->getAllBlogs());
+                            if ($data['blog']['id'] != 1) {
+                                $data['previous_blog'] = $this->model('Blog_model')->getAllBlogsById($data['blog']['id'] - 1); ?>
+                                <a href="<?= BASEURL; ?>/Blog/single_blog/<?=$data['blog']['id']-1?>"><i class="linearicons-arrow-left"></i> Previous post</a>
+                                <h4><?= $data['previous_blog']['title'] ?></h4>
+                            <?php } ?>
                         </div>
                         <div class="col-6 text-right">
-                            <a href="#">Next post <i class="linearicons-arrow-right"></i></a>
-                            <h4>Are you washing your hands properly?</h4>
+                            <?php
+                            if ($data['blog']['id'] != $total) {
+                                $data['next_blog'] = $this->model('Blog_model')->getAllBlogsById($data['blog']['id'] + 1); ?>
+                                <a href="<?= BASEURL; ?>/Blog/single_blog/<?=$data['blog']['id']+1?>">Next post <i class="linearicons-arrow-right"></i></a>
+                                <h4><?= $data['next_blog']['title'] ?></h4>
+                            <?php } ?>
                         </div>
                     </div>
                     <div class="post_author">
@@ -161,7 +182,8 @@
                         <div class="s_comment_list_inner">
                             <div class="media">
                                 <div class="d-flex">
-                                    <img class="rounded-circle" src="<?= BASEURL; ?>/assets/images/comment/comment-1.png" alt="">
+                                    <img class="rounded-circle"
+                                         src="<?= BASEURL; ?>/assets/images/comment/comment-1.png" alt="">
                                 </div>
                                 <div class="media-body">
                                     <a href="#">
@@ -177,7 +199,8 @@
                                     <a class="text_btn" href="#">Reply <i class="linearicons-arrow-right"></i></a>
                                     <div class="media">
                                         <div class="d-flex">
-                                            <img class="rounded-circle" src="<?= BASEURL; ?>/assets/images/comment/comment-2.png"
+                                            <img class="rounded-circle"
+                                                 src="<?= BASEURL; ?>/assets/images/comment/comment-2.png"
                                                  alt="">
                                         </div>
                                         <div class="media-body">
@@ -197,7 +220,8 @@
                                             <div class="media">
                                                 <div class="d-flex">
                                                     <img class="rounded-circle"
-                                                         src="<?= BASEURL; ?>/assets/images/comment/comment-3.png" alt="">
+                                                         src="<?= BASEURL; ?>/assets/images/comment/comment-3.png"
+                                                         alt="">
                                                 </div>
                                                 <div class="media-body">
                                                     <a href="#">
@@ -209,7 +233,7 @@
                                                     </p>
                                                     <h6><i class="linearicons-clock3"></i> 8 mins ago</h6>
                                                     <a class="text_btn" href="#">Reply <i
-                                                            class="linearicons-arrow-right"></i></a>
+                                                                class="linearicons-arrow-right"></i></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -218,7 +242,8 @@
                             </div>
                             <div class="media">
                                 <div class="d-flex">
-                                    <img class="rounded-circle" src="<?= BASEURL; ?>/assets/images/comment/comment-4.png" alt="">
+                                    <img class="rounded-circle"
+                                         src="<?= BASEURL; ?>/assets/images/comment/comment-4.png" alt="">
                                 </div>
                                 <div class="media-body">
                                     <a href="#">
@@ -236,7 +261,8 @@
                                     <a class="text_btn" href="#">Reply <i class="linearicons-arrow-right"></i></a>
                                     <div class="media">
                                         <div class="d-flex">
-                                            <img class="rounded-circle" src="<?= BASEURL; ?>/assets/images/comment/comment-5.png"
+                                            <img class="rounded-circle"
+                                                 src="<?= BASEURL; ?>/assets/images/comment/comment-5.png"
                                                  alt="">
                                         </div>
                                         <div class="media-body">

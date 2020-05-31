@@ -59,7 +59,7 @@
                         <li><a href="<?= BASEURL; ?>/Pages/doctors">Doctors</a></li>
                     </ul>
                 </li>
-                <li><a href="<?= BASEURL; ?>/Blog">Blog</a></li>
+                <li><a href="<?= BASEURL; ?>/Blog/1">Blog</a></li>
                 <li><a href="<?= BASEURL; ?>/Contact">Contact</a></li>
             </ul>
         </div>
@@ -225,7 +225,7 @@
                                     <li><a href="<?= BASEURL; ?>/Pages/doctors">Doctors</a></li>
                                 </ul>
                             </li>
-                            <li><a href="<?= BASEURL; ?>/Blog">Blog</a></li>
+                            <li><a href="<?= BASEURL; ?>/Blog/1">Blog</a></li>
                             <li><a href="<?= BASEURL; ?>/Contact">Contact Us</a></li>
                         </ul>
                         <ul class="nav navbar-nav navbar-right">

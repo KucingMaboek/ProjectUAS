@@ -5,7 +5,7 @@
             <h3 class="wow fadeInUp" data-wow-delay="0.2s">Recent updates</h3>
             <ul class="nav justify-content-center wow fadeInUp" data-wow-delay="0.3s">
                 <li><a href="index.php">Home</a></li>
-                <li><a href="<?= BASEURL; ?>/Blog">Blog</a></li>
+                <li><a href="<?= BASEURL; ?>/Blog/1">Blog</a></li>
             </ul>
         </div>
     </div>
@@ -32,267 +32,106 @@
             </div>
         </div>
         <div class="row blog_item_inner">
-            <div class="col-lg-6 comm travel edu quarantine">
-                <div class="big_l_blog_item">
-                    <div class="l_blog_img">
-                        <img class="img-fluid" src="<?= BASEURL; ?>/assets/images/blog/blog-grid/blog-1.jpg" alt=""/>
-                    </div>
-                    <div class="l_blog_text">
-                        <div class="date">
-                            <a href="#"><i class="linearicons-calendar-full"></i> Apr 18, 2020</a>
-                            <a href="#"><i class="linearicons-bubbles"></i> 22</a>
+
+            <!--ngetes pake db-->
+            <!--            --><? //=data['pages']?>
+            <?php foreach ($data['blogs'] as $blog) : ?>
+                <?php
+                $date = date('j F Y', strtotime(str_replace("-", "/", $blog['date'])));
+                $data['users'] = $this->model('User_model')->getAllUsersNameById($blog['authId']);
+                $author_name = $data['users']['full_name'];
+                ?>
+                <div class="col-lg-6 comm travel edu quarantine">
+                    <div class="big_l_blog_item">
+                        <div class="l_blog_img">
+                            <img class="img-fluid" src="<?= BASEURL; ?>/assets/storage/images/blog/default.jpg"
+                                 alt=""/>
                         </div>
-                        <div class="blog_btm_text">
-                            <div class="tag">Quarantine</div>
-                            <div class="author">
-                                <a href="#">by Sheryl Smith</a>
-                                <a href="#"><i class="linearicons-radio-button"></i> 4 min read</a>
+                        <div class="l_blog_text">
+                            <div class="date">
+                                <a><i class="linearicons-calendar-full"></i>
+                                    <?= $date ?>
+                                </a>
+                                <a><i class="linearicons-bubbles"></i> 22</a>
                             </div>
-                            <a href="#">
-                                <h3>How to treat COVID-19 <br/>coronavirus at home?</h3>
-                            </a>
-                            <a class="text_btn" href="#">Read more <i class="linearicons-arrow-right"></i></a>
+                            <div class="blog_btm_text">
+                                <div class="tag"><?= $blog['category'] ?></div>
+                                <div class="author">
+                                    <a>by <?= $author_name ?></a>
+                                    <a><i class="linearicons-radio-button"></i> 4 min read</a>
+                                </div>
+                                <a href="<?= BASEURL; ?>/Blog/single_blog/<?= $blog['id'] ?>">
+                                    <h3><?= $blog['title'] ?></h3>
+                                </a>
+                                <a class="text_btn" href="<?= BASEURL; ?>/Blog/single_blog/<?= $blog['id'] ?>">Read more
+                                    <i class="linearicons-arrow-right"></i></a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-6 medi">
-                <div class="big_l_blog_item">
-                    <div class="l_blog_img">
-                        <img class="img-fluid" src="<?= BASEURL; ?>/assets/images/blog/blog-grid/blog-2.jpg" alt=""/>
-                    </div>
-                    <div class="l_blog_text">
-                        <div class="date">
-                            <a href="#"><i class="linearicons-calendar-full"></i> Apr 17, 2020</a>
-                            <a href="#"><i class="linearicons-bubbles"></i> 31</a>
-                        </div>
-                        <div class="blog_btm_text">
-                            <div class="tag">Medicine</div>
-                            <div class="author">
-                                <a href="#">by Robert Watson</a>
-                                <a href="#"><i class="linearicons-radio-button"></i> 6 min read</a>
-                            </div>
-                            <a href="#">
-                                <h3>When will we have a vaccine for<br/> COVID-19 Coronavirus?</h3>
-                            </a>
-                            <a class="text_btn" href="#">Read more <i class="linearicons-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 travel pre quarantine">
-                <div class="big_l_blog_item">
-                    <div class="l_blog_img">
-                        <img class="img-fluid" src="<?= BASEURL; ?>/assets/images/blog/blog-grid/blog-3.jpg" alt=""/>
-                    </div>
-                    <div class="l_blog_text">
-                        <div class="date">
-                            <a href="#"><i class="linearicons-calendar-full"></i> Apr 16, 2020</a>
-                            <a href="#"><i class="linearicons-bubbles"></i> 45</a>
-                        </div>
-                        <div class="blog_btm_text">
-                            <div class="tag">Quarantine</div>
-                            <div class="author">
-                                <a href="#">by Sheryl Smith</a>
-                                <a href="#"><i class="linearicons-radio-button"></i> 5 min read</a>
-                            </div>
-                            <a href="#">
-                                <h3>What can I do under the new<br/> rules?</h3>
-                            </a>
-                            <a class="text_btn" href="#">Read more <i class="linearicons-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 edu pre">
-                <div class="big_l_blog_item">
-                    <div class="l_blog_img">
-                        <img class="img-fluid" src="<?= BASEURL; ?>/assets/images/blog/blog-grid/blog-4.jpg" alt=""/>
-                    </div>
-                    <div class="l_blog_text">
-                        <div class="date">
-                            <a href="#"><i class="linearicons-calendar-full"></i> Apr 15, 2020</a>
-                            <a href="#"><i class="linearicons-bubbles"></i> 17</a>
-                        </div>
-                        <div class="blog_btm_text">
-                            <div class="tag">Prevention</div>
-                            <div class="author">
-                                <a href="#">by Naomi Hill</a>
-                                <a href="#"><i class="linearicons-radio-button"></i> 4 min read</a>
-                            </div>
-                            <a href="#">
-                                <h3>What you need to know about <br/>COVID-19 and pregnancy</h3>
-                            </a>
-                            <a class="text_btn" href="#">Read more <i class="linearicons-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 health">
-                <div class="big_l_blog_item">
-                    <div class="l_blog_img">
-                        <img class="img-fluid" src="<?= BASEURL; ?>/assets/images/blog/blog-grid/blog-5.jpg" alt=""/>
-                    </div>
-                    <div class="l_blog_text">
-                        <div class="date">
-                            <a href="#"><i class="linearicons-calendar-full"></i> Apr 14, 2020</a>
-                            <a href="#"><i class="linearicons-bubbles"></i> 8</a>
-                        </div>
-                        <div class="blog_btm_text">
-                            <div class="tag">Health</div>
-                            <div class="author">
-                                <a href="#">by Anthony Taylor</a>
-                                <a href="#"><i class="linearicons-radio-button"></i> 3 min read</a>
-                            </div>
-                            <a href="#">
-                                <h3>Are you washing your hands<br/> properly?</h3>
-                            </a>
-                            <a class="text_btn" href="#">Read more <i class="linearicons-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 comm pre travel health">
-                <div class="big_l_blog_item">
-                    <div class="l_blog_img">
-                        <img class="img-fluid" src="<?= BASEURL; ?>/assets/images/blog/blog-grid/blog-6.jpg" alt=""/>
-                    </div>
-                    <div class="l_blog_text">
-                        <div class="date">
-                            <a href="#"><i class="linearicons-calendar-full"></i> Apr 13, 2020</a>
-                            <a href="#"><i class="linearicons-bubbles"></i> 19</a>
-                        </div>
-                        <div class="blog_btm_text">
-                            <div class="tag">Health</div>
-                            <div class="author">
-                                <a href="#">by Sheryl Smith</a>
-                                <a href="#"><i class="linearicons-radio-button"></i> 8 min read</a>
-                            </div>
-                            <a href="#">
-                                <h3>What is an underlying health<br/> condition?</h3>
-                            </a>
-                            <a class="text_btn" href="#">Read more <i class="linearicons-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 edu">
-                <div class="big_l_blog_item">
-                    <div class="l_blog_img">
-                        <img class="img-fluid" src="<?= BASEURL; ?>/assets/images/blog/blog-grid/blog-7.jpg" alt=""/>
-                    </div>
-                    <div class="l_blog_text">
-                        <div class="date">
-                            <a href="#"><i class="linearicons-calendar-full"></i> Apr 12, 2020</a>
-                            <a href="#"><i class="linearicons-bubbles"></i> 38</a>
-                        </div>
-                        <div class="blog_btm_text">
-                            <div class="tag">Education</div>
-                            <div class="author">
-                                <a href="#">by Robert Watson</a>
-                                <a href="#"><i class="linearicons-radio-button"></i> 5 min read</a>
-                            </div>
-                            <a href="#">
-                                <h3>How to stay healthy while <br/>working at home</h3>
-                            </a>
-                            <a class="text_btn" href="#">Read more <i class="linearicons-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 eff edu medi">
-                <div class="big_l_blog_item">
-                    <div class="l_blog_img">
-                        <img class="img-fluid" src="<?= BASEURL; ?>/assets/images/blog/blog-grid/blog-8.jpg" alt=""/>
-                    </div>
-                    <div class="l_blog_text">
-                        <div class="date">
-                            <a href="#"><i class="linearicons-calendar-full"></i> Apr 11, 2020</a>
-                            <a href="#"><i class="linearicons-bubbles"></i> 20</a>
-                        </div>
-                        <div class="blog_btm_text">
-                            <div class="tag">Medicine</div>
-                            <div class="author">
-                                <a href="#">by Anthony Taylor</a>
-                                <a href="#"><i class="linearicons-radio-button"></i> 4 min read</a>
-                            </div>
-                            <a href="#">
-                                <h3>What is shielding, who needs it?</h3>
-                            </a>
-                            <a class="text_btn" href="#">Read more <i class="linearicons-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 pre medi">
-                <div class="big_l_blog_item">
-                    <div class="l_blog_img">
-                        <img class="img-fluid" src="<?= BASEURL; ?>/assets/images/blog/blog-grid/blog-9.jpg" alt=""/>
-                    </div>
-                    <div class="l_blog_text">
-                        <div class="date">
-                            <a href="#"><i class="linearicons-calendar-full"></i> Apr 10, 2020</a>
-                            <a href="#"><i class="linearicons-bubbles"></i> 57</a>
-                        </div>
-                        <div class="blog_btm_text">
-                            <div class="tag">Medicine</div>
-                            <div class="author">
-                                <a href="#">by Sheryl Smith</a>
-                                <a href="#"><i class="linearicons-radio-button"></i> 8 min read</a>
-                            </div>
-                            <a href="#">
-                                <h3>What to do if you need to see a <br/>GP or get medication?</h3>
-                            </a>
-                            <a class="text_btn" href="#">Read more <i class="linearicons-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 quarantine eff">
-                <div class="big_l_blog_item">
-                    <div class="l_blog_img">
-                        <img class="img-fluid" src="<?= BASEURL; ?>/assets/images/blog/blog-grid/blog-10.jpg" alt=""/>
-                    </div>
-                    <div class="l_blog_text">
-                        <div class="date">
-                            <a href="#"><i class="linearicons-calendar-full"></i> Apr 09, 2020</a>
-                            <a href="#"><i class="linearicons-bubbles"></i> 5</a>
-                        </div>
-                        <div class="blog_btm_text">
-                            <div class="tag">Quarantine</div>
-                            <div class="author">
-                                <a href="#">by Sheryl Smith</a>
-                                <a href="#"><i class="linearicons-radio-button"></i> 7 min read</a>
-                            </div>
-                            <a href="#">
-                                <h3>Do you need to disinfect your<br/> home?</h3>
-                            </a>
-                            <a class="text_btn" href="#">Read more <i class="linearicons-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <?php endforeach; ?>
         </div>
+        <!--end of ngetes pake db-->
+
         <div class="row blog_pagination">
             <div class="col-md-2">
-                <a class="pagi_btn prev" href="#"><i class="linearicons-arrow-left"></i> Newer posts</a>
+                <?php if ($data['current_page'] > 1) { ?>
+                    <a class="pagi_btn prev" href="<?= BASEURL; ?>/Blog/1"><i
+                                class="linearicons-arrow-left"></i> Newest posts</a>
+                <?php } ?>
             </div>
             <div class="col-md-8">
                 <nav class="navigation" aria-label="Page navigation example">
                     <ul class="pagination justify-content-center">
-                        <li class="page-item"><a class="page-link" href="#">1</a></li>
-                        <li class="page-item active"><a class="page-link" href="#">2</a></li>
-                        <li class="page-item"><a class="page-link" href="#">3</a></li>
-                        <li class="page-item blank"><a class="page-link" href="#">...</a></li>
-                        <li class="page-item"><a class="page-link" href="#">7</a></li>
+
+                        <?php
+                        if ($data['pages'] >= 0 && $data['pages'] <= 4) {
+                            for ($i = 1; $i <= $data['pages']; $i++) {
+                                if ($i == $data['current_page']) {
+                                    ?>
+                                    <li class="page-item active"><a class="page-link"
+                                                                    href="<?= BASEURL; ?>/Blog/<?= $i ?>"><?= $i ?></a>
+                                    </li>
+                                <?php } else { ?>
+                                    <li class="page-item"><a class="page-link"
+                                                             href="<?= BASEURL; ?>/Blog/<?= $i ?>"><?= $i ?></a></li>
+                                <?php }
+                            }
+                        } else if ($data['pages'] > 4) {
+                        if ($data['current_page'] == 1) { ?>
+                        <li class="page-item active"><a class="page-link"
+                                                        href="<?= BASEURL; ?>/Blog/1">1</a>
+                        <li class="page-item"><a class="page-link"
+                                                 href="<?= BASEURL; ?>/Blog/2">2</a>
+                        <li class="page-item"><a class="page-link"
+                                                 href="<?= BASEURL; ?>/Blog/3">3</a>
+                            <?php } else if ($data['current_page'] == $data['pages']) { ?>
+                        <li class="page-item"><a class="page-link"
+                                                 href="<?= BASEURL; ?>/Blog/<?= $data['current_page'] - 2 ?>"><?= $data['current_page'] - 2 ?></a>
+                        <li class="page-item"><a class="page-link"
+                                                 href="<?= BASEURL; ?>/Blog/<?= $data['current_page'] - 1 ?>"><?= $data['current_page'] - 1 ?></a>
+                        <li class="page-item active"><a class="page-link"
+                                                        href="<?= BASEURL; ?>/Blog/<?= $data['current_page'] ?>"><?= $data['current_page'] ?></a>
+                            <?php } else { ?>
+                        <li class="page-item"><a class="page-link"
+                                                 href="<?= BASEURL; ?>/Blog/<?= $data['current_page'] - 1 ?>"><?= $data['current_page'] - 1 ?></a>
+                        <li class="page-item"><a class="page-link"
+                                                 href="<?= BASEURL; ?>/Blog/<?= $data['current_page'] ?>"><?= $data['current_page'] ?></a>
+                        <li class="page-item active"><a class="page-link"
+                                                        href="<?= BASEURL; ?>/Blog/<?= $data['current_page'] + 1 ?>"><?= $data['current_page'] + 1 ?></a>
+                            <?php }
+
+                            } ?>
                     </ul>
                 </nav>
             </div>
             <div class="col-md-2 text-right">
-                <a class="pagi_btn next" href="#">Older posts <i class="linearicons-arrow-right"></i></a>
+                <?php if ($data['current_page'] < $data['pages']) { ?>
+                    <a class="pagi_btn next" href="<?= BASEURL; ?>/Blog/<?= $data['pages'] ?>">Oldest posts <i
+                                class="linearicons-arrow-right"></i></a>
+                <?php } ?>
             </div>
         </div>
-    </div>
 </section>
 
 

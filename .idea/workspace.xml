@@ -2,25 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d87ad2f-a6aa-43bd-af30-c217667def42" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/Appointment.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/Appointment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/config.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/Blog.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/Blog.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/Contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/Contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/Home.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/Home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/Pages.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/Pages.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/Prevention.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/Prevention.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/Appointment/appointment.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Appointment/appointment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/init.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/Blog/blog.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Blog/blog.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/Contact/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Contact/contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/Pages/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Pages/about.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/Pages/doctors.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Pages/doctors.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/Prevention/symptom_checker.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Prevention/symptom_checker.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/Prevention/symptoms.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Prevention/symptoms.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/Blog/single_blog.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Blog/single_blog.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/Prevention/virus_checker.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Prevention/virus_checker.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/templates/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/templates/header_a.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/maintenance.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/templates/header_a.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/templates/header_a.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/templates/header_b.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/templates/header_b.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +46,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../covid-19" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
@@ -85,12 +76,34 @@
       <workItem from="1590560003395" duration="6734000" />
       <workItem from="1590575844389" duration="15067000" />
       <workItem from="1590761606781" duration="1333000" />
-      <workItem from="1590843537154" duration="5656000" />
+      <workItem from="1590843537154" duration="20819000" />
+      <workItem from="1590894999293" duration="7340000" />
+      <workItem from="1590919779673" duration="22347000" />
     </task>
+    <task id="LOCAL-00001" summary="update views">
+      <created>1590849267974</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590849267974</updated>
+    </task>
+    <task id="LOCAL-00002" summary="we ga kecantol">
+      <created>1590849324954</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1590849324954</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update views" />
+    <MESSAGE value="we ga kecantol" />
+    <option name="LAST_COMMIT_MESSAGE" value="we ga kecantol" />
   </component>
   <component name="WindowStateProjectService">
     <state x="390" y="0" key="#PHP" timestamp="1590259363385">
@@ -101,45 +114,45 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1590848811220" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1590849264607">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1590849322485">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1590849264607" />
-    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1590844167274">
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1590849322485" />
+    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1590919785899">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1590844167274" />
-    <state x="517" y="292" key="NewPhpFileDialog" timestamp="1590844452586">
+    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1590919785899" />
+    <state x="517" y="292" key="NewPhpFileDialog" timestamp="1590932968307">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="517" y="292" key="NewPhpFileDialog/0.0.1366.738@0.0.1366.738" timestamp="1590844452586" />
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1590849272769">
+    <state x="517" y="292" key="NewPhpFileDialog/0.0.1366.738@0.0.1366.738" timestamp="1590932968307" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1590849326912">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1590849272769" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1590849326912" />
     <state x="379" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1590843542247">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="379" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1590843542247" />
-    <state x="329" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1590848670717">
+    <state x="329" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1590931971943">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="329" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.738@0.0.1366.738" timestamp="1590848670717" />
+    <state x="329" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.738@0.0.1366.738" timestamp="1590931971943" />
     <state x="92" y="92" width="1182" height="554" key="dock-window-1" timestamp="1590349990161">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="92" y="92" width="1182" height="554" key="dock-window-1/0.0.1366.738@0.0.1366.738" timestamp="1590349990161" />
-    <state x="392" y="52" width="737" height="686" key="find.popup" timestamp="1590849225395">
+    <state x="392" y="52" width="737" height="686" key="find.popup" timestamp="1590947084294">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="392" y="52" width="737" height="686" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1590849225395" />
-    <state x="339" y="165" key="run.anything.popup" timestamp="1590350626882">
+    <state x="392" y="52" width="737" height="686" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1590947084294" />
+    <state x="339" y="165" key="run.anything.popup" timestamp="1590933931301">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="339" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1590350626882" />
-    <state x="346" y="59" key="search.everywhere.popup" timestamp="1590596932471">
+    <state x="339" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1590933931301" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1590945118135">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="346" y="59" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1590596932471" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1590945118135" />
   </component>
 </project>

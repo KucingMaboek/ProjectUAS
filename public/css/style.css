@@ -3039,7 +3039,9 @@ button:focus {
 .big_l_blog_item .l_blog_text h3 {
     color: #fff;
     font: 700 30px/38px "Quicksand", sans-serif;
-    margin-bottom: 13px
+    margin-bottom: 13px;
+    max-width: 500px;
+    overflow-wrap: break-word;
 }
 
 .big_l_blog_item .l_blog_text .text_btn {
