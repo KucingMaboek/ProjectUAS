@@ -78,9 +78,9 @@
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
                     <a class="navbar-brand" href="<?= BASEURL; ?>/Home"><img
-                            src="<?= BASEURL; ?>/assets/images/logo-2.png"
-                            srcset="<?= BASEURL; ?>/assets/images/logo-2-2x.png 2x"
-                            alt=""/></a>
+                                src="<?= BASEURL; ?>/assets/images/logo-2.png"
+                                srcset="<?= BASEURL; ?>/assets/images/logo-2-2x.png 2x"
+                                alt=""/></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
                             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">

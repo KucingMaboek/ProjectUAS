@@ -1,11 +1,11 @@
 <section class="breadcrumb_area">
     <div class="container">
         <div class="breadcrumb_text">
-            <h6 class="wow fadeInUp">Contact us</h6>
-            <h3 class="wow fadeInUp" data-wow-delay="0.2s">Get in Touch</h3>
+            <h6 class="wow fadeInUp">Kontak Kami</h6>
+            <h3 class="wow fadeInUp" data-wow-delay="0.2s">Hubungi Kami</h3>
             <ul class="nav justify-content-center wow fadeInUp" data-wow-delay="0.3s">
-                <li><a href="index.php">Home</a></li>
-                <li><a href="<?= BASEURL; ?>/Contact">Contact</a></li>
+                <li><a href="index.php">Beranda</a></li>
+                <li><a href="<?= BASEURL; ?>/Contact">Kontak</a></li>
             </ul>
         </div>
     </div>
@@ -15,33 +15,33 @@
 <section class="contact_area">
     <div class="container">
         <div class="row contact_details">
-            <div class="col-lg-3 col-6">
+            <!-- <div class="col-lg-3 col-6">
                 <div class="contact_details_item wow fadeInLeft" data-wow-delay="0.2s">
                     <i class="linearicons-map-marker"></i>
                     <h4>Address</h4>
                     <p>78-66 State Route 33, Brighton VIC 3186, AUSTRALIA</p>
                 </div>
-            </div>
-            <div class="col-lg-3 col-6">
+            </div> -->
+            <!-- <div class="col-lg-3 col-6">
                 <div class="contact_details_item  wow fadeInLeft" data-wow-delay="0.3s">
                     <i class="linearicons-home4"></i>
                     <h4>Our Office</h4>
                     <p>Level 13, 2 Elizabeth St., Melbourne, VIC 3000, AUSTRALIA</p>
                 </div>
-            </div>
+            </div> -->
             <div class="col-lg-3 col-6">
                 <div class="contact_details_item  wow fadeInLeft" data-wow-delay="0.4s">
                     <i class="linearicons-telephone"></i>
-                    <h4>Phone</h4>
+                    <h4>COVID-19 HOTLINE</h4>
                     <a href="tel:+8801676790690">
-                        <h6>Office: +61 (8) 8234 3555</h6>
+                        <h6>911</h6>
                     </a>
-                    <a href="tel:+8801676790690">
+                    <!-- <a href="tel:+8801676790690">
                         <h6>Service: +61 (3) 7734 7857</h6>
-                    </a>
+                    </a> -->
                 </div>
             </div>
-            <div class="col-lg-3 col-6">
+            <!-- <div class="col-lg-3 col-6">
                 <div class="contact_details_item  wow fadeInLeft" data-wow-delay="0.5s">
                     <i class="linearicons-envelope-open"></i>
                     <h4>Email</h4>
@@ -54,62 +54,59 @@
                         </h6>
                     </a>
                 </div>
-            </div>
+            </div> -->
         </div>
         <div class="contact_form_inner">
             <form class="row contact_us_form appoinment_form js-form">
                 <div class="col-lg-4">
                     <div class="form-group">
                         <input class="form-control" type="text" id="name" name="name" placeholder="" required/>
-                        <label class="top_text"><i class="linearicons-user"></i>Your Name</label>
+                        <label class="top_text"><i class="linearicons-user"></i>Nama Anda</label>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="form-group">
                         <input class="form-control" type="text" id="email" name="email" placeholder="" required/>
-                        <label class="top_text"><i class="linearicons-envelope-open"></i>Your Email
-                            Address</label>
+                        <label class="top_text"><i class="linearicons-envelope-open"></i>Alamat Email</label>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="form-group">
                         <input class="form-control" type="text" id="number" name="number" placeholder="" required/>
-                        <label class="top_text"><i class="linearicons-telephone"></i>Your Phone
-                            Number</label>
+                        <label class="top_text"><i class="linearicons-telephone"></i>Nomor HP</label>
                     </div>
                 </div>
                 <div class="col-lg-12">
                     <div class="form-group">
                             <textarea name="message" id="message" cols="30" rows="10" class="form-control"
                                       required></textarea>
-                        <label class="top_text"><i class="linearicons-pencil4"></i>Your Message</label>
+                        <label class="top_text"><i class="linearicons-pencil4"></i>Isi Pesan</label>
                     </div>
                 </div>
                 <div class="col-lg-12">
                     <div class="form-group checkbox_field">
                         <div class="checkbox">
                             <input type="checkbox" value="None" id="policy" name="check"/>
-                            <label class="l_text" for="policy">I accept the <span>Privacy Policy</span> and
-                                the
-                                <span>Term of Use.</span></label>
+                            <label class="l_text" for="policy">Saya menyetujui <span>Kebijakan Privasi</span>
+                                dan
+                                <span>Syarat Penggunaan.</span></label>
                         </div>
                         <button type="submit" value="submit" class="green_btn">
-                            Send Message
+                            Kirim Pesan
                         </button>
                     </div>
                 </div>
                 <div class="success-message">
-                    <i class="fa fa-check text-primary"></i> Thank you!. Your message
-                    is successfully sent...
+                    <i class="fa fa-check text-primary"></i> Terima kasih! Pesan Anda berhasil terkirim...
                 </div>
-                <div class="error-message">We're sorry, but something went wrong</div>
+                <div class="error-message">Maaf, ada sedikit kesalahan</div>
             </form>
         </div>
     </div>
 </section>
 
 
-<section class="map_area">
+<!-- <section class="map_area">
     <div id="mapBox" class="mapBox row m0" data-lat="40.701083" data-lon="-74.1522848" data-zoom="12"
          data-marker="<?= BASEURL; ?>/assets/images/map-marker.png" data-info="54B, Tailstoi Town 5238 La city, IA 522364"
          data-mlat="40.701083" data-mlon="-74.1522848">
@@ -153,4 +150,4 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->

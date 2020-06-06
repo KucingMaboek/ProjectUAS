@@ -1,12 +1,12 @@
 <section class="breadcrumb_area">
     <div class="container">
         <div class="breadcrumb_text">
-            <h6 class="wow fadeInUp" data-wow-delay="0.2s">COVID-19 the disease</h6>
-            <h3 class="wow fadeInUp" data-wow-delay="0.2s">About the Coronavirus</h3>
+            <h6 class="wow fadeInUp" data-wow-delay="0.2s">Penyakit COVID-19</h6>
+            <h3 class="wow fadeInUp" data-wow-delay="0.2s">Terkait Virus Corona</h3>
             <ul class="nav justify-content-center wow fadeInUp" data-wow-delay="0.3s">
-                <li><a href="index.php">Home</a></li>
-                <li><a href="<?= BASEURL; ?>/Pages">About</a></li>
-                <li><a href="#">About COVID-19</a></li>
+                <li><a href="index.php">Beranda</a></li>
+                <li><a href="<?= BASEURL; ?>/Pages">Tentang</a></li>
+                <li><a href="#">Terkait COVID-19</a></li>
             </ul>
         </div>
     </div>
@@ -26,19 +26,17 @@
                 <div class="home_ab_text">
                     <div class="home_ab_text_inner">
                         <div class="home_ab_item">
-                            <h4 class="wow fadeInUp">Pandemic of Coronavirus Disease 2019-2020</h4>
+                            <h4 class="wow fadeInUp">Pandemi Penyakit Virus Corona 2019-2020</h4>
                             <p class="wow fadeInUp" data-wow-delay="0.2s">
-                                The 2019–20 coronavirus pandemic is an ongoing pandemic of
-                                coronavirus disease 2019 (COVID-19), caused by severe
-                                acute respiratory syndrome coronavirus 2 (SARS-CoV-2). The
-                                outbreak was first identified in Wuhan, Hubei, China, in
-                                December 2019. The World Health Organization (WHO)
-                                declared the outbreak to be a Public Health Emergency of
-                                International Concern on 30 January 2020 and recognized it
-                                as a pandemic on 11 March.
+                                Pandemi Virus Corona 2019-20 merupakan pandemi virus corona 2019 (COVID-19)
+                                yang hingga saat ini masih berlangsung, disebabkan oleh Severe Acute Respiratory
+                                Syndrome Coronavirus 2 (SARS-CoV-2). Wabah ini pertama kalai ditemukan di Wuhan,
+                                Hubei, China pada Desember 2019. Organisasi Kesehatan Dunia (WHO) menyatakan
+                                wabah ini menjadi Darurat Kesehatan Masyarakat Masalah Internasional tanggal
+                                30 Januari 2020 dan dinyatakan sebagai pandemi pada 11 Maret.
                             </p>
-                            <a class="text_btn wow fadeInUp" data-wow-delay="0.3s" href="#">Read more about <i
-                                    class="linearicons-arrow-right"></i></a>
+                            <a class="text_btn wow fadeInUp" data-wow-delay="0.3s" href="#">Baca selengkapnya <i
+                                        class="linearicons-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -58,15 +56,15 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="coronavirus_promo_content">
-                    <h5>What are Coronavirus?</h5>
-                    <h2>What is the COVID-19?</h2>
+                    <h5>Apa itu Virus Corona?</h5>
+                    <h2>Apa itu the COVID-19?</h2>
                     <p>
-                        COVID-19 is a new strain of coronavirus that has not been
-                        previously identified in humans. It was first identified in
-                        Wuhan, Hubei Province, China, where it has caused a large and
-                        ongoing outbreak. It has since spread more widely in China.
-                        Cases have since been identified in several other countries.
-                        The COVID-19 virus is closely related to a bat coronavirus.
+                        COVID-19 merupakan virus corona jenis baru yang belum pernah
+                        teridentifikasi pada manusia. Pertama kali teridentifikasi di Wuhan,
+                        Provinsi Hubei, China yang mana telah menyebabkan wabah besar dan
+                        berkenlanjutan. Sejak itu menyebar lebih luas di China dan. Kasus
+                        ini telah teridentifikasi di beberapa negara. Virus COVID-19
+                        terkait erat dengan virus corona kelelawar.
                     </p>
                     <div class="row home_option">
                         <div class="col-lg-6 col-sm-6">
@@ -75,8 +73,8 @@
                                     <i class="linearicons-shield-check"></i>
                                 </div>
                                 <div class="media-body">
-                                    <h4>Protection</h4>
-                                    <p>How to protect yourself</p>
+                                    <h4>Pencegahan</h4>
+                                    <p>Bagaimana </p>
                                 </div>
                             </div>
                         </div>
@@ -86,8 +84,8 @@
                                     <i class="linearicons-pulse"></i>
                                 </div>
                                 <div class="media-body">
-                                    <h4>Symptoms</h4>
-                                    <p>Check basic symptoms</p>
+                                    <h4>Gejala</h4>
+                                    <p>Kenali gejala dasar COVID</p>
                                 </div>
                             </div>
                         </div>
@@ -97,8 +95,8 @@
                                     <i class="linearicons-bubbles"></i>
                                 </div>
                                 <div class="media-body">
-                                    <h4>Appointment</h4>
-                                    <p>Get online consultation</p>
+                                    <h4>Konsul Dokter</h4>
+                                    <p>Dapatkan konsultasi online</p>
                                 </div>
                             </div>
                         </div>
@@ -108,26 +106,26 @@
                                     <i class="linearicons-document2"></i>
                                 </div>
                                 <div class="media-body">
-                                    <h4>About COVID-19</h4>
-                                    <p>Read more about coronavirus</p>
+                                    <h4>Terkait COVID-19</h4>
+                                    <p>Pelajari lebih lanjut virus corona</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <h3>SARS-CoV2- is closely related to the SARS-CoV</h3>
+                    <h3>SARS-CoV2 terkait erat dengan SARS-CoV</h3>
                     <p>
-                        It is thought to have a zoonotic origin. Genetic analysis has
-                        revealed that the coronavirus genetically clusters with the
-                        genus Betacoronavirus, in subgenus Sarbecovirus (lineage B)
-                        together with two bat-derived strains. It is 96% identical at
-                        the whole genome level to other bat coronavirus samples
-                        (BatCov RaTG13). In February 2020, Chinese researchers found
-                        that there is only one amino acid difference in certain parts
-                        of the genome sequences between the viruses from pangolins and
-                        those from humans, however, whole-genome comparison to date
-                        found at most 92%...
+                        Diperkirakan berasal dari zoonosis. Analisis genetika mengungkapkan
+                        bahwa virus corona secara genetik sekelompok dengan genus virus
+                        Vetacorona dalam subgenus Sarbecovirus (lineage B) bersama dengan 2
+                        keturunan kelelawar. 96% identik pada tingkat genom keseluruhan
+                        dengan sampel virus corona kelelawar lainnya (BatCov RaTG13).
+                        Pada Februari 2020, para peneliti China menemukan hanya ada satu
+                        perbedaan asam amin di begian tertentu dari urutan genom antara virus
+                        dari trenggiling dan yang dari manusia. Namun, perbandingan seluruh
+                        genom sampai saat ini ditemukan paling banyak 92 % ...
+
                     </p>
-                    <a class="text_btn" href="#">Read more about <i class="linearicons-arrow-right"></i></a>
+                    <a class="text_btn" href="#">Baca selengkapnya <i class="linearicons-arrow-right"></i></a>
                 </div>
             </div>
         </div>
@@ -148,8 +146,8 @@
 <section class="about_faq_area">
     <div class="container">
         <div class="main_title text-center">
-            <h5 class="wow fadeInUp">Have questions? Find answers!</h5>
-            <h2 class="wow fadeInUp" data-wow-delay="0.2s">Frequently Asked Questions</h2>
+            <h5 class="wow fadeInUp">Ada pertanyaan? Temukan jawabannya!</h5>
+            <h2 class="wow fadeInUp" data-wow-delay="0.2s">Pertanyaan sering Diajukan</h2>
         </div>
         <div class="row">
             <div class="col-lg-6">
@@ -164,7 +162,7 @@
                             <div class="card-header" id="headingOne">
                                 <button class="btn btn-link" type="button" data-toggle="collapse"
                                         data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    What are coronaviruses?
+                                    Apa itu virus corona?
                                     <i class="linearicons-chevron-down"></i>
                                 </button>
                             </div>
@@ -173,16 +171,16 @@
                                 <div class="card-body">
                                     <div class="faq_content">
                                         <p>
-                                            The first symptoms of COVID-19 and influenza (flu)
-                                            infections are often very similar. They both cause
-                                            fever and similar respiratory symptoms, which can
-                                            then range from mild through to severe disease, and
-                                            sometimes can be fatal. Both viruses are also
-                                            transmitted in the same way, by coughing or
-                                            sneezing, or by contact with hands, surfaces or
-                                            objects contaminated with the virus.
+                                            Gejala awal infeksi COVID-19 dan influenza (flu)
+                                            seringkali sangat mirip. Keduanya menyebabkan demam
+                                            dan gejala pernapasan yang serupa ringan hingga parah
+                                            dan terkadang dapat berakibat fatal. Kedua virus juga
+                                            ditularkan dengan cara yang sama, yaitu batuk, bersin
+                                            atau melalui kontak tangan, permukaan, maupun benda
+                                            yang terkontaminasi virus.
+
                                         </p>
-                                        <a class="text_btn" href="#">Read more about
+                                        <a class="text_btn" href="#">Baca selengkapnya
                                             <i class="linearicons-arrow-right"></i></a>
                                     </div>
                                 </div>
@@ -193,7 +191,7 @@
                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
                                         data-target="#collapseTwo" aria-expanded="false"
                                         aria-controls="collapseTwo">
-                                    What is the COVID-19 virus?
+                                    Apa yang dimaksud virus COVID-19?
                                     <i class="linearicons-chevron-down"></i>
                                 </button>
                             </div>
@@ -202,16 +200,15 @@
                                 <div class="card-body">
                                     <div class="faq_content">
                                         <p>
-                                            The first symptoms of COVID-19 and influenza (flu)
-                                            infections are often very similar. They both cause
-                                            fever and similar respiratory symptoms, which can
-                                            then range from mild through to severe disease, and
-                                            sometimes can be fatal. Both viruses are also
-                                            transmitted in the same way, by coughing or
-                                            sneezing, or by contact with hands, surfaces or
-                                            objects contaminated with the virus.
+                                            Gejala awal infeksi COVID-19 dan influenza (flu)
+                                            seringkali sangat mirip. Keduanya menyebabkan demam
+                                            dan gejala pernapasan yang serupa ringan hingga parah
+                                            dan terkadang dapat berakibat fatal. Kedua virus juga
+                                            ditularkan dengan cara yang sama, yaitu batuk, bersin
+                                            atau melalui kontak tangan, permukaan, maupun benda
+                                            yang terkontaminasi virus.
                                         </p>
-                                        <a class="text_btn" href="#">Read more about
+                                        <a class="text_btn" href="#">Baca selengkapnya
                                             <i class="linearicons-arrow-right"></i></a>
                                     </div>
                                 </div>
@@ -222,7 +219,7 @@
                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
                                         data-target="#collapseThree" aria-expanded="false"
                                         aria-controls="collapseThree">
-                                    What is the difference between COVID-19 and the flu?
+                                    Apa perbedaan COVID-19 dan flu?
                                     <i class="linearicons-chevron-down"></i>
                                 </button>
                             </div>
@@ -231,16 +228,15 @@
                                 <div class="card-body">
                                     <div class="faq_content">
                                         <p>
-                                            The first symptoms of COVID-19 and influenza (flu)
-                                            infections are often very similar. They both cause
-                                            fever and similar respiratory symptoms, which can
-                                            then range from mild through to severe disease, and
-                                            sometimes can be fatal. Both viruses are also
-                                            transmitted in the same way, by coughing or
-                                            sneezing, or by contact with hands, surfaces or
-                                            objects contaminated with the virus.
+                                            Gejala awal infeksi COVID-19 dan influenza (flu)
+                                            seringkali sangat mirip. Keduanya menyebabkan demam
+                                            dan gejala pernapasan yang serupa ringan hingga parah
+                                            dan terkadang dapat berakibat fatal. Kedua virus juga
+                                            ditularkan dengan cara yang sama, yaitu batuk, bersin
+                                            atau melalui kontak tangan, permukaan, maupun benda
+                                            yang terkontaminasi virus.
                                         </p>
-                                        <a class="text_btn" href="#">Read more about
+                                        <a class="text_btn" href="#">Baca selengkapnya
                                             <i class="linearicons-arrow-right"></i></a>
                                     </div>
                                 </div>
@@ -251,7 +247,7 @@
                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
                                         data-target="#collapsefour" aria-expanded="false"
                                         aria-controls="collapsefour">
-                                    How is the virus spread?
+                                    Bagaimana virus dapat menyebar?
                                     <i class="linearicons-chevron-down"></i>
                                 </button>
                             </div>
@@ -260,16 +256,15 @@
                                 <div class="card-body">
                                     <div class="faq_content">
                                         <p>
-                                            The first symptoms of COVID-19 and influenza (flu)
-                                            infections are often very similar. They both cause
-                                            fever and similar respiratory symptoms, which can
-                                            then range from mild through to severe disease, and
-                                            sometimes can be fatal. Both viruses are also
-                                            transmitted in the same way, by coughing or
-                                            sneezing, or by contact with hands, surfaces or
-                                            objects contaminated with the virus.
+                                            Gejala awal infeksi COVID-19 dan influenza (flu)
+                                            seringkali sangat mirip. Keduanya menyebabkan demam
+                                            dan gejala pernapasan yang serupa ringan hingga parah
+                                            dan terkadang dapat berakibat fatal. Kedua virus juga
+                                            ditularkan dengan cara yang sama, yaitu batuk, bersin
+                                            atau melalui kontak tangan, permukaan, maupun benda
+                                            yang terkontaminasi virus.
                                         </p>
-                                        <a class="text_btn" href="#">Read more about
+                                        <a class="text_btn" href="#">Baca selengkapnya
                                             <i class="linearicons-arrow-right"></i></a>
                                     </div>
                                 </div>
@@ -280,7 +275,7 @@
                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
                                         data-target="#collapsefive" aria-expanded="false"
                                         aria-controls="collapsefive">
-                                    What are the symptoms?
+                                    Apa gejala-gejalanya?
                                     <i class="linearicons-chevron-down"></i>
                                 </button>
                             </div>
@@ -289,16 +284,15 @@
                                 <div class="card-body">
                                     <div class="faq_content">
                                         <p>
-                                            The first symptoms of COVID-19 and influenza (flu)
-                                            infections are often very similar. They both cause
-                                            fever and similar respiratory symptoms, which can
-                                            then range from mild through to severe disease, and
-                                            sometimes can be fatal. Both viruses are also
-                                            transmitted in the same way, by coughing or
-                                            sneezing, or by contact with hands, surfaces or
-                                            objects contaminated with the virus.
+                                            Gejala awal infeksi COVID-19 dan influenza (flu)
+                                            seringkali sangat mirip. Keduanya menyebabkan demam
+                                            dan gejala pernapasan yang serupa ringan hingga parah
+                                            dan terkadang dapat berakibat fatal. Kedua virus juga
+                                            ditularkan dengan cara yang sama, yaitu batuk, bersin
+                                            atau melalui kontak tangan, permukaan, maupun benda
+                                            yang terkontaminasi virus.
                                         </p>
-                                        <a class="text_btn" href="#">Read more about
+                                        <a class="text_btn" href="#">Baca selengkapnya
                                             <i class="linearicons-arrow-right"></i></a>
                                     </div>
                                 </div>
@@ -320,15 +314,15 @@
                     <div class="round_icon">
                         <img src="<?= BASEURL; ?>/assets/images/about/about_features_img1.png" alt=""/>
                     </div>
-                    <h5>Transmitting</h5>
-                    <h3>How it is spreading?</h3>
+                    <h5>Penularan</h5>
+                    <h3>Bagaimana virus dapat menyebar?</h3>
                     <p>
-                        The virus is mainly spread during close contact and by
-                        respiratory droplets produced when people cough or sneeze.
-                        Respiratory droplets may be produced during breathing but the
-                        virus is not generally airborne.
+                        Virus ini utamanya menyebar selama interaksi dekat dan melalui
+                        tetesan pernapasan yang dihasilkan ketika orang batuk
+                        atau bersin. Tetesan pernapasan mungkin dihasilkan selama
+                        bernafas tetapi virus umumnya tidak mengudara.
                     </p>
-                    <a class="text_btn" href="#">Read more <i class="linearicons-arrow-right"></i></a>
+                    <a class="text_btn" href="#">Baca selengkapnya <i class="linearicons-arrow-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="500ms">
@@ -336,15 +330,15 @@
                     <div class="round_icon">
                         <img src="<?= BASEURL; ?>/assets/images/about/about_features_img2.png" alt=""/>
                     </div>
-                    <h5>Basic Symptoms</h5>
-                    <h3>What are the symptoms?</h3>
+                    <h5>Gejala Dasar</h5>
+                    <h3>Apa gejalanya?</h3>
                     <p>
-                        The virus is mainly spread during close contact and by
-                        respiratory droplets produced when people cough or sneeze.
-                        Respiratory droplets may be produced during breathing but the
-                        virus is not generally airborne.
+                        Virus ini utamanya menyebar selama interaksi dekat dan melalui
+                        tetesan pernapasan yang dihasilkan ketika orang batuk
+                        atau bersin. Tetesan pernapasan mungkin dihasilkan selama
+                        bernafas tetapi virus umumnya tidak mengudara.
                     </p>
-                    <a class="text_btn" href="#">Read more <i class="linearicons-arrow-right"></i></a>
+                    <a class="text_btn" href="#">Baca selengkapnya <i class="linearicons-arrow-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="600ms">
@@ -352,15 +346,15 @@
                     <div class="round_icon">
                         <img src="<?= BASEURL; ?>/assets/images/about/about_features_img3.png" alt=""/>
                     </div>
-                    <h5>Threatment</h5>
-                    <h3>How to prevent?</h3>
+                    <h5>Perlakuan</h5>
+                    <h3>Bagaimana cara mencegahnya?</h3>
                     <p>
-                        The virus is mainly spread during close contact and by
-                        respiratory droplets produced when people cough or sneeze.
-                        Respiratory droplets may be produced during breathing but the
-                        virus is not generally airborne.
+                        Virus ini utamanya menyebar selama interaksi dekat dan melalui
+                        tetesan pernapasan yang dihasilkan ketika orang batuk
+                        atau bersin. Tetesan pernapasan mungkin dihasilkan selama
+                        bernafas tetapi virus umumnya tidak mengudara.
                     </p>
-                    <a class="text_btn" href="#">Read more <i class="linearicons-arrow-right"></i></a>
+                    <a class="text_btn" href="#">Baca selengkapnya <i class="linearicons-arrow-right"></i></a>
                 </div>
             </div>
         </div>
@@ -380,16 +374,16 @@
                             <img src="<?= BASEURL; ?>/assets/images/check-6.png" alt="">
                         </div>
                         <div class="media-body">
-                            <h4>Think you might be affected?</h4>
+                            <h4>Apakah Anda terinfeksi?</h4>
                             <p>
-                                Try our simple coronavirus checker to find out what you need
-                                to do.
+                                Cek gejala COVID disini untuk mengetahui langkah selanjutnya.
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="right">
-                    <a class="icon_btn" href="#">Check now <i class="linearicons-arrow-right"></i></a>
+                    <a class="icon_btn wow fadeInRight" data-wow-delay="400ms" href="#">Cek Sekarang<i
+                                class="linearicons-arrow-right"></i></a>
                 </div>
             </div>
         </div>
@@ -397,7 +391,7 @@
 </section>
 
 
-<section class="app_area">
+<!-- <section class="app_area">
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
@@ -446,4 +440,4 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->

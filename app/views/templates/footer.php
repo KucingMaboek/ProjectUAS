@@ -5,7 +5,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <aside class="f_widget contact_widget">
                         <div class="f_title">
-                            <h3>Contacts</h3>
+                            <h3>Kontak Kami</h3>
                         </div>
                         <div class="ct_wd_text">
                             <div class="media">
@@ -13,13 +13,13 @@
                                     <i class="linearicons-telephone"></i>
                                 </div>
                                 <div class="media-body">
-                                    <h5>emergency call</h5>
+                                    <h5>COVID-19 Hotline</h5>
                                     <a href="tel:+8801676790690">
-                                        <h4>+61 (8) 8234 3555</h4>
+                                        <h4>911</h4>
                                     </a>
                                 </div>
                             </div>
-                            <div class="media">
+                            <!-- <div class="media">
                                 <div class="d-flex">
                                     <i class="linearicons-map-marker"></i>
                                 </div>
@@ -29,7 +29,7 @@
                                         Brighton VIC 3186, AUSTRALIA
                                     </p>
                                 </div>
-                            </div>
+                            </div> -->
                             <div class="media">
                                 <div class="d-flex">
                                     <i class="fab fa-skype"></i>
@@ -40,7 +40,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="media">
+                            <!-- <div class="media">
                                 <div class="d-flex">
                                     <i class="linearicons-envelope-open"></i>
                                 </div>
@@ -52,34 +52,30 @@
                                     </a>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </aside>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6 col-6">
                     <aside class="f_widget list_widget">
                         <div class="f_title">
-                            <h3>Prevention</h3>
+                            <h3>Pencegahan</h3>
                         </div>
                         <ul class="nav flex-column">
                             <li>
-                                <a href="#"><i class="linearicons-radio-button"></i>Typical
-                                    Symptoms</a>
+                                <a href="#"><i class="linearicons-radio-button"></i>Gejala Khusus</a>
                             </li>
                             <li>
-                                <a href="#"><i class="linearicons-radio-button"></i>How to
-                                    Protect</a>
+                                <a href="#"><i class="linearicons-radio-button"></i>Cara Mencegah</a>
+                            </li>
+                            <!-- <li>
+                                <a href="#"><i class="linearicons-radio-button"></i>Cara Penularan</a>
                             </li>
                             <li>
-                                <a href="#"><i class="linearicons-radio-button"></i>How are
-                                    spreading</a>
-                            </li>
+                                <a href="#"><i class="linearicons-radio-button"></i>Temui Dokter Kami</a>
+                            </li> -->
                             <li>
-                                <a href="#"><i class="linearicons-radio-button"></i>Meet our
-                                    Doctors</a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="linearicons-radio-button"></i>About
-                                    Coronavirus</a>
+                                <a href="#"><i class="linearicons-radio-button"></i>Terkait
+                                    Virus Corona</a>
                             </li>
                         </ul>
                     </aside>
@@ -87,28 +83,23 @@
                 <div class="col-lg-3 col-md-6 col-sm-6 col-6">
                     <aside class="f_widget list_widget">
                         <div class="f_title">
-                            <h3>Protection</h3>
+                            <h3>Perlindungan</h3>
                         </div>
                         <ul class="nav flex-column">
-                            <li>
-                                <a href="#"><i class="linearicons-radio-button"></i>Typical
-                                    Symptoms</a>
+                            <!-- <li>
+                                <a href="#"><i class="linearicons-radio-button"></i>Gejala Khusus</a>
                             </li>
                             <li>
-                                <a href="#"><i class="linearicons-radio-button"></i>How to
-                                    Protect</a>
+                                <a href="#"><i class="linearicons-radio-button"></i>Cara Mencegah</a>
+                            </li> -->
+                            <li>
+                                <a href="#"><i class="linearicons-radio-button"></i>Cara Penularan</a>
                             </li>
                             <li>
-                                <a href="#"><i class="linearicons-radio-button"></i>How are
-                                    spreading</a>
+                                <a href="#"><i class="linearicons-radio-button"></i>Protokol Isolasi Mandiri</a>
                             </li>
                             <li>
-                                <a href="#"><i class="linearicons-radio-button"></i>Meet our
-                                    Doctors</a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="linearicons-radio-button"></i>About
-                                    Coronavirus</a>
+                                <a href="#"><i class="linearicons-radio-button"></i>Temui Dokter Kami</a>
                             </li>
                         </ul>
                     </aside>
@@ -116,12 +107,11 @@
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <aside class="f_widget about_widget">
                         <div class="f_title">
-                            <h3>About</h3>
+                            <h3>Tentang</h3>
                         </div>
                         <p>
-                            The disease was first identified in 2019 in Wuhan, the
-                            capital of Hubei, China, and has since spread globally,
-                            resulting in the 2019–2020 coronavirus pandemic.
+                            Penyakit ini pertama kali ditemukan tahun 2019 di Wuhan, Ibukota Hubei,
+                            China dan menyebar secara global menjadi pandemi 2019-2020.
                         </p>
                         <ul class="nav">
                             <li>

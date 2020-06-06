@@ -23,6 +23,15 @@ class User_model{
         return $this->db->single();
     }
 
+    public function getAllUsersByUsername($username)
+    {
+//        SELECT * FROM users WHERE username=:username OR email=:email
+        $this->db->query('SELECT * FROM ' . $this->table . ' WHERE username=:username OR email=:email');
+        $this->db->bind('username',$username);
+        $this->db->bind('email',$username);
+        return $this->db->single();
+    }
+
     public function getAllUsersNameById($id)
     {
         $this->db->query('SELECT full_name FROM ' . $this->table . ' WHERE id=:id');

@@ -35,32 +35,32 @@
         </div>
         <div class="menu_part_lux">
             <ul class="menu_list wd_scroll">
-                <li><a href="<?= BASEURL; ?>/index.php">Home</a></li>
+                <li><a href="<?= BASEURL; ?>/index.php">Beranda</a></li>
                 <li>
-                    <a href="<?= BASEURL; ?>/index.php">Prevention
+                    <a href="<?= BASEURL; ?>/index.php">Pencegahan
                         <i class="linearicons-chevron-down"></i>
                     </a>
                     <ul class="list">
-                        <li><a href="<?= BASEURL; ?>/Prevention/symptoms">Typical Symptoms</a></li>
-                        <li><a href="<?= BASEURL; ?>/Prevention/symptom_checker">Symptom Checker</a></li>
-                        <li><a href="<?= BASEURL; ?>/Prevention">Prevention</a></li>
-                        <li><a href="<?= BASEURL; ?>/Prevention/virus_checker">Coronavirus Checker</a></li>
+                        <li><a href="<?= BASEURL; ?>/Prevention/symptoms">Gejala Khusus</a></li>
+                        <li><a href="<?= BASEURL; ?>/Prevention/symptom_checker">Periksa Gejala</a></li>
+                        <li><a href="<?= BASEURL; ?>/Prevention">Pencegahan</a></li>
+                        <li><a href="<?= BASEURL; ?>/Prevention/virus_checker">Pemeriksaan Virus Corona</a></li>
                         <li><a href="<?= BASEURL; ?>/Prevention/tracker">Tracker</a></li>
                         <li><a href="<?= BASEURL; ?>/Prevention/faq">Faqs</a></li>
                     </ul>
                 </li>
-                <li><a href="<?= BASEURL; ?>/Appointment">Appointment</a></li>
+                <li><a href="<?= BASEURL; ?>/Appointment">Konsul Dokter</a></li>
                 <li>
-                    <a href="#">Pages
+                    <a href="#">Laman
                         <i class="linearicons-chevron-down"></i>
                     </a>
                     <ul class="list">
-                        <li><a href="<?= BASEURL; ?>/Pages">About</a></li>
-                        <li><a href="<?= BASEURL; ?>/Pages/doctors">Doctors</a></li>
+                        <li><a href="<?= BASEURL; ?>/Pages">Tentan</a></li>
+                        <li><a href="<?= BASEURL; ?>/Pages/doctors">Dokter Kami</a></li>
                     </ul>
                 </li>
                 <li><a href="<?= BASEURL; ?>/Blog/1">Blog</a></li>
-                <li><a href="<?= BASEURL; ?>/Contact">Contact</a></li>
+                <li><a href="<?= BASEURL; ?>/Contact">Kontak</a></li>
             </ul>
         </div>
         <div class="menu_btm">
@@ -93,56 +93,53 @@
                 </li>
             </ul>
             <div class="info_title">
-                <h2>Get in touch</h2>
-                <p>If you have any question before we start, please fill below the contact form.</p>
+                <h2>Hubungi Kami</h2>
+                <p>Jika Anda memiliki pertanyaan, silakan isi kontak form di bawah ini.</p>
             </div>
             <form action="#" class="appoinment_form js-form">
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="form-group">
                             <input class="form-control" type="text" id="name" name="name" placeholder="" required/>
-                            <label><i class="linearicons-user"></i>Your Name</label>
+                            <label><i class="linearicons-user"></i>Nama Anda</label>
                         </div>
                     </div>
                     <div class="col-lg-12">
                         <div class="form-group">
                             <input class="form-control" type="text" id="email" name="email" placeholder="" required/>
-                            <label><i class="linearicons-envelope-open"></i>Your Email
-                                Address</label>
+                            <label><i class="linearicons-envelope-open"></i>Alamat Email</label>
                         </div>
                     </div>
                     <div class="col-lg-12">
                         <div class="form-group">
                             <input class="form-control" type="text" id="number" name="number" placeholder="" required/>
-                            <label><i class="linearicons-telephone"></i>Your Phone
-                                Number</label>
+                            <label><i class="linearicons-telephone"></i>Nomor HP</label>
                         </div>
                     </div>
                     <div class="col-lg-12">
                         <div class="form-group">
                             <textarea name="message" id="message" cols="30" rows="10" class="form-control"
                                       required></textarea>
-                            <label><i class="linearicons-document"></i>Your Message</label>
+                            <label><i class="linearicons-document"></i>Pesan Anda</label>
                         </div>
                     </div>
                     <div class="col-lg-12">
                         <div class="form-group checkbox_field">
                             <div class="checkbox">
                                 <input type="checkbox" value="None" id="squared2" name="check"/>
-                                <label class="l_text" for="squared2">I accept the <span>Privacy Policy</span></label>
+                                <label class="l_text" for="squared2">Saya menyetujui <span>Kebijakan Privasi</span></label>
                             </div>
                             <button type="submit" class="green_btn" name="appoinment" id="appoinment" value="appoinment"
                                     data-value="appoinment">
-                                Submit
+                                Kirim
                             </button>
                         </div>
                     </div>
                 </div>
                 <div class="success-message">
-                    <i class="fa fa-check text-primary"></i> Thank you!. Your message
-                    is successfully sent...
+                    <i class="fa fa-check text-primary"></i> Terima kasih! Pesan Anda berhasil terkirim...
                 </div>
-                <div class="error-message">We're sorry, but something went wrong</div>
+                <div class="error-message">Maaf, ada sedikit kesalahan</div>
             </form>
             <div class="info_footer">
                 <p>© Copyright
@@ -176,9 +173,9 @@
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
                     <a class="navbar-brand" href="<?= BASEURL; ?>/Home"><img
-                                src="<?= BASEURL; ?>/assets/images/logo.png"
-                                srcset="<?= BASEURL; ?>/assets/images/logo-2x.png 2x"
-                                alt=""/></a>
+                            src="<?= BASEURL; ?>/assets/images/logo.png"
+                            srcset="<?= BASEURL; ?>/assets/images/logo-2x.png 2x"
+                            alt=""/></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
                             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
@@ -186,51 +183,50 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="nav navbar-nav ml-auto">
-                            <li><a href="<?= BASEURL; ?>/Home">Home</a></li>
+                            <li><a href="<?= BASEURL; ?>/Home">Beranda</a></li>
                             <li class="dropdown submenu">
                                 <a class="dropdown-toggle" data-toggle="dropdown" href="<?= BASEURL; ?>/Prevention"
                                    role="button"
-                                   aria-haspopup="true" aria-expanded="false">Prevention </a>
+                                   aria-haspopup="true" aria-expanded="false">Pencegahan </a>
                                 <i class="linearicons-chevron-down mobile_dropdown" aria-hidden="true"
                                    data-toggle="dropdown"></i>
                                 <ul class="dropdown-menu">
                                     <li class="dropdown submenu">
                                         <a class="dropdown-toggle" data-toggle="dropdown"
                                            href="<?= BASEURL; ?>/Prevention/symptoms"
-                                           role="button" aria-haspopup="true" aria-expanded="false">Symptoms
+                                           role="button" aria-haspopup="true" aria-expanded="false">Gejala
                                             <i class="linearicons-chevron-right mobile_dropdown" aria-hidden="true"
                                                data-toggle="dropdown"></i>
                                         </a>
                                         <ul class="dropdown-menu">
-                                            <li><a href="<?= BASEURL; ?>/Prevention/symptoms">Typical Symptoms</a></li>
-                                            <li><a href="<?= BASEURL; ?>/Prevention/symptom_checker">Symptom Checker</a>
+                                            <li><a href="<?= BASEURL; ?>/Prevention/symptoms">Gejala Khusus</a></li>
+                                            <li><a href="<?= BASEURL; ?>/Prevention/symptom_checker">Periksa Gejala</a>
                                             </li>
-                                            <li><a href="<?= BASEURL; ?>/Prevention/">Prevention</a></li>
-                                            <li><a href="<?= BASEURL; ?>/Prevention/virus_checker">Coronavirus
-                                                    Checker</a></li>
+                                            <li><a href="<?= BASEURL; ?>/Prevention/">Pencegahan</a></li>
+                                            <li><a href="<?= BASEURL; ?>/Prevention/virus_checker">Pemeriksaan Virus Corona</a></li>
                                             <li><a href="<?= BASEURL; ?>/Prevention/tracker">Tracker</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="<?= BASEURL; ?>/Prevention/faq">FAQS</a></li>
                                 </ul>
                             </li>
-                            <li><a href="<?= BASEURL; ?>/Appointment">Appointment</a></li>
+                            <li><a href="<?= BASEURL; ?>/Appointment">Konsul Dokter</a></li>
                             <li class="dropdown submenu">
                                 <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button"
-                                   aria-haspopup="true" aria-expanded="false">Pages</a>
+                                   aria-haspopup="true" aria-expanded="false">Laman</a>
                                 <i class="linearicons-chevron-down mobile_dropdown" aria-hidden="true"
                                    data-toggle="dropdown"></i>
                                 <ul class="dropdown-menu">
-                                    <li><a href="<?= BASEURL; ?>/Pages">About</a></li>
-                                    <li><a href="<?= BASEURL; ?>/Pages/doctors">Doctors</a></li>
+                                    <li><a href="<?= BASEURL; ?>/Pages">Tentang</a></li>
+                                    <li><a href="<?= BASEURL; ?>/Pages/doctors">Dokter Kami</a></li>
                                 </ul>
                             </li>
                             <li><a href="<?= BASEURL; ?>/Blog/1">Blog</a></li>
-                            <li><a href="<?= BASEURL; ?>/Contact">Contact Us</a></li>
+                            <li><a href="<?= BASEURL; ?>/Contact">Kontak Kami</a></li>
                         </ul>
                         <ul class="nav navbar-nav navbar-right">
                             <li class="checker_btn">
-                                <a href="<?= BASEURL; ?>/Prevention/symptom_checker"><i class="linearicons-pulse"></i> Symptom Checker</a>
+                                <a href="<?= BASEURL; ?>/Prevention/symptom_checker"><i class="linearicons-pulse"></i> Cek Gejala</a>
                             </li>
                         </ul>
                     </div>

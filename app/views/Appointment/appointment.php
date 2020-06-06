@@ -1,11 +1,11 @@
 <section class="breadcrumb_area boi_breadcrumb">
     <div class="container">
         <div class="breadcrumb_text">
-            <h6 class="wow fadeInUp">Consult our epidemiological experts</h6>
-            <h3 class="wow fadeInUp" data-wow-delay="0.2s">Online Skype Consultation</h3>
+            <h6 class="wow fadeInUp">Konsultasikan dengan Ahli Epidemiologi Kami</h6>
+            <h3 class="wow fadeInUp" data-wow-delay="0.2s">Konsultasi Online via Skype</h3>
             <ul class="nav justify-content-center wow fadeInUp" data-wow-delay="0.3s">
                 <li><a href="index.php">Home</a></li>
-                <li><a href="<?= BASEURL; ?>/Pages/doctors">Appointment</a></li>
+                <li><a href="<?= BASEURL; ?>/Pages/doctors">Konsul Dokter</a></li>
             </ul>
         </div>
         <div class="row appointment_box">
@@ -28,30 +28,30 @@
                 <div class="shape six" data-parallax='{"y": 50}'>
                     <img src="<?= BASEURL; ?>/assets/images/appoinment/a_img6.png" alt=""/>
                 </div>
-                <h2>Make an appointment</h2>
+                <h2>Buat Jadwal Konsultasi dengan Dokter</h2>
                 <p>
-                    Fill out the form to request an online appointment and our staff
-                    will contact you immediately.
+                    Silakan isi form permohonan konsultasi online dan staff
+                    kami akan segera menghubungi Anda.
                 </p>
                 <div class="media appoinment_features_item">
                     <i class="linearicons-medal-empty"></i>
                     <div class="media-body">
-                        <h6>Reputable experts</h6>
-                        <p>Our doctors are world famous</p>
+                        <h6>Ahli Terbaik</h6>
+                        <p>Dokter kami merupakan ahli terbaik</p>
                     </div>
                 </div>
                 <div class="media appoinment_features_item">
                     <i class="linearicons-clipboard-check"></i>
                     <div class="media-body">
-                        <h6>Smart advice</h6>
-                        <p>We’ll give you useful tips</p>
+                        <h6>Anjuran Cerdas</h6>
+                        <p>Kami akan memberikan tips berguna</p>
                     </div>
                 </div>
                 <div class="media appoinment_features_item">
                     <i class="linearicons-tags"></i>
                     <div class="media-body">
                         <h6>100% FREE</h6>
-                        <p>Don’ worry about the cost</p>
+                        <p>Jangan khawatir dengan biaya</p>
                     </div>
                 </div>
             </div>
@@ -61,28 +61,26 @@
                         <div class="col-lg-6">
                             <div class="form-group">
                                 <input class="form-control" type="text" id="a_name" name="a_name" placeholder=""/>
-                                <label><i class="linearicons-user"></i>Your Name</label>
+                                <label><i class="linearicons-user"></i>Nama Anda</label>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="form-group">
                                 <input class="form-control" type="text" id="a_email" name="a_email" placeholder=""/>
-                                <label><i class="linearicons-envelope-open"></i>Your Email
-                                    Address</label>
+                                <label><i class="linearicons-envelope-open"></i>Alamat Email</label>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="form-group">
                                 <input class="form-control" type="text" id="skype" name="skype" placeholder=""/>
-                                <label><i class="fab fa-skype"></i>Your Skype ID</label>
+                                <label><i class="fab fa-skype"></i>ID Skype</label>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="form-group">
                                 <input class="form-control" type="text" id="a_number" name="a_number"
                                        placeholder=""/>
-                                <label><i class="linearicons-telephone"></i>Your Phone
-                                    Number</label>
+                                <label><i class="linearicons-telephone"></i>Nomor HP</label>
                             </div>
                         </div>
                         <div class="col-lg-6">
@@ -95,7 +93,7 @@
                                     </div>
                                 </div>
                                 <div class="text_div">
-                                    Choose date
+                                    Pilih tanggal
                                 </div>
                                 <input type="text" class="form-control datetimepicker-input"
                                        data-target="#datetimepicker3" data-toggle="datetimepicker"/>
@@ -111,7 +109,7 @@
                                     </div>
                                 </div>
                                 <div class="text_div">
-                                    Choose time
+                                    Pilih waktu
                                 </div>
                                 <input type="text" class="form-control datetimepicker-input"
                                        data-target="#datetimepicker4" data-toggle="datetimepicker"/>
@@ -120,16 +118,15 @@
                         <div class="col-lg-6">
                             <div class="form-group">
                                 <input class="form-control" type="text" id="subject" name="subject" placeholder=""/>
-                                <label><i class="linearicons-document"></i>Add your
-                                    subject</label>
+                                <label><i class="linearicons-document"></i>Judul Pesan</label>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="form-group select_conversation_inner">
-                                <h6>Choose method of conversation</h6>
+                                <h6>Pilih metode percakapan</h6>
                                 <div class="select_conversation">
                                     <input type="radio" name="conversation" id="voice" value="voice"/>
-                                    <label for="voice">Voice</label>
+                                    <label for="voice">Suara</label>
                                 </div>
                                 <div class="select_conversation">
                                     <input type="radio" name="conversation" id="video" value="video"/>
@@ -145,19 +142,19 @@
                             <div class="form-group">
                                     <textarea name="a_message" id="a_message" cols="30" rows="10"
                                               class="form-control"></textarea>
-                                <label><i class="linearicons-pencil4"></i>Your Message</label>
+                                <label><i class="linearicons-pencil4"></i>Isi Pesan</label>
                             </div>
                         </div>
                         <div class="col-lg-12">
                             <div class="form-group checkbox_field">
                                 <div class="checkbox">
                                     <input type="checkbox" value="None" id="squared2" name="check"/>
-                                    <label class="l_text" for="squared2">I accept the <span>Privacy Policy</span>
-                                        and the
-                                        <span>Term of Use.</span></label>
+                                    <label class="l_text" for="squared2">Saya menyetujui <span>Kebijakan Privasi</span>
+                                        dan
+                                        <span>Syarat Penggunaan.</span></label>
                                 </div>
                                 <button type="submit" class="green_btn" value="appoinment" data-value="appoinment">
-                                    Submit
+                                    Kirim
                                 </button>
                             </div>
                         </div>
@@ -175,20 +172,18 @@
             <div class="col-lg-6">
                 <div class="work_content">
                     <div class="main_title">
-                        <h5>It’s so simple</h5>
-                        <h2>How it works?</h2>
+                        <h5>Sangat mudah</h5>
+                        <h2>Bagaimana caranya?</h2>
                     </div>
                     <ol class="work_list">
-                        <li class="wow fadeInUp" data-wow-delay="0.1s">Enter your contact details so we can add you
-                            on Skype
+                        <li class="wow fadeInUp" data-wow-delay="0.1s">Masukkan kontak detail Anda agar kami dapat menghubungi melalui Skype
                         </li>
-                        <li class="wow fadeInUp" data-wow-delay="0.2s">Select date and time, when we can call you
+                        <li class="wow fadeInUp" data-wow-delay="0.2s">Tentukan tanggal dan waktu kapan kami dapat menghubungi
                         </li>
-                        <li class="wow fadeInUp" data-wow-delay="0.3s">Select method of conversation</li>
-                        <li class="wow fadeInUp" data-wow-delay="0.4s">Add your subject, that we will talk about on
-                            consulting
+                        <li class="wow fadeInUp" data-wow-delay="0.3s">Pilih metode percakapan</li>
+                        <li class="wow fadeInUp" data-wow-delay="0.4s">Cantumkan judul yang akan dibahas terkait konsultasi
                         </li>
-                        <li class="wow fadeInUp" data-wow-delay="0.5s">Describe briefly how we can help you</li>
+                        <li class="wow fadeInUp" data-wow-delay="0.5s">Deskripsikan secara jelas bagaimana kami dapat membantu</li>
                     </ol>
                 </div>
             </div>
@@ -201,7 +196,7 @@
 </section>
 
 
-<section class="client_logo_area pad_top">
+<!-- <section class="client_logo_area pad_top">
     <div class="container">
         <div class="client_slider">
             <div class="item">
@@ -242,7 +237,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 
 <section class="check_now_area check_now_box full_widget_check">
@@ -256,16 +251,15 @@
                         <img src="<?= BASEURL; ?>/assets/images/check-6.png" alt=""/>
                     </div>
                     <div class="media-body">
-                        <h4>Think you might be affected?</h4>
+                        <h4>Apakah Anda terinfeksi?</h4>
                         <p>
-                            Try our simple coronavirus checker to find out what you need
-                            to do.
+                            Cek gejala COVID disini untuk mengetahui langkah lanjut yang harus Anda lakukan.
                         </p>
                     </div>
                 </div>
             </div>
             <div class="right">
-                <a class="icon_btn" href="#">Check now <i class="linearicons-arrow-right"></i></a>
+                <a class="icon_btn" href="#">Cek Sekarang <i class="linearicons-arrow-right"></i></a>
             </div>
         </div>
     </div>

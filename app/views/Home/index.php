@@ -3,14 +3,14 @@
         <div class="row home_banner_inner">
             <div class="col-sm-7">
                 <h5 class="wow fadeInUp" data-wow-delay="300ms">Stop COVID-19</h5>
-                <h3 class="wow fadeInUp" data-wow-delay="500ms">How can we fight together against Coronavirus?
+                <h3 class="wow fadeInUp" data-wow-delay="500ms">Bagaimana kita dapat melawan Virus Corona bersama?
                 </h3>
                 <p class="wow fadeInUp" data-wow-delay="400ms">
-                    It’s never been clearer that we’re all global citizens,
-                    <br/>and we all have a part to play. The novel strain of<br/>
-                    coronavirus, has officially reached pandemic proportions.
+                    Sebagai masyarakat global kita memiliki peran untuk
+                    <br/>bersama-sama menghentikan penyebaran virus corona<br/>
+                    yang secara resmi telah mencapai titik pandemi.
                 </p>
-                <a class="main_btn wow fadeInLeft" data-wow-delay="300ms" href="#">How to Prevent</a>
+                <a class="main_btn wow fadeInLeft" data-wow-delay="300ms" href="#">Yuk, cegah bersama!</a>
                 <div class="row home_option">
                     <div class="col-lg-6 wow fadeIn" data-wow-delay="300ms">
                         <div class="media">
@@ -18,8 +18,8 @@
                                 <i class="linearicons-shield-check"></i>
                             </div>
                             <div class="media-body">
-                                <h4>Protection</h4>
-                                <p>How to protect yourself</p>
+                                <h4>Perlindungan</h4>
+                                <p>Lindungi diri dan keluarga</p>
                             </div>
                         </div>
                     </div>
@@ -29,8 +29,8 @@
                                 <i class="linearicons-pulse"></i>
                             </div>
                             <div class="media-body">
-                                <h4>Symptoms</h4>
-                                <p>Check basic symptoms</p>
+                                <h4>Gejala</h4>
+                                <p>Kenali gejala dasar COVID</p>
                             </div>
                         </div>
                     </div>
@@ -40,8 +40,8 @@
                                 <i class="linearicons-bubbles"></i>
                             </div>
                             <div class="media-body">
-                                <h4>Appointment</h4>
-                                <p>Get online consultation</p>
+                                <h4>Konsul Dokter</h4>
+                                <p>Dapatkan konsultasi online</p>
                             </div>
                         </div>
                     </div>
@@ -51,8 +51,8 @@
                                 <i class="linearicons-document2"></i>
                             </div>
                             <div class="media-body">
-                                <h4>About COVID-19</h4>
-                                <p>Read more about coronavirus</p>
+                                <h4>Terkait COVID-19</h4>
+                                <p>Pelajari lebih lanjut virus corona</p>
                             </div>
                         </div>
                     </div>
@@ -78,16 +78,15 @@
                         <img src="<?= BASEURL; ?>/assets/images/check-3.png" alt=""/>
                     </div>
                     <div class="media-body">
-                        <h4>Think you might be affected?</h4>
+                        <h4>Apakah Anda terinfeksi?</h4>
                         <p>
-                            Try our simple coronavirus checker to find out what you need
-                            to do.
+                            Cek gejala COVID disini untuk mengetahui langkah lanjut yang harus Anda lakukan.
                         </p>
                     </div>
                 </div>
             </div>
             <div class="right">
-                <a class="icon_btn wow fadeInRight" data-wow-delay="400ms" href="#">Check now <i
+                <a class="icon_btn wow fadeInRight" data-wow-delay="400ms" href="#">Cek Sekarang <i
                             class="linearicons-arrow-right"></i></a>
             </div>
         </div>
@@ -107,24 +106,24 @@
                 <div class="home_ab_text">
                     <div class="home_ab_text_inner">
                         <div class="home_ab_item">
-                            <h6>COVID-19 the disease</h6>
-                            <h4>About the Coronavirus</h4>
+                            <h6>Penyakit COVID-19</h6>
+                            <h4>Terkait Virus Corona</h4>
                             <p>
-                                Coronavirus disease 2019 (COVID-19) is an infectious
-                                disease caused by severe acute respiratory syndrome
-                                coronavirus 2. The disease was first identified in 2019 in
-                                Wuhan, the capital of Hubei, China, and has since spread
-                                globally, resulting in the 2019–2020 coronavirus pandemic.
+                                Virus Corona atau Severe Acute Respiratory Syndrome Coronavirus 2
+                                <br>(SARS-CoV-2) adalah virus yang menyerang sistem pernapasan.
+                                Dapat menyebabkan gangguan ringan pada sistem pernapasan, infeksi
+                                paru-paru berat hingga kematian.
+                                Penyakit ini pertama kali ditemukan tahun 2019 di Wuhan, Ibukota Hubei,
+                                China dan menyebar secara global menjadi pandemi 2019-2020.
                             </p>
                         </div>
                         <div class="home_ab_item">
-                            <h4>What is the COVID-19?</h4>
+                            <h4>Apa itu COVID-19?</h4>
                             <p>
-                                COVID-19 is a new strain of coronavirus that has not been
-                                previously identified in humans. It was first identified
-                                in Wuhan, Hubei Province, China, where it has caused a
-                                large and ongoing outbreak. It has since spread more
-                                widely in China.
+                                COVID-19 adalah jenis baru coronavirus yang belum pernah
+                                diidentifikasi pada manusia. Ini pertama kali diidentifikasi
+                                di Wuhan, Provinsi Hubei, Cina, di mana telah menyebabkan
+                                wabah besar dan berkelanjutan. Sejak itu menyebar lebih luas di Cina.
                             </p>
                             <a class="text_btn" href="#">Read more about <i class="linearicons-arrow-right"></i></a>
                         </div>
@@ -140,8 +139,8 @@
         <img class="tracker_map" src="<?= BASEURL; ?>/assets/images/tracker-map-bg.png" alt=""/>
         <div class="tracker_text">
             <h5>Worldwide Tracker</h5>
-            <h2>Confirmed Coronavirus Cases</h2>
-            <p>Last updated: April 08, 2020, 01:43 GMT</p>
+            <h2>Kasus COVID Terkonfirmasi</h2>
+            <p>Update Terakhir: <?= date("j M Y") ?></p>
         </div>
         <div class="row tracker_inner">
             <div class="col-lg-3 col-6 wow fadeIn" data-wow-delay="300">
@@ -151,7 +150,7 @@
                     </div>
                     <div class="media-body">
                         <h2 id="total_cases"></h2>
-                        <p>Total Cases</p>
+                        <p>Total Kasus</p>
                     </div>
                 </div>
             </div>
@@ -162,7 +161,7 @@
                     </div>
                     <div class="media-body">
                         <h2 id="total_deaths"></h2>
-                        <p>Total Deaths</p>
+                        <p>Total Kematian</p>
                     </div>
                 </div>
             </div>
@@ -173,7 +172,7 @@
                     </div>
                     <div class="media-body">
                         <h2 id="total_recovered"></h2>
-                        <p>Recovered</p>
+                        <p>Sembuh</p>
                     </div>
                 </div>
             </div>
@@ -184,17 +183,17 @@
                     </div>
                     <div class="media-body">
                         <h2 id="new_cases"></h2>
-                        <p>New Cases</p>
+                        <p>Kasus Baru</p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="tracker_btn">
+        <!-- <div class="tracker_btn">
             <a class="green_btn wow fadeInUp" data-wow-delay="500" href="#"><i class="linearicons-earth-lock"></i>
                 See
                 Live
                 Track</a>
-        </div>
+        </div> -->
     </div>
 </section>
 
@@ -207,8 +206,8 @@
             <li><img src="<?= BASEURL; ?>/assets/images/symptoms-user/sm-3.png" alt=""></li>
         </ul>
         <div class="title_text wow fadeInUp" data-wow-delay="400ms">
-            <h5>Symptoms of COVID-19</h5>
-            <h2>What are the basic symptoms?</h2>
+            <h5>Gejala COVID-19</h5>
+            <h2>Apa saja gejala dasarnya?</h2>
         </div>
         <div class="row symptoms_inner">
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="400ms">
@@ -218,11 +217,10 @@
                             <img src="<?= BASEURL; ?>/assets/images/symptoms-user/symptoms-1.png" alt=""/>
                         </div>
                         <div class="media-body">
-                            <h4>High fever</h4>
+                            <h4>Demam Tinggi</h4>
                             <p>
-                                Fever is a key symptom, experts say. Don't fixate on a
-                                number, but know it's not a fever until temperature
-                                reaches at least 39°C.
+                                Menurut para ahli, demam adalah gejala utama.
+                                Termasuk demam jika suhu tubuh setidaknya mencapa 39°C.
                             </p>
                         </div>
                     </div>
@@ -235,10 +233,10 @@
                             <img src="<?= BASEURL; ?>/assets/images/symptoms-user/symptoms-2.png" alt=""/>
                         </div>
                         <div class="media-body">
-                            <h4>Sortness of Breath</h4>
+                            <h4>Sesak Napas</h4>
                             <p>
-                                You feel hot to touch on your chest or back It is a common
-                                sign and also may appear in 2-10 days if you affected.
+                                Anda merasakan panas saat menyentuh dada maupun punggung.
+                                Hal ini menrupakan gejala umum dan akan muncul dalam 2-10 hari jika Anda terinfeksi.
                             </p>
                         </div>
                     </div>
@@ -251,11 +249,10 @@
                             <img src="<?= BASEURL; ?>/assets/images/symptoms-user/symptoms-3.png" alt=""/>
                         </div>
                         <div class="media-body">
-                            <h4>Dry Cough</h4>
+                            <h4>Batuk Kering</h4>
                             <p>
-                                Coughing is another key symptom, but it's not just any
-                                cough, said Schaffner. It should be a dry cough that you
-                                feel in your chest.
+                                Batuk merupakan gejala utama lainnya, tetapi bukan sembarang batuk.
+                                Hal ini berupa batuk kering yang sangat terasa di dada.
                             </p>
                         </div>
                     </div>
@@ -268,11 +265,10 @@
                             <img src="<?= BASEURL; ?>/assets/images/symptoms-user/symptoms-4.png" alt=""/>
                         </div>
                         <div class="media-body">
-                            <h4>Headache</h4>
+                            <h4>Sakit Kepala</h4>
                             <p>
-                                Around 1 out of every 6 people who gets COVID-19 becomes
-                                seriously ill and develops difficulty breathing or
-                                shortness of breath.
+                                Sekitar 1 dari 6 orang yang terkena COVID-19 akan mengalami
+                                sakit parah dan kesulitan bernapas atau sesak napas.
                             </p>
                         </div>
                     </div>
@@ -296,7 +292,7 @@
                         <div class="protect_list_item">
                             <div class="protect_list_title">
                                 <h3>Lakukan</h3>
-                                <h6>Pastikan melakukannya!</h6>
+                                <h6>Pastikan untuk melakukannya!</h6>
                             </div>
                             <ul class="nav flex-column">
                                 <li>
@@ -309,7 +305,7 @@
                                     <a><i class="linearicons-tissue"></i>Selalu gunakan tisu</a>
                                 </li>
                                 <li>
-                                    <a><i class="linearicons-couch"></i>Desinfectan rumah anda</a>
+                                    <a><i class="linearicons-couch"></i>Desinfektan rumah anda</a>
                                 </li>
                                 <li>
                                     <a><i class="linearicons-rain"></i>Rutin membersihkan tangan</a>
@@ -337,13 +333,13 @@
                                     <a><i class="linearicons-paw"></i>Hindari binatang</a>
                                 </li>
                                 <li>
-                                    <a><i class="linearicons-woman"></i>Menyentuh wajah</a>
+                                    <a><i class="linearicons-woman"></i>Jangan menyentuh wajah</a>
                                 </li>
                                 <li>
-                                    <a><i class="linearicons-hand"></i>Bersalaman</a>
+                                    <a><i class="linearicons-hand"></i>Hindari berjabat tangan</a>
                                 </li>
                                 <li>
-                                    <a><i class="linearicons-chair"></i>Memegang permukaan yang terinfeksi</a>
+                                    <a><i class="linearicons-chair"></i>Hidari menyentuh permukaan yang terinfeksi</a>
                                 </li>
                                 <li>
                                     <a><i class="linearicons-drop-crossed"></i>Berkerumun</a>
@@ -356,13 +352,12 @@
                     </div>
                 </div>
                 <div class="protect_self_text">
-                    <h3>What does self-isolation involve?</h3>
+                    <h3>Apa yang melibatkan isolasi mandiri?</h3>
                     <p>
-                        If you need to self-isolate, you should take action
-                        immediately. You must stay inside and avoid all contact with
-                        other people.
+                        Jika Anda perlu melakukan isolasi mandiri, Anda harus segera bertindak.
+                        Tetaplah di dalam rumah dan hindari semua kontak langsung dengan orang lain.
                     </p>
-                    <a class="text_btn" href="#">How else can you protect yourself?
+                    <a class="text_btn" href="#">Bagaimana cara lain untuk melindungi diri Anda?
                         <i class="linearicons-arrow-right"></i></a>
                 </div>
             </div>
@@ -397,8 +392,8 @@
 <section class="washing_process_area pad_btm">
     <div class="container">
         <div class="main_title text-center white">
-            <h5>Hand washing process</h5>
-            <h2>How to wash your Hands</h2>
+            <h5>Proses Cuci Tangan</h5>
+            <h2>Yuk, Cuci Tangan yang Baik dan Benar!</h2>
         </div>
         <div class="washing_process_inner row">
             <div class="col-lg-2 col-sm-4 col-6 wow fadeIn" data-wow-delay="400ms">
@@ -409,7 +404,7 @@
                             1
                         </div>
                     </div>
-                    <p><span>Apply soap</span> and ruv your hands together</p>
+                    <p><span>Gunakan sabun</span> dan aplikasikan ke kedua tangan</p>
                 </div>
             </div>
             <div class="col-lg-2 col-sm-4 col-6 wow fadeIn" data-wow-delay="500ms">
@@ -421,8 +416,7 @@
                         </div>
                     </div>
                     <p>
-                        <span>Use one hand</span> to rub the back of the other hand
-                        and vice versa
+                        <span>Gunakan satu tangan</span> untuk menggosok punggung tangan lainnya dan lakukan bergantian
                     </p>
                 </div>
             </div>
@@ -435,8 +429,7 @@
                         </div>
                     </div>
                     <p>
-                        <span>Rub your hands</span> together and clean between your
-                        fingers
+                        <span>Gosok tanganmu</span> bersamaan dan bersihkan sela-sela jari
                     </p>
                 </div>
             </div>
@@ -449,7 +442,7 @@
                         </div>
                     </div>
                     <p>
-                        <span>Rub the back</span> of your fingers against your palms
+                        <span>Gosok punggung jari</span> dengan telapak tangan lainnya
                     </p>
                 </div>
             </div>
@@ -462,8 +455,7 @@
                         </div>
                     </div>
                     <p>
-                        <span>Rub your thumb</span> using your other hand and vice
-                        versa
+                        <span>Gosok jempol</span> menggunakan tangan lainnya dan lakukan bergantian
                     </p>
                 </div>
             </div>
@@ -476,8 +468,7 @@
                         </div>
                     </div>
                     <p>
-                        <span>Rub your tips</span> of your fingers on the palm of your
-                        other hand and vice versa
+                        <span>Gosok kuku jari</span> dengan telapak tangan dan lakukan bergantian
                     </p>
                 </div>
             </div>
@@ -498,10 +489,10 @@
                                      alt=""/>
                             </div>
                             <div class="prevent_text">
-                                <h4>Stay at home</h4>
+                                <h4>Di rumah saja</h4>
                                 <p>
-                                    Stay at home if you perceive the symptoms and consult
-                                    your doctor on phone.
+                                    Tetaplah di rumah jika Anda merasakan gejala dan
+                                    lakukan konsultasi dengan dokter melalui telepon.
                                 </p>
                             </div>
                         </div>
@@ -513,10 +504,10 @@
                                      alt=""/>
                             </div>
                             <div class="prevent_text">
-                                <h4>Wash your hands often</h4>
+                                <h4>Cuci tangan sesering mungkin</h4>
                                 <p>
-                                    Clean your hands with alcohol-based rub or wash them
-                                    with soap for at least 20 seconds.
+                                    Bersihkan tangan dengan pembersih beralkohol atau cuci
+                                    tangan dengan sabun minimal 20 detik.
                                 </p>
                             </div>
                         </div>
@@ -528,10 +519,9 @@
                                      alt=""/>
                             </div>
                             <div class="prevent_text">
-                                <h4>Keep social distance</h4>
+                                <h4>Tetap jaga jarak</h4>
                                 <p>
-                                    Keep at least 2 m distance between yourself & anyone if
-                                    you go among people.
+                                    Jaga jarak minimal 2 meter dengan orang lain.
                                 </p>
                             </div>
                         </div>
@@ -543,10 +533,9 @@
                                      alt=""/>
                             </div>
                             <div class="prevent_text">
-                                <h4>Wear Facemask</h4>
+                                <h4>Gunakan Masker</h4>
                                 <p>
-                                    When you are around other people and before you enter a
-                                    healthcare provider’s.
+                                    Saat berada di sekitar orang lain demi melindungi diri sendiri maupun orang lain.
                                 </p>
                             </div>
                         </div>
@@ -556,27 +545,25 @@
             <div class="col-lg-6">
                 <div class="prevent_details">
                     <div class="prevent_details_text">
-                        <h5>What should you do</h5>
-                        <h2>How to prevent Coronavirus?</h2>
+                        <h5>Apa yang harus dilakukan</h5>
+                        <h2>Untuk mencegah Virus Corona?</h2>
                         <p>
-                            Some details about how the disease is spread are unknown and
-                            is being determined.The WHO and CDC state that it is
-                            primarily spread during close contact and by respiratory
-                            droplets produced when people cough or sneeze; with close
-                            contact being within 1 to 2 meters (3 to 6 feet). A study in
-                            Singapore found that an uncovered coughing can lead to
-                            droplets travelling up to 4.5 metres (15 feet).
+                            Beberapa detail tentang bagaimana penyakit ini menyebar tidak diketahui
+                            dan sedang dipastikan. WHO dan CDC menyatakan bahwa penyakit ini
+                            menyebar terutama saat kontak dekat dan dari tetesan pernapasan yang
+                            dihasilkan ketika orang batuk atau bersin dengan kontak dekat berada
+                            dalam 1 hingga 2 meter (3 hingga 6 kaki). Sebuah penelitian di Singapura
+                            menemukan bahwa batuk yang tidak ditutup dapat menyebabkan tetesan
+                            menyebar hingga 4,5 meter (15 kaki).
                         </p>
                         <p>
-                            Respiratory droplets may also be produced during breathing
-                            out, including when talking, though the virus is not
-                            generally airborne. These droplets can land in the mouths or
-                            noses of people who are nearby or possibly be inhaled into
-                            the lungs. Some medical procedures such as intubation and
-                            cardiopulmonary...
+                            Tetesan pernapasan juga dapat dihasilkan selama bernafas,
+                            termasuk ketika berbicara, meskipun virus pada umumnya tidak mengudara.
+                            Tetesan ini dapat mendarat di mulut atau hidung orang yang berada
+                            di dekatnya atau mungkin terhirup ke dalam paru-paru.
+                            Beberapa prosedur medis seperti intubasi dan ...
                         </p>
-                        <a class="green_btn" href="#"><i class="linearicons-shield-check"></i> Read more about
-                            Prevention</a>
+                        <a class="green_btn" href="#"><i class="linearicons-shield-check"></i> Baca Lebih Lanjut terkait Pencegahan</a>
                     </div>
                 </div>
             </div>
@@ -588,11 +575,11 @@
 <section class="home_latest_blog_area">
     <div class="container">
         <div class="main_title text-center">
-            <h5>Latest Blog Posts</h5>
-            <h2>Recent from Updates</h2>
+            <h5>Post Terakhir</h5>
+            <h2>Informasi Terupdate</h2>
             <p>
-                Find out updates you need to know about preventing, isolating and
-                treating coronavirus and COVID-19.
+                Update informasi yang Anda butuh tentang pencegahan, isolasi,
+                dan cara menghadapi COVID-19.
             </p>
         </div>
         <div class="row l_blog_inner">
@@ -658,7 +645,7 @@
     </div>
 </section>
 
-<section class="client_logo_area">
+<!-- <section class="client_logo_area">
     <div class="container">
         <div class="client_slider">
             <div class="item">
@@ -795,4 +782,4 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->

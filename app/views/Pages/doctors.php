@@ -1,28 +1,28 @@
 <section class="breadcrumb_area boi_breadcrumb">
     <div class="container">
         <div class="breadcrumb_text">
-            <h6>Meet the Experts</h6>
-            <h3>Our Doctors</h3>
+            <h6>Temui Ahli</h6>
+            <h3>Dokter Kami</h3>
             <ul class="nav justify-content-center">
-                <li><a href="index.php">Home</a></li>
-                <li><a href="<?= BASEURL; ?>/Pages">About</a></li>
-                <li><a href="<?= BASEURL; ?>/Pages/doctors">Our Doctors</a></li>
+                <li><a href="index.php">Beranda</a></li>
+                <li><a href="<?= BASEURL; ?>/Pages">Tentang</a></li>
+                <li><a href="<?= BASEURL; ?>/Pages/doctors">Dokter Kami</a></li>
             </ul>
         </div>
         <div class="doctors_bio row">
             <div class="col-lg-6">
                 <div class="doctors_img text-right wow fadeInUp" data-wow-delay="400ms"><img
-                        src="<?= BASEURL; ?>/assets/images/doctors/doctors-img.png" alt="">
+                            src="<?= BASEURL; ?>/assets/images/doctors/doctors-img.png" alt="">
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="doctors_bio_text text-left wow fadeInUp" data-wow-delay="400ms">
-                    <h5>Founder and Owner</h5>
-                    <h3>Dr Pamela Smith</h3>
-                    <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id
+                    <h5>Pendiri dan Pemilik</h5>
+                    <h3>Dr Pamela Santoso</h3>
+                    <!-- <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id
                         quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor
                         repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum
-                        necessitatibus.</p>
+                        necessitatibus.</p> -->
                     <img src="<?= BASEURL; ?>/assets/images/doctors/signature.png" alt="">
                 </div>
             </div>
@@ -40,10 +40,10 @@
                         <img class="img-fluid" src="<?= BASEURL; ?>/assets/images/doctors/doctors-1.png" alt="">
                     </div>
                     <div class="doctors_text">
-                        <h6>Rehabilitation therapist</h6>
-                        <h3>Dr Taylor Hawk</h3>
-                        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia.
-                        </p>
+                        <h6>Dokter Spesialis Syaraf</h6>
+                        <h3>Dr Herman</h3>
+                        <!-- <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia.
+                        </p> -->
                         <ul class="nav">
                             <li><a href="#"><i class="fab fa-facebook"></i></a></li>
                             <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
@@ -58,10 +58,10 @@
                         <img class="img-fluid" src="<?= BASEURL; ?>/assets/images/doctors/doctors-2.png" alt="">
                     </div>
                     <div class="doctors_text">
-                        <h6>Rehabilitation therapist</h6>
-                        <h3>Dr Taylor Hawk</h3>
-                        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia.
-                        </p>
+                        <h6>Dokter Spesialis Paru</h6>
+                        <h3>Dr Reta Andini</h3>
+                        <!-- <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia.
+                        </p> -->
                         <ul class="nav">
                             <li><a href="#"><i class="fab fa-facebook"></i></a></li>
                             <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
@@ -76,10 +76,10 @@
                         <img class="img-fluid" src="<?= BASEURL; ?>/assets/images/doctors/doctors-3.png" alt="">
                     </div>
                     <div class="doctors_text">
-                        <h6>Rehabilitation therapist</h6>
-                        <h3>Dr Taylor Hawk</h3>
-                        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia.
-                        </p>
+                        <h6>Perawat</h6>
+                        <h3>Dini Rahandi</h3>
+                        <!-- <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia.
+                        </p> -->
                         <ul class="nav">
                             <li><a href="#"><i class="fab fa-facebook"></i></a></li>
                             <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
@@ -94,10 +94,10 @@
                         <img class="img-fluid" src="<?= BASEURL; ?>/assets/images/doctors/doctors-4.png" alt="">
                     </div>
                     <div class="doctors_text">
-                        <h6>Rehabilitation therapist</h6>
-                        <h3>Dr Taylor Hawk</h3>
-                        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia.
-                        </p>
+                        <h6>Terapis Rehabilitasi</h6>
+                        <h3>Siska Dewanti</h3>
+                        <!-- <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia.
+                        </p> -->
                         <ul class="nav">
                             <li><a href="#"><i class="fab fa-facebook"></i></a></li>
                             <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
@@ -113,7 +113,7 @@
 
 <section class="client_logo_area pad_top">
     <div class="container">
-        <div class="client_slider">
+        <!-- <div class="client_slider">
             <div class="item">
                 <img src="<?= BASEURL; ?>/assets/images/client-logo/client-logo-1.png" alt=""/>
             </div>
@@ -150,7 +150,7 @@
             <div class="item">
                 <img src="<?= BASEURL; ?>/assets/images/client-logo/client-logo-6.png" alt=""/>
             </div>
-        </div>
+        </div> -->
         <div class="check_now_area check_now_box">
             <div class="row m-0 justify-content-between">
                 <div class="left">
@@ -161,16 +161,15 @@
                             <img src="<?= BASEURL; ?>/assets/images/check-6.png" alt="">
                         </div>
                         <div class="media-body">
-                            <h4>Think you might be affected?</h4>
+                            <h4>Apakah Anda terinfeksi?</h4>
                             <p>
-                                Try our simple coronavirus checker to find out what you need
-                                to do.
+                                Cek gejala COVID disini untuk mengetahui langkah selanjutnya.
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="right">
-                    <a class="icon_btn" href="#">Check now <i class="linearicons-arrow-right"></i></a>
+                    <a class="icon_btn" href="#">Cek Sekarang <i class="linearicons-arrow-right"></i></a>
                 </div>
             </div>
         </div>
