@@ -4,7 +4,7 @@
             <h6>Temui Ahli</h6>
             <h3>Dokter Kami</h3>
             <ul class="nav justify-content-center">
-                <li><a href="index.php">Beranda</a></li>
+                <li><a href="<?= BASEURL; ?>/Home">Beranda</a></li>
                 <li><a href="<?= BASEURL; ?>/Pages">Tentang</a></li>
                 <li><a href="<?= BASEURL; ?>/Pages/doctors">Dokter Kami</a></li>
             </ul>

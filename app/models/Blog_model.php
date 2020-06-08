@@ -31,12 +31,13 @@ class Blog_model{
         return $this->db->single();
     }
 
-    public function addBlog($nim, $nama, $jurusan)
+    public function addBlog($authId, $title, $category, $content)
     {
-        $this->db->query('INSERT INTO ' . $this->table . '(nim, nama, jurusan) VALUES(:nim, :nama, :jurusan)');
-        $this->db->bind('nim',$nim);
-        $this->db->bind('nama',$nama);
-        $this->db->bind('jurusan',$jurusan);
+        $this->db->query('INSERT INTO ' . $this->table . '(authId, title, category, date, content) VALUES(:authId, :title, :category, NOW(),:content)');
+        $this->db->bind('authId',$authId);
+        $this->db->bind('title',$title);
+        $this->db->bind('category',$category);
+        $this->db->bind('content',$content);
         $this->db->execute();
     }
 

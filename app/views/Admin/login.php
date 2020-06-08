@@ -1,28 +1,49 @@
 <?php
-
-//require_once("config.php");
-
-if(isset($_POST['login'])){
-
+$feedbackMsg = "";
+if (isset($_POST['login'])) {
     $username = filter_input(INPUT_POST, 'username', FILTER_SANITIZE_STRING);
     $password = filter_input(INPUT_POST, 'password', FILTER_SANITIZE_STRING);
 
-
-
     $user = $this->model('User_model')->getAllUsersByUsername($username);
-
     // jika user terdaftar
-    if($user){
+    if ($user) {
         // verifikasi password
-        if(password_verify($password, $user["password"])){
-            // buat Session
+        if (password_verify($password, $user['password'])) {
             session_start();
             $_SESSION["user"] = $user;
-            // login sukses, alihkan ke halaman timeline
-            header("Location: index.php");
+            header("Location: " . BASEURL . "/Admin");
+        } else {
+            $feedbackMsg = "Username/Password incorrect";
         }
+    } else {
+        $feedbackMsg = "Username/Password incorrect";
     }
 }
+
+date_default_timezone_set('Asia/Jakarta');
+$time = date("H");
+if ($time < "12") {
+    $greet = "Good morning,";
+} else if ($time >= "12" && $time < "17") {
+    $greet = "Good afternoon,";
+} else if ($time >= "17" && $time < "19") {
+    $greet = "Good evening,";
+} else if ($time >= "19") {
+    $greet = "Good night,";
+}
+
+//kalo mau nambahin bole
+$supportMsg = array(
+    "Everything will be all right.",
+    "Thank you so much for all your hard wor and support during this difficult time.",
+    "Thank you for being our nation's guiding light in the face of this adversity",
+    "Your humility, kindness, and strength are greatly appreciated."
+);
+try {
+    $showMsg = $supportMsg[rand(0, count($supportMsg) - 1)];
+} catch (Exception $e) {
+}
+
 ?>
 
 <!DOCTYPE html>
@@ -42,9 +63,8 @@ if(isset($_POST['login'])){
     <link rel="stylesheet" href="../node_modules/bootstrap-social/bootstrap-social.css">
 
     <!-- Template CSS -->
-    <link rel="stylesheet" href="<?= BASEURL; ?>/css/admin/style.css">
-    <link rel="stylesheet" href="<?= BASEURL; ?>/css/style.css">
-    <link rel="stylesheet" href="<?= BASEURL; ?>/css/admin/components.css">
+    <link rel="stylesheet" href="<?= BASEURL; ?>/admin_assets/css/style.css">
+    <link rel="stylesheet" href="<?= BASEURL; ?>/admin_assets/css/components.css">
 </head>
 
 <body>
@@ -54,17 +74,17 @@ if(isset($_POST['login'])){
             <div class="col-lg-4 col-md-6 col-12 order-lg-1 min-vh-100 order-2 bg-white">
                 <div class="p-4 m-3">
                     <a class="navbar-brand" href="<?= BASEURL; ?>/Home"><img
-                            src="<?= BASEURL; ?>/assets/images/logo.png"
-                            srcset="<?= BASEURL; ?>/assets/images/logo-2x.png 2x"
-                            alt=""/></a>
+                                src="<?= BASEURL; ?>/assets/images/logo.png"
+                                srcset="<?= BASEURL; ?>/assets/images/logo-2x.png 2x"
+                                alt=""/></a>
                     <h4 class="text-dark font-weight-normal">Welcome to <span class="font-weight-bold">Stisla</span>
                     </h4>
                     <p class="text-muted">Before you get started, you must login or register if you don't already have
                         an account.</p>
-                    <form method="POST" action="#" class="needs-validation" novalidate="">
+                    <form method="POST" class="needs-validation" novalidate="">
                         <div class="form-group">
-                            <label for="username">Username</label>
-                            <input id="email" type="text" class="form-control" name="username" tabindex="1" required
+                            <label for="email">Email</label>
+                            <input id="username" type="text" class="form-control" name="username" tabindex="1" required
                                    autofocus>
                             <div class="invalid-feedback">
                                 Please fill in your email
@@ -91,31 +111,29 @@ if(isset($_POST['login'])){
                         </div>
 
                         <div class="form-group text-right">
-                            <input type="submit" class="btn btn-primary btn-lg btn-icon icon-right" name="login" value="Login" />
+                            <input type="submit" class="btn btn-primary btn-lg btn-icon btn-block" name="login"
+                                   value="Login"/>
+                            <p class="text-center"><?= $feedbackMsg; ?></p>
                         </div>
-                    </form>
 
-                    <div class="text-center mt-5 text-small">
-                        Copyright &copy; Epidemic. Made with 💙 by Stisla
-<!--                        <div class="mt-2">-->
-<!--                            <a href="#">Privacy Policy</a>-->
-<!--                            <div class="bullet"></div>-->
-<!--                            <a href="#">Terms of Service</a>-->
-<!--                        </div>-->
-                    </div>
+                        <div class="text-center mt-5 text-small">
+                            Copyright &copy; Epidemic. Made with 💙 by Stisla
+                            <div class="mt-2">
+                                <a href="#">Privacy Policy</a>
+                                <div class="bullet"></div>
+                                <a href="#">Terms of Service</a>
+                            </div>
+                        </div>
                 </div>
             </div>
             <div class="col-lg-8 col-12 order-lg-2 order-1 min-vh-100 background-walk-y position-relative overlay-gradient-bottom"
-                 data-background="<?= BASEURL; ?>/assets/images/stisla/login-bg.jpg">
+                 data-background="<?= BASEURL; ?>/admin_assets/img/login-bg.jpg">
                 <div class="absolute-bottom-left index-2">
                     <div class="text-light p-5 pb-2">
                         <div class="mb-5 pb-3">
-                            <h1 class="mb-2 display-4 font-weight-bold">Good Morning</h1>
-                            <h5 class="font-weight-normal text-muted-transparent">Bali, Indonesia</h5>
+                            <h1 class="mb-2 display-4 font-weight-bold"><?= $greet; ?></h1>
+                            <h4 class="mb-5 display-7 font-weight-normal font-italic"><?= $showMsg; ?></h4>
                         </div>
-                        Photo by <a class="text-light bb" target="_blank"
-                                    href="https://unsplash.com/photos/a8lTjWJJgLA">Justin Kauffman</a> on <a
-                                class="text-light bb" target="_blank" href="https://unsplash.com">Unsplash</a>
                     </div>
                 </div>
             </div>
@@ -134,13 +152,13 @@ if(isset($_POST['login'])){
         crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-<script src="<?= BASEURL; ?>/js/stisla.js"></script>
+<script src="<?= BASEURL; ?>/admin_assets/js/stisla.js"></script>
 
 <!-- JS Libraies -->
 
 <!-- Template JS File -->
-<script src="<?= BASEURL; ?>/js/scripts.js"></script>
-<script src="<?= BASEURL; ?>/js/custom.js"></script>
+<script src="<?= BASEURL; ?>/admin_assets/js/scripts.js"></script>
+<script src="<?= BASEURL; ?>/admin_assets/js/custom.js"></script>
 
 <!-- Page Specific JS File -->
 </body>

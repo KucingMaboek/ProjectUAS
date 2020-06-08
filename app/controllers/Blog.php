@@ -11,7 +11,7 @@ class Blog extends Controller {
         $data['blogs'] = $this->model('Blog_model')->getBlogsByPage($mulai, $halaman);
         $this->view('templates/header_a');
         $this->view('blog/blog', $data);
-        $this->view('templates/footer');
+        $this->view('templates/footer_user');
     }
 
     public function single_blog($id)
@@ -19,7 +19,7 @@ class Blog extends Controller {
         $data['blog'] = $this->model('Blog_model')->getAllBlogsById($id);
         $this->view('templates/header_b');
         $this->view('blog/single_blog', $data);
-        $this->view('templates/footer');
+        $this->view('templates/footer_user');
     }
 
 }

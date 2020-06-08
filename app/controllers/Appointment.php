@@ -5,7 +5,7 @@ class Appointment extends Controller {
     {
         $this->view('templates/header_a');
         $this->view('appointment/appointment');
-        $this->view('templates/footer');
+        $this->view('templates/footer_user');
     }
 
 }

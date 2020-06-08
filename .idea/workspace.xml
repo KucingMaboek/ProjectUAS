@@ -2,21 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d87ad2f-a6aa-43bd-af30-c217667def42" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/Admin/dashboard.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/ProjectUAS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ProjectUAS.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/Admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/Admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/Appointment.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/Appointment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/Blog.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/Blog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/Contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/Contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/Home.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/Home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/Pages.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/Pages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/Prevention.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/Prevention.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/Blog_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Blog_model.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/User_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/User_model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/Admin/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/Admin/login.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/Appointment/appointment.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Appointment/appointment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/Blog/blog.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Blog/blog.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/Contact/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Contact/contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/Home/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Home/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/Pages/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Pages/about.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/Pages/doctors.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Pages/doctors.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/Prevention/faq.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Prevention/faq.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/Prevention/prevention.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Prevention/prevention.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/Prevention/virus_checker.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Prevention/virus_checker.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/templates/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/templates/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/templates/header_a.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/templates/header_a.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/templates/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/templates/footer_user.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/templates/header_b.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/templates/header_b.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectuas.sql" beforeDir="false" afterPath="$PROJECT_DIR$/projectuas.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/stisla/login-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/stisla/stisla-fill.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/admin/components.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/admin/style.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,11 +63,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../covid-19" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\ProjectUAS\app\views\Admin" />
       <recent name="C:\xampp\htdocs\ProjectUAS\public" />
       <recent name="C:\xampp\htdocs\ProjectUAS\public\black" />
       <recent name="C:\xampp\htdocs\ProjectUAS\public\assets" />
@@ -84,7 +97,12 @@
       <workItem from="1590843537154" duration="20819000" />
       <workItem from="1590894999293" duration="7340000" />
       <workItem from="1590919779673" duration="28668000" />
-      <workItem from="1591435911170" duration="1399000" />
+      <workItem from="1591435911170" duration="27066000" />
+      <workItem from="1591491054487" duration="6361000" />
+      <workItem from="1591504370439" duration="6753000" />
+      <workItem from="1591532289978" duration="21082000" />
+      <workItem from="1591585332857" duration="646000" />
+      <workItem from="1591586039144" duration="14613000" />
     </task>
     <task id="LOCAL-00001" summary="update views">
       <created>1590849267974</created>
@@ -132,22 +150,26 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1590947140954" />
-    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1590948938127">
+    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1591610878942">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1590948938127" />
-    <state x="517" y="292" key="NewPhpFileDialog" timestamp="1590954462009">
+    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1591610878942" />
+    <state x="456" y="183" key="NewPhpClassDialog" timestamp="1591449814883">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="517" y="292" key="NewPhpFileDialog/0.0.1366.738@0.0.1366.738" timestamp="1590954462009" />
+    <state x="456" y="183" key="NewPhpClassDialog/0.0.1366.738@0.0.1366.738" timestamp="1591449814883" />
+    <state x="517" y="292" key="NewPhpFileDialog" timestamp="1591601217722">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="517" y="292" key="NewPhpFileDialog/0.0.1366.738@0.0.1366.738" timestamp="1591601217722" />
     <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1590947145827">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1590947145827" />
-    <state x="379" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1590843542247">
+    <state x="379" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1591610872168">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="379" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1590843542247" />
+    <state x="379" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1591610872168" />
     <state x="329" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1590931971943">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -156,17 +178,21 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="92" y="92" width="1182" height="554" key="dock-window-1/0.0.1366.738@0.0.1366.738" timestamp="1590349990161" />
-    <state x="392" y="52" width="737" height="686" key="find.popup" timestamp="1590955431496">
+    <state x="392" y="52" width="737" height="686" key="find.popup" timestamp="1591603569046">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="392" y="52" width="737" height="686" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1590955431496" />
-    <state x="339" y="165" key="run.anything.popup" timestamp="1590956518002">
+    <state x="392" y="52" width="737" height="686" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1591603569046" />
+    <state x="324" y="95" width="700" height="530" key="recent.locations.popup" timestamp="1591603465779">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="339" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1590956518002" />
-    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1590945118135">
+    <state x="324" y="95" width="700" height="530" key="recent.locations.popup/0.0.1366.738@0.0.1366.738" timestamp="1591603465779" />
+    <state x="339" y="165" key="run.anything.popup" timestamp="1591563801189">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1590945118135" />
+    <state x="339" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1591563801189" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1591598951576">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1591598951576" />
   </component>
 </project>

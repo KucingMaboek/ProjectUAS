@@ -5,21 +5,21 @@ class Prevention extends Controller {
     {
         $this->view('templates/header_b');
         $this->view('prevention/prevention');
-        $this->view('templates/footer');
+        $this->view('templates/footer_user');
     }
 
     public function symptoms()
     {
         $this->view('templates/header_a');
         $this->view('prevention/symptoms');
-        $this->view('templates/footer');
+        $this->view('templates/footer_user');
     }
 
     public function symptom_checker()
     {
         $this->view('templates/header_b');
         $this->view('prevention/symptom_checker');
-        $this->view('templates/footer');
+        $this->view('templates/footer_user');
     }
 
     public function virus_checker()
@@ -31,13 +31,13 @@ class Prevention extends Controller {
     {
         $this->view('templates/header_a');
         $this->view('prevention/tracker');
-        $this->view('templates/footer');
+        $this->view('templates/footer_user');
     }
 
     public function faq()
     {
         $this->view('templates/header_b');
         $this->view('prevention/faq');
-        $this->view('templates/footer');
+        $this->view('templates/footer_user');
     }
 }

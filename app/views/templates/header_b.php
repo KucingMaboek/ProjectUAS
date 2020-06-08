@@ -173,7 +173,7 @@
         <div class="main_menu">
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <a class="navbar-brand" href="index.php">
+                    <a class="navbar-brand" href="<?= BASEURL; ?>/Home">
                         <img src="<?= BASEURL; ?>/assets/images/logo-2.png"
                              srcset="<?= BASEURL; ?>/assets/images/logo-2-2x.png 2x" alt=""/>
                         <img src="<?= BASEURL; ?>/assets/images/logo.png"

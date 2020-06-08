@@ -4,7 +4,7 @@
             <h6 class="wow fadeInUp">From the Blog</h6>
             <h3 class="wow fadeInUp" data-wow-delay="0.2s">Recent updates</h3>
             <ul class="nav justify-content-center wow fadeInUp" data-wow-delay="0.3s">
-                <li><a href="index.php">Home</a></li>
+                <li><a href="<?= BASEURL; ?>/Home">Beranda</a></li>
                 <li><a href="<?= BASEURL; ?>/Blog/1">Blog</a></li>
             </ul>
         </div>
