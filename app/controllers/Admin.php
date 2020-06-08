@@ -13,10 +13,71 @@ class Admin extends Controller
         $this->view('templates/footer_admin');
     }
 
+    public function users_list()
+    {
+        $this->view('templates/auth');
+        if ($_SESSION['user']['role'] == 'Administrator') {
+            $data['users'] = $this->model('User_model')->getAllUsers();
+            $this->view('templates/header_admin');
+            $this->view('templates/sidebar_admin');
+            $this->view('admin/users_list', $data);
+            $this->view('templates/footer_admin');
+        } else {
+            header("Location: " . BASEURL . "/Admin");
+        }
+    }
+
+    public function create_user()
+    {
+        $this->view('templates/auth');
+        if ($_SESSION['user']['role'] == 'Administrator') {
+            $this->view('templates/header_admin');
+            $this->view('templates/sidebar_admin');
+            $this->view('admin/create_user');
+            $this->view('templates/footer_admin');
+        } else {
+            header("Location: " . BASEURL . "/Admin");
+        }
+    }
+
+    public function user_details($id)
+    {
+        $this->view('templates/auth');
+        if ($_SESSION['user']['role'] == 'Administrator') {
+            $data['users'] = $this->model('User_model')->getAllUsersById($id);
+            $this->view('templates/header_admin');
+            $this->view('templates/sidebar_admin');
+            $this->view('admin/user_details', $data);
+            $this->view('templates/footer_admin');
+        } else {
+            header("Location: " . BASEURL . "/Admin");
+        }
+    }
+
+    public function deleteUser($id)
+    {
+        $this->view('templates/auth');
+        if ($_SESSION['user']['role'] == 'Administrator') {
+            try {
+                $this->model('User_model')->deleteUser($id);
+                header("Location: " . BASEURL . "/Admin/users_list");
+            } catch (Exception $e) {
+                $this->users_list();
+                echo '<script type="text/javascript">alert("Failed to execute delete, please delete all blog made by this user first");</script>';
+            }
+        } else {
+            header("Location: " . BASEURL . "/Admin");
+        }
+    }
+
     public function blogs_list()
     {
-        $data['blogs'] = $this->model('Blog_model')->getAllBlogs();
         $this->view('templates/auth');
+        if ($_SESSION['user']['role'] == 'Administrator') {
+            $data['blogs'] = $this->model('Blog_model')->getAllBlogs();
+        } else {
+            $data['blogs'] = $this->model('Blog_model')->getAllBlogsByAuthId($_SESSION['user']['id']);
+        }
         $this->view('templates/header_admin');
         $this->view('templates/sidebar_admin');
         $this->view('admin/blogs_list', $data);
@@ -34,37 +95,71 @@ class Admin extends Controller
 
     public function blog_details($id)
     {
+        $this->view('templates/auth');
         $data['blogs'] = $this->model('Blog_model')->getAllBlogsById($id);
+        if ($data['blogs']['authId'] == $_SESSION['user']['id']) {
+            $this->view('templates/header_admin');
+            $this->view('templates/sidebar_admin');
+            $this->view('admin/blog_details', $data);
+            $this->view('templates/footer_admin');
+        } else {
+            header("Location: " . BASEURL . "/Admin");
+        }
+    }
+
+    public function deleteBlog($id)
+    {
         $this->view('templates/auth');
+        $data['blogs'] = $this->model('Blog_model')->getAllBlogsById($id);
+        if ($data['blogs']['authId'] == $_SESSION['user']['id'] || $_SESSION['user']['role']=='Administrator') {
+            try {
+                $this->model('Blog_model')->deleteBlog($id);
+                header("Location: " . BASEURL . "/Admin/blogs_list");
+            } catch (Exception $e) {
+                $this->blogs_list();
+                echo '<script type="text/javascript">alert("Failed to execute delete");</script>';
+            }
+        } else {
+            header("Location: " . BASEURL . "/Admin");
+        }
+    }
+
+    public function appointments_list()
+    {
+        $this->view('templates/auth');
+        $data['appointments'] = $this->model('Appointment_model')->getAllAppointments();
         $this->view('templates/header_admin');
         $this->view('templates/sidebar_admin');
-        $this->view('admin/blog_details', $data);
+        $this->view('admin/appointments_list', $data);
         $this->view('templates/footer_admin');
     }
 
-    public function users_list()
+    public function appointment_details($id)
     {
-        $data['users'] = $this->model('User_model')->getAllUsers();
         $this->view('templates/auth');
+        $data['appointments'] = $this->model('Appointment_model')->getAllAppointmentsById($id);
         $this->view('templates/header_admin');
         $this->view('templates/sidebar_admin');
-        $this->view('admin/users_list', $data);
+        $this->view('admin/appointment_details', $data);
         $this->view('templates/footer_admin');
     }
 
-    public function create_user()
+    public function deleteAppointment($id)
     {
         $this->view('templates/auth');
-        $this->view('templates/header_admin');
-        $this->view('templates/sidebar_admin');
-        $this->view('admin/create_user');
-        $this->view('templates/footer_admin');
+        try {
+            $this->model('Appointment_model')->deleteAppointment($id);
+            header("Location: " . BASEURL . "/Admin/appointments_list");
+        } catch (Exception $e) {
+            $this->blogs_list();
+            echo '<script type="text/javascript">alert("Failed to execute delete");</script>';
+        }
     }
 
-    public function user_details($id)
+    public function edit_profile()
     {
-        $data['users'] = $this->model('User_model')->getAllUsersById($id);
         $this->view('templates/auth');
+        $data['users'] = $_SESSION["user"];
         $this->view('templates/header_admin');
         $this->view('templates/sidebar_admin');
         $this->view('admin/user_details', $data);
@@ -85,26 +180,5 @@ class Admin extends Controller
         header("Location: " . BASEURL . "/Admin/login");
     }
 
-    public function deleteUser($id)
-    {
-        try {
-            $this->model('User_model')->deleteUser($id);
-            header("Location: " . BASEURL . "/Admin/users_list");
-        } catch (Exception $e) {
-            $this->users_list();
-            echo '<script type="text/javascript">alert("Failed to execute delete, please delete all blog made by this user first");</script>';
-        }
-    }
-
-    public function deleteBlog($id)
-    {
-        try {
-            $this->model('Blog_model')->deleteBlog($id);
-            header("Location: " . BASEURL . "/Admin/blogs_list");
-        } catch (Exception $e) {
-            $this->blogs_list();
-            echo '<script type="text/javascript">alert("Failed to execute delete, error message: ");</script>';
-        }
-    }
 
 }

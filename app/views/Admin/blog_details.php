@@ -18,11 +18,11 @@ if (isset($_POST['submit'])) {
         $category = filter_input(INPUT_POST, 'category', FILTER_SANITIZE_STRING);
         $content = $_POST['content'];
 
-        $this->model('Blog_model')->addBlog(
-            $_SESSION["user"]["id"],
+        $this->model('Blog_model')->updateBlog(
             $title,
             $category,
-            $content
+            $content,
+            $data['blogs']['id']
         );
         $feedbackMsg = "Blog added successfully";
     }
@@ -70,7 +70,7 @@ if (isset($_POST['submit'])) {
                 <div class="form-group row mb-4">
                     <label class="col-form-label text-md-right col-12 col-md-3 col-lg-3"></label>
                     <div class="col-sm-12 col-md-7">
-                        <input type="submit" class="btn btn-info btn-block" name="submit" value="Update"/>
+                        <input type="submit" class="btn btn-info btn-block" name="submit" value="Save"/>
                         <p class="text-center"><?= $feedbackMsg; ?></p>
                     </div>
                 </div>

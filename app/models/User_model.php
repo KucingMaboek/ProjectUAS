@@ -55,7 +55,6 @@ class User_model
 
     public function updateUser($username, $password, $role, $full_name, $birth_date, $address, $email, $phone_number, $id)
     {
-        $this->db->query('UPDATE ' . $this->table . ' SET nama=:nama, jurusan=:jurusan WHERE nim=:nim');
         $this->db->query(
             'UPDATE ' . $this->table . ' SET 
         username=:username, 

@@ -1,3 +1,43 @@
+<?php
+$feedbackMsg = "";
+$required = array('name', 'email', 'skype_id', 'phone_number', 'date', 'time', 'subject', 'conversation', 'message');
+$error = false;
+if (isset($_POST['submit'])) {
+    foreach ($required as $field) {
+        if (empty($_POST[$field])) {
+            $error = true;
+        }
+    }
+    if ($error) {
+        $feedbackMsg = "Mohon lengkapi formulir terlebih dahulu";
+    } else {
+        $name = filter_input(INPUT_POST, 'name', FILTER_SANITIZE_STRING);
+        $email = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL);
+        $skype_id = filter_input(INPUT_POST, 'skype_id', FILTER_SANITIZE_STRING);
+        $phone_number = filter_input(INPUT_POST, 'phone_number', FILTER_VALIDATE_INT);
+        $date = preg_replace("([^0-9/])", "", $_POST['date']);
+        $time = filter_input(INPUT_POST, 'time', FILTER_SANITIZE_STRING);
+        $subject = filter_input(INPUT_POST, 'subject', FILTER_SANITIZE_STRING);
+        $conversation = filter_input(INPUT_POST, 'conversation', FILTER_SANITIZE_STRING);
+        $message = filter_input(INPUT_POST, 'message', FILTER_SANITIZE_STRING);
+
+        $this->model('Appointment_model')->addAppointment(
+            $name,
+            $email,
+            $skype_id,
+            $phone_number,
+            $date,
+            $time,
+            $subject,
+            $conversation,
+            $message
+        );
+        $feedbackMsg = "Permintaan berhasil dikirim";
+    }
+}
+
+?>
+
 <section class="breadcrumb_area boi_breadcrumb">
     <div class="container">
         <div class="breadcrumb_text">
@@ -50,69 +90,51 @@
                 <div class="media appoinment_features_item">
                     <i class="linearicons-tags"></i>
                     <div class="media-body">
-                        <h6>100% FREE</h6>
+                        <h6>100% GRATIS</h6>
                         <p>Jangan khawatir dengan biaya</p>
                     </div>
                 </div>
             </div>
             <div class="col-lg-8">
-                <form action="#" class="appoinment_form">
+
+                <form action="" class="appoinment_form" method="post">
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="form-group">
-                                <input class="form-control" type="text" id="a_name" name="a_name" placeholder=""/>
+                                <input class="form-control" type="text" id="a_name" name="name" placeholder=""/>
                                 <label><i class="linearicons-user"></i>Nama Anda</label>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="form-group">
-                                <input class="form-control" type="text" id="a_email" name="a_email" placeholder=""/>
+                                <input class="form-control" type="email" id="a_email" name="email" placeholder=""/>
                                 <label><i class="linearicons-envelope-open"></i>Alamat Email</label>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="form-group">
-                                <input class="form-control" type="text" id="skype" name="skype" placeholder=""/>
+                                <input class="form-control" type="text" id="skype" name="skype_id" placeholder=""/>
                                 <label><i class="fab fa-skype"></i>ID Skype</label>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="form-group">
-                                <input class="form-control" type="text" id="a_number" name="a_number"
+                                <input class="form-control" type="tel" id="a_number" name="phone_number"
                                        placeholder=""/>
                                 <label><i class="linearicons-telephone"></i>Nomor HP</label>
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            <div class="form-group input-group date" id="datetimepicker3"
-                                 data-target-input="nearest">
-                                <div class="input-group-append" data-target="#datetimepicker3"
-                                     data-toggle="datetimepicker">
-                                    <div class="input-group-text">
-                                        <i class="linearicons-calendar-text"></i>
-                                    </div>
-                                </div>
-                                <div class="text_div">
-                                    Pilih tanggal
-                                </div>
-                                <input type="text" class="form-control datetimepicker-input"
-                                       data-target="#datetimepicker3" data-toggle="datetimepicker"/>
+                            <div class="form-group">
+                                <div class="text_div">Pilih tanggal</div>
+                                <input type="date" class="form-control"
+                                       min="<?= date('Y-m-d', strtotime("+3 day")); ?>" name="date"/>
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            <div class="form-group input-group date" id="datetimepicker4"
-                                 data-target-input="nearest">
-                                <div class="input-group-append" data-target="#datetimepicker4"
-                                     data-toggle="datetimepicker">
-                                    <div class="input-group-text">
-                                        <i class="linearicons-alarm2"></i>
-                                    </div>
-                                </div>
-                                <div class="text_div">
-                                    Pilih waktu
-                                </div>
-                                <input type="text" class="form-control datetimepicker-input"
-                                       data-target="#datetimepicker4" data-toggle="datetimepicker"/>
+                            <div class="form-group">
+                                <div class="text_div">Pilih waktu</div>
+                                <input type="time" class="form-control" name="time"/>
                             </div>
                         </div>
                         <div class="col-lg-6">
@@ -140,7 +162,7 @@
                         </div>
                         <div class="col-lg-12">
                             <div class="form-group">
-                                    <textarea name="a_message" id="a_message" cols="30" rows="10"
+                                    <textarea name="message" id="a_message" cols="30" rows="10"
                                               class="form-control"></textarea>
                                 <label><i class="linearicons-pencil4"></i>Isi Pesan</label>
                             </div>
@@ -148,15 +170,17 @@
                         <div class="col-lg-12">
                             <div class="form-group checkbox_field">
                                 <div class="checkbox">
-                                    <input type="checkbox" value="None" id="squared2" name="check"/>
+                                    <input type="checkbox" value="check" id="squared2" name="check"/>
                                     <label class="l_text" for="squared2">Saya menyetujui <span>Kebijakan Privasi</span>
                                         dan
                                         <span>Syarat Penggunaan.</span></label>
                                 </div>
-                                <button type="submit" class="green_btn" value="appoinment" data-value="appoinment">
-                                    Kirim
-                                </button>
+                                <input type="submit" class="green_btn" name="submit" value="Kirim"
+                                       data-value="appoinment"/>
                             </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <p><?= $feedbackMsg; ?></p>
                         </div>
                     </div>
                 </form>
@@ -176,14 +200,19 @@
                         <h2>Bagaimana caranya?</h2>
                     </div>
                     <ol class="work_list">
-                        <li class="wow fadeInUp" data-wow-delay="0.1s">Masukkan kontak detail Anda agar kami dapat menghubungi melalui Skype
+                        <li class="wow fadeInUp" data-wow-delay="0.1s">Masukkan kontak detail Anda agar kami dapat
+                            menghubungi melalui Skype
                         </li>
-                        <li class="wow fadeInUp" data-wow-delay="0.2s">Tentukan tanggal dan waktu kapan kami dapat menghubungi
+                        <li class="wow fadeInUp" data-wow-delay="0.2s">Tentukan tanggal dan waktu kapan kami dapat
+                            menghubungi
                         </li>
                         <li class="wow fadeInUp" data-wow-delay="0.3s">Pilih metode percakapan</li>
-                        <li class="wow fadeInUp" data-wow-delay="0.4s">Cantumkan judul yang akan dibahas terkait konsultasi
+                        <li class="wow fadeInUp" data-wow-delay="0.4s">Cantumkan judul yang akan dibahas terkait
+                            konsultasi
                         </li>
-                        <li class="wow fadeInUp" data-wow-delay="0.5s">Deskripsikan secara jelas bagaimana kami dapat membantu</li>
+                        <li class="wow fadeInUp" data-wow-delay="0.5s">Deskripsikan secara jelas bagaimana kami dapat
+                            membantu
+                        </li>
                     </ol>
                 </div>
             </div>
@@ -194,51 +223,6 @@
         </div>
     </div>
 </section>
-
-
-<!-- <section class="client_logo_area pad_top">
-    <div class="container">
-        <div class="client_slider">
-            <div class="item">
-                <img src="<?= BASEURL; ?>/assets/images/client-logo/client-logo-1.png" alt=""/>
-            </div>
-            <div class="item">
-                <img src="<?= BASEURL; ?>/assets/images/client-logo/client-logo-2.png" alt=""/>
-            </div>
-            <div class="item">
-                <img src="<?= BASEURL; ?>/assets/images/client-logo/client-logo-3.png" alt=""/>
-            </div>
-            <div class="item">
-                <img src="<?= BASEURL; ?>/assets/images/client-logo/client-logo-4.png" alt=""/>
-            </div>
-            <div class="item">
-                <img src="<?= BASEURL; ?>/assets/images/client-logo/client-logo-5.png" alt=""/>
-            </div>
-            <div class="item">
-                <img src="<?= BASEURL; ?>/assets/images/client-logo/client-logo-6.png" alt=""/>
-            </div>
-            <div class="item">
-                <img src="<?= BASEURL; ?>/assets/images/client-logo/client-logo-1.png" alt=""/>
-            </div>
-            <div class="item">
-                <img src="<?= BASEURL; ?>/assets/images/client-logo/client-logo-2.png" alt=""/>
-            </div>
-            <div class="item">
-                <img src="<?= BASEURL; ?>/assets/images/client-logo/client-logo-3.png" alt=""/>
-            </div>
-            <div class="item">
-                <img src="<?= BASEURL; ?>/assets/images/client-logo/client-logo-4.png" alt=""/>
-            </div>
-            <div class="item">
-                <img src="<?= BASEURL; ?>/assets/images/client-logo/client-logo-5.png" alt=""/>
-            </div>
-            <div class="item">
-                <img src="<?= BASEURL; ?>/assets/images/client-logo/client-logo-6.png" alt=""/>
-            </div>
-        </div>
-    </div>
-</section> -->
-
 
 <section class="check_now_area check_now_box full_widget_check">
     <div class="container">

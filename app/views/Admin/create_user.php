@@ -70,7 +70,7 @@ if (isset($_POST['submit'])) {
                         <select class="form-control selectric" name="role">
                             <option value="" selected disabled hidden>Choose role</option>
                             <option value="Administrator">Administrator</option>
-                            <option value="Author/Content Writer">Author/Content Writer</option>
+                            <option value="Doctor/Content Writer">Doctor/Content Writer</option>
                         </select>
                     </div>
                 </div>

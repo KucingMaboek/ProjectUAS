@@ -1,4 +1,3 @@
-
 <body id="page-top">
 
 <!-- Page Wrapper -->
@@ -7,7 +6,7 @@
     <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
         <!-- Sidebar - Brand -->
-        <a class="sidebar-brand d-flex align-items-center justify-content-center" href="<?=BASEURL;?>/Home">
+        <a class="sidebar-brand d-flex align-items-center justify-content-center" href="<?= BASEURL; ?>/Home">
             <img src="<?= BASEURL; ?>/assets/images/check-3.png"
                  srcset="<?= BASEURL; ?>/assets/images/logo-2-2x.png 2x" alt=""/>
             <div class="sidebar-brand-text mx-3">epidemic</sup></div>
@@ -17,9 +16,9 @@
         <hr class="sidebar-divider my-0">
 
         <!-- Nav Item - Dashboard -->
-        <li class="nav-item active">
-            <a class="nav-link" href="<?=BASEURL;?>/Admin">
-                <i class="fas fa-fw fa-tachometer-alt"></i>
+        <li class="nav-item">
+            <a class="nav-link" href="<?= BASEURL; ?>/Admin">
+                <i class="fas fa-tachometer-alt"></i>
                 <span>Dashboard</span></a>
         </li>
 
@@ -31,23 +30,25 @@
             Management
         </div>
 
-        <!-- Nav Item - Users Collapse Menu -->
-        <li class="nav-item">
-            <a class="nav-link collapsed" href="users" data-toggle="collapse" data-target="#collapseUsers"
-               aria-expanded="true" aria-controls="collapseUsers">
-                <i class="fas fa-user"></i>
-                <span>Users</span>
-            </a>
-            <div id="collapseUsers" class="collapse" aria-labelledby="headingUsers" data-parent="#accordionSidebar">
-                <div class="bg-white py-2 collapse-inner rounded">
-                    <h6 class="collapse-header">Users Option Menu:</h6>
-                    <a class="collapse-item" href="<?=BASEURL;?>/Admin/users_list">Users List</a>
-                    <a class="collapse-item" href="<?=BASEURL;?>/Admin/create_user">Add New User</a>
+        <?php
+        if ($_SESSION['user']['role'] == 'Administrator') { ?>
+            <!-- Nav Item - Users Collapse Menu -->
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="users" data-toggle="collapse" data-target="#collapseUsers"
+                   aria-expanded="true" aria-controls="collapseUsers">
+                    <i class="fas fa-user"></i>
+                    <span>Users</span>
+                </a>
+                <div id="collapseUsers" class="collapse" aria-labelledby="headingUsers" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">Users Option Menu:</h6>
+                        <a class="collapse-item" href="<?= BASEURL; ?>/Admin/users_list">Users List</a>
+                        <a class="collapse-item" href="<?= BASEURL; ?>/Admin/create_user">Add New User</a>
+                    </div>
                 </div>
-            </div>
-        </li>
-
-        <!-- Nav Item - Users Collapse Menu -->
+            </li>
+        <?php } ?>
+        <!-- Nav Item - Blogs Collapse Menu -->
         <li class="nav-item">
             <a class="nav-link collapsed" href="blogs" data-toggle="collapse" data-target="#collapseBlogs"
                aria-expanded="true" aria-controls="collapseTwo">
@@ -57,15 +58,34 @@
             <div id="collapseBlogs" class="collapse" aria-labelledby="headingBlogs" data-parent="#accordionSidebar">
                 <div class="bg-white py-2 collapse-inner rounded">
                     <h6 class="collapse-header">Blogs Option Menu:</h6>
-                    <a class="collapse-item" href="<?=BASEURL;?>/Admin/blogs_list">Blogs List</a>
-                    <a class="collapse-item" href="<?=BASEURL;?>/Admin/create_blog">Add New Blog</a>
+                    <a class="collapse-item" href="<?= BASEURL; ?>/Admin/blogs_list">Blogs List</a>
+                    <a class="collapse-item" href="<?= BASEURL; ?>/Admin/create_blog">Add New Blog</a>
                 </div>
             </div>
         </li>
 
+        <li class="nav-item">
+            <a class="nav-link collapsed" href="<?= BASEURL; ?>/Admin/appointments_list">
+                <i class="fas fa-calendar"></i>
+                <span>Appointment</span></a>
+        </li>
+
+        <!-- Divider -->
+        <hr class="sidebar-divider">
+
+        <!-- Heading -->
+        <div class="sidebar-heading">
+            Setting
+        </div>
+
+        <li class="nav-item">
+            <a class="nav-link collapsed" href="<?= BASEURL; ?>/Admin/edit_profile">
+                <i class="fas fa-user-circle"></i>
+                <span>Profile</span></a>
+        </li>
+
         <!-- Divider -->
         <hr class="sidebar-divider d-none d-md-block">
-
 
         <!-- Sidebar Toggler (Sidebar) -->
         <div class="text-center d-none d-md-inline">
@@ -73,6 +93,7 @@
         </div>
 
     </ul>
+
     <!-- End of Sidebar -->
 
     <!-- Content Wrapper -->

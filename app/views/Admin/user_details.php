@@ -74,7 +74,7 @@ if (isset($_POST['submit'])) {
                         <select class="form-control selectric" name="role">
                             <option value="" selected disabled hidden>Choose role</option>
                             <option value="Administrator">Administrator</option>
-                            <option value="Author/Content Writer">Author/Content Writer</option>
+                                <option value="Doctor/Content Writer">Doctor/Content Writer</option>
                         </select>
                     </div>
                 </div>
@@ -115,7 +115,7 @@ if (isset($_POST['submit'])) {
                 <div class="form-group row mb-4">
                     <label class="col-form-label text-md-right col-12 col-md-3 col-lg-3"></label>
                     <div class="col-sm-12 col-md-7">
-                        <input type="submit" class="btn btn-info btn-block" name="submit" value="Update"/>
+                        <input type="submit" class="btn btn-info btn-block" name="submit" value="Save"/>
                         <p class="text-center"><?= $feedbackMsg; ?></p>
                     </div>
                 </div>

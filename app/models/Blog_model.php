@@ -16,9 +16,16 @@ class Blog_model{
         return $this->db->resultSet();
     }
 
+    public function getAllBlogsByAuthId($authId)
+    {
+        $this->db->query('SELECT * FROM ' . $this->table. ' WHERE authId = :authId');
+        $this->db->bind('authId',$authId);
+        return $this->db->resultSet();
+    }
+
     public function getBlogsByPage($mulai, $halaman)
     {
-        $this->db->query('SELECT * FROM ' . $this->table . ' LIMIT :mulai , :halaman');
+        $this->db->query('SELECT * FROM ' . $this->table . ' ORDER BY `id` DESC LIMIT :mulai , :halaman');
         $this->db->bind('mulai',$mulai);
         $this->db->bind('halaman',$halaman);
         return $this->db->resultSet();
@@ -41,12 +48,13 @@ class Blog_model{
         $this->db->execute();
     }
 
-    public function updateBlog($nim, $nama, $jurusan)
+    public function updateBlog($title, $category, $content, $id)
     {
-        $this->db->query('UPDATE ' . $this->table . ' SET nama=:nama, jurusan=:jurusan WHERE nim=:nim');
-        $this->db->bind('nim',$nim);
-        $this->db->bind('nama',$nama);
-        $this->db->bind('jurusan',$jurusan);
+        $this->db->query('UPDATE ' . $this->table . ' SET title=:title, category=:category, content=:content WHERE id=:id');
+        $this->db->bind('title',$title);
+        $this->db->bind('category',$category);
+        $this->db->bind('content',$content);
+        $this->db->bind('id',$id);
         $this->db->execute();
     }
 
