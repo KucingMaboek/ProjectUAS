@@ -6,7 +6,7 @@
             <ul class="nav justify-content-center wow fadeInUp" data-wow-delay="0.3s">
                 <li><a href="<?= BASEURL; ?>/Home">Beranda</a></li>
                 <li><a href="<?= BASEURL; ?>/Prevention">Pencegahan</a></li>
-                <li><a href="#">Bagaimana cara mencegah COVID-19?</a></li>
+                <li><a href="<?= BASEURL; ?>/Prevention/faq">Bagaimana cara mencegah COVID-19?</a></li>
             </ul>
             <img class="img-fluid" src="<?= BASEURL; ?>/assets/images/breadcrumb/prevention-persong.png" alt="">
         </div>
@@ -17,7 +17,7 @@
 <section class="protect_yourself_area p_100">
     <div class="container">
         <div class="main_title_2 text-center">
-            <h2 class="wow fadeInUp">Jaga <span>social distances</span> agar tetap aman</h2>
+            <h2 class="wow fadeInUp">Jaga <span>jarak</span> agar tetap aman</h2>
             <p class="wow fadeInUp" data-wow-delay="0.2s">Dengan jumlah kasus COVID-19 yang meningkat
                 setiap harinya, psikolog memeberikan wawasan tentang cara memisahkan diri dari orang lain
                 dengan tetap mendapatkan dukungan sosial yang Anda butuhkan.</p>
@@ -185,7 +185,7 @@
                             di dekatnya atau mungkin terhirup ke dalam paru-paru.
                             Beberapa prosedur medis seperti intubasi dan ...
                         </p>
-                        <a class="green_btn" href="#"><i class="linearicons-shield-check"></i> Baca Lebih Lanjut terkait Pencegahan</a>
+                        <a class="green_btn" href="<?= BASEURL; ?>/Prevention/faq"><i class="linearicons-shield-check"></i> Baca selengkapnya terkait Pencegahan</a>
                     </div>
                 </div>
             </div>

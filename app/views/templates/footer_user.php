@@ -19,17 +19,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <!-- <div class="media">
-                                <div class="d-flex">
-                                    <i class="linearicons-map-marker"></i>
-                                </div>
-                                <div class="media-body">
-                                    <p>
-                                        78-66 State Route 33,<br/>
-                                        Brighton VIC 3186, AUSTRALIA
-                                    </p>
-                                </div>
-                            </div> -->
+
                             <div class="media">
                                 <div class="d-flex">
                                     <i class="fab fa-skype"></i>
@@ -40,19 +30,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <!-- <div class="media">
-                                <div class="d-flex">
-                                    <i class="linearicons-envelope-open"></i>
-                                </div>
-                                <div class="media-body">
-                                    <a href="http://paul-themes.com/cdn-cgi/l/email-protection#ee9c818d85978c8adfd7d7dbae89838f8782c08d8183">
-                                        <h6>Email: <span><span class="__cf_email__"
-                                                               data-cfemail="8fe7e6cfeaffe6ebeae2e6eca1e0fde8">[email&#160;protected]</span></span>
-                                        </h6>
-                                    </a>
-                                </div>
-                            </div>
-                        </div> -->
+
                     </aside>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6 col-6">
@@ -62,19 +40,13 @@
                         </div>
                         <ul class="nav flex-column">
                             <li>
-                                <a href="#"><i class="linearicons-radio-button"></i>Gejala Khusus</a>
+                                <a href="<?= BASEURL; ?>/Prevention/symptoms"><i class="linearicons-radio-button"></i>Gejala Umum</a>
                             </li>
                             <li>
-                                <a href="#"><i class="linearicons-radio-button"></i>Cara Mencegah</a>
-                            </li>
-                            <!-- <li>
-                                <a href="#"><i class="linearicons-radio-button"></i>Cara Penularan</a>
+                                <a href="<?= BASEURL; ?>/Prevention/"><i class="linearicons-radio-button"></i>Cara Mencegah</a>
                             </li>
                             <li>
-                                <a href="#"><i class="linearicons-radio-button"></i>Temui Dokter Kami</a>
-                            </li> -->
-                            <li>
-                                <a href="#"><i class="linearicons-radio-button"></i>Terkait
+                                <a href="<?= BASEURL; ?>/Prevention/faq"><i class="linearicons-radio-button"></i>Terkait
                                     Virus Corona</a>
                             </li>
                         </ul>
@@ -86,12 +58,6 @@
                             <h3>Perlindungan</h3>
                         </div>
                         <ul class="nav flex-column">
-                            <!-- <li>
-                                <a href="#"><i class="linearicons-radio-button"></i>Gejala Khusus</a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="linearicons-radio-button"></i>Cara Mencegah</a>
-                            </li> -->
                             <li>
                                 <a href="#"><i class="linearicons-radio-button"></i>Cara Penularan</a>
                             </li>
@@ -99,7 +65,7 @@
                                 <a href="#"><i class="linearicons-radio-button"></i>Protokol Isolasi Mandiri</a>
                             </li>
                             <li>
-                                <a href="#"><i class="linearicons-radio-button"></i>Temui Dokter Kami</a>
+                                <a href="<?= BASEURL; ?>/Pages/doctors"><i class="linearicons-radio-button"></i>Temui Dokter Kami</a>
                             </li>
                         </ul>
                     </aside>
@@ -110,24 +76,24 @@
                             <h3>Tentang</h3>
                         </div>
                         <p>
-                            Penyakit ini pertama kali ditemukan tahun 2019 di Wuhan, Ibukota Hubei,
+                            Penyakit ini pertama kali ditemukan tahun 2019 di Wuhan, ibukota Hubei,
                             China dan menyebar secara global menjadi pandemi 2019-2020.
                         </p>
                         <ul class="nav">
                             <li>
-                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
                             </li>
                             <li>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
                             </li>
                             <li>
-                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
                             </li>
                             <li>
-                                <a href="#"><i class="fab fa-youtube"></i></a>
+                                <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
                             </li>
                             <li>
-                                <a href="#"><i class="fab fa-vimeo-v"></i></a>
+                                <a href="https://www.vimeo.com/"><i class="fab fa-vimeo-v"></i></a>
                             </li>
                         </ul>
                     </aside>
@@ -180,11 +146,9 @@
         </div>
     </div>
 </div>
-<script src="<?= BASEURL; ?>/js/bootstrap.js"></script>
 <script src="<?= BASEURL; ?>/js/jquery-3.4.1.min.js"></script>
+<script src="<?= BASEURL; ?>/js/bootstrap.js"></script>
 <script src="<?= BASEURL; ?>/js/popper.min.js"></script>
-<script src="<?= BASEURL; ?>/js/jquery.validate.min.js"></script>
-<script src="<?= BASEURL; ?>/js/theme.js"></script>
 <script src="<?= BASEURL; ?>/vendors/corona-live/dashboard.js"></script>
 <script src="<?= BASEURL; ?>/vendors/isotop/imagesloaded.pkgd.min.js"></script>
 <script src="<?= BASEURL; ?>/vendors/isotop/isotope.pkgd.min.js"></script>

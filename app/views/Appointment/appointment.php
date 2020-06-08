@@ -243,7 +243,8 @@ if (isset($_POST['submit'])) {
                 </div>
             </div>
             <div class="right">
-                <a class="icon_btn" href="#">Cek Sekarang <i class="linearicons-arrow-right"></i></a>
+                <a class="icon_btn" href="<?= BASEURL; ?>/Prevention/symptom_checker">Cek Sekarang <i
+                            class="linearicons-arrow-right"></i></a>
             </div>
         </div>
     </div>

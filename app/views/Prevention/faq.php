@@ -515,231 +515,113 @@
                             atau bersin. Tetesan pernapasan mungkin dihasilkan selama
                             bernafas tetapi virus umumnya tidak mengudara.
                         </p>
-                        <!-- <p>
-                            The speed of transmission is an important difference between
-                            the two viruses. Influenza typically has a shorter
-                            incubation period (the time from infection to appearance of
-                            symptoms) than COVID-19. This means that influenza can
-                            spread faster than COVID-19.
-                        </p>
-                        <p>
-                            While the range of symptoms for the two viruses is similar,
-                            the fraction with severe disease appears to be higher for
-                            COVID-19. While most people have mild symptoms,
-                            approximately 15% of people have severe infections and 5%
-                            require intensive care in a hospital ICU. The proportions of
-                            severe and critical COVID-19 infections are higher than for
-                            influenza infections.
-                        </p> -->
                     </div>
                     <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                         <h4>What is the COVID-19 virus?</h4>
                         <p>
-                            The first symptoms of COVID-19 and influenza (flu)
-                            infections are often very similar. They both cause fever and
-                            similar respiratory symptoms, which can then range from mild
-                            through to severe disease, and sometimes can be fatal.
+                            Gejala awal infeksi COVID-19 dan influenza (flu)
+                            seringkali sangat mirip. Keduanya menyebabkan demam
+                            dan gejala pernapasan yang serupa ringan hingga parah
+                            dan terkadang dapat berakibat fatal. Kedua virus juga
+                            ditularkan dengan cara yang sama, yaitu batuk, bersin
+                            atau melalui kontak tangan, permukaan, maupun benda
+                            yang terkontaminasi virus.
                         </p>
                         <p>
-                            Both viruses are also transmitted in the same way, by
-                            coughing or sneezing, or by contact with hands, surfaces or
-                            objects contaminated with the virus. As a result, the same
-                            public health measures, such as hand hygiene (hand washing),
-                            good respiratory etiquette (coughing into your elbow or into
-                            a tissue and immediately disposing of the tissue) and good
-                            household cleaning are important actions to prevent both
-                            infections.
-                        </p>
-                        <p>
-                            The speed of transmission is an important difference between
-                            the two viruses. Influenza typically has a shorter
-                            incubation period (the time from infection to appearance of
-                            symptoms) than COVID-19. This means that influenza can
-                            spread faster than COVID-19.
-                        </p>
-                        <p>
-                            While the range of symptoms for the two viruses is similar,
-                            the fraction with severe disease appears to be higher for
-                            COVID-19. While most people have mild symptoms,
-                            approximately 15% of people have severe infections and 5%
-                            require intensive care in a hospital ICU. The proportions of
-                            severe and critical COVID-19 infections are higher than for
-                            influenza infections.
+                            Virus ini utamanya menyebar selama interaksi dekat dan melalui
+                            tetesan pernapasan yang dihasilkan ketika orang batuk
+                            atau bersin. Tetesan pernapasan mungkin dihasilkan selama
+                            bernafas tetapi virus umumnya tidak mengudara.
                         </p>
                     </div>
                     <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
                         <h4>What is the difference between COVID-19 and the flu?</h4>
                         <p>
-                            The first symptoms of COVID-19 and influenza (flu)
-                            infections are often very similar. They both cause fever and
-                            similar respiratory symptoms, which can then range from mild
-                            through to severe disease, and sometimes can be fatal.
+                            Gejala awal infeksi COVID-19 dan influenza (flu)
+                            seringkali sangat mirip. Keduanya menyebabkan demam
+                            dan gejala pernapasan yang serupa ringan hingga parah
+                            dan terkadang dapat berakibat fatal. Kedua virus juga
+                            ditularkan dengan cara yang sama, yaitu batuk, bersin
+                            atau melalui kontak tangan, permukaan, maupun benda
+                            yang terkontaminasi virus.
                         </p>
                         <p>
-                            Both viruses are also transmitted in the same way, by
-                            coughing or sneezing, or by contact with hands, surfaces or
-                            objects contaminated with the virus. As a result, the same
-                            public health measures, such as hand hygiene (hand washing),
-                            good respiratory etiquette (coughing into your elbow or into
-                            a tissue and immediately disposing of the tissue) and good
-                            household cleaning are important actions to prevent both
-                            infections.
-                        </p>
-                        <p>
-                            The speed of transmission is an important difference between
-                            the two viruses. Influenza typically has a shorter
-                            incubation period (the time from infection to appearance of
-                            symptoms) than COVID-19. This means that influenza can
-                            spread faster than COVID-19.
-                        </p>
-                        <p>
-                            While the range of symptoms for the two viruses is similar,
-                            the fraction with severe disease appears to be higher for
-                            COVID-19. While most people have mild symptoms,
-                            approximately 15% of people have severe infections and 5%
-                            require intensive care in a hospital ICU. The proportions of
-                            severe and critical COVID-19 infections are higher than for
-                            influenza infections.
+                            Virus ini utamanya menyebar selama interaksi dekat dan melalui
+                            tetesan pernapasan yang dihasilkan ketika orang batuk
+                            atau bersin. Tetesan pernapasan mungkin dihasilkan selama
+                            bernafas tetapi virus umumnya tidak mengudara.
                         </p>
                     </div>
                     <div class="tab-pane fade" id="four" role="tabpanel" aria-labelledby="four-tab">
                         <h4>How is the virus spread?</h4>
                         <p>
-                            The first symptoms of COVID-19 and influenza (flu)
-                            infections are often very similar. They both cause fever and
-                            similar respiratory symptoms, which can then range from mild
-                            through to severe disease, and sometimes can be fatal.
+                            Gejala awal infeksi COVID-19 dan influenza (flu)
+                            seringkali sangat mirip. Keduanya menyebabkan demam
+                            dan gejala pernapasan yang serupa ringan hingga parah
+                            dan terkadang dapat berakibat fatal. Kedua virus juga
+                            ditularkan dengan cara yang sama, yaitu batuk, bersin
+                            atau melalui kontak tangan, permukaan, maupun benda
+                            yang terkontaminasi virus.
                         </p>
                         <p>
-                            Both viruses are also transmitted in the same way, by
-                            coughing or sneezing, or by contact with hands, surfaces or
-                            objects contaminated with the virus. As a result, the same
-                            public health measures, such as hand hygiene (hand washing),
-                            good respiratory etiquette (coughing into your elbow or into
-                            a tissue and immediately disposing of the tissue) and good
-                            household cleaning are important actions to prevent both
-                            infections.
-                        </p>
-                        <p>
-                            The speed of transmission is an important difference between
-                            the two viruses. Influenza typically has a shorter
-                            incubation period (the time from infection to appearance of
-                            symptoms) than COVID-19. This means that influenza can
-                            spread faster than COVID-19.
-                        </p>
-                        <p>
-                            While the range of symptoms for the two viruses is similar,
-                            the fraction with severe disease appears to be higher for
-                            COVID-19. While most people have mild symptoms,
-                            approximately 15% of people have severe infections and 5%
-                            require intensive care in a hospital ICU. The proportions of
-                            severe and critical COVID-19 infections are higher than for
-                            influenza infections.
+                            Virus ini utamanya menyebar selama interaksi dekat dan melalui
+                            tetesan pernapasan yang dihasilkan ketika orang batuk
+                            atau bersin. Tetesan pernapasan mungkin dihasilkan selama
+                            bernafas tetapi virus umumnya tidak mengudara.
                         </p>
                     </div>
                     <div class="tab-pane fade" id="five" role="tabpanel" aria-labelledby="five-tab">
                         <h4>What are the symptoms?</h4>
                         <p>
-                            The first symptoms of COVID-19 and influenza (flu)
-                            infections are often very similar. They both cause fever and
-                            similar respiratory symptoms, which can then range from mild
-                            through to severe disease, and sometimes can be fatal.
+                            Gejala awal infeksi COVID-19 dan influenza (flu)
+                            seringkali sangat mirip. Keduanya menyebabkan demam
+                            dan gejala pernapasan yang serupa ringan hingga parah
+                            dan terkadang dapat berakibat fatal. Kedua virus juga
+                            ditularkan dengan cara yang sama, yaitu batuk, bersin
+                            atau melalui kontak tangan, permukaan, maupun benda
+                            yang terkontaminasi virus.
                         </p>
                         <p>
-                            Both viruses are also transmitted in the same way, by
-                            coughing or sneezing, or by contact with hands, surfaces or
-                            objects contaminated with the virus. As a result, the same
-                            public health measures, such as hand hygiene (hand washing),
-                            good respiratory etiquette (coughing into your elbow or into
-                            a tissue and immediately disposing of the tissue) and good
-                            household cleaning are important actions to prevent both
-                            infections.
-                        </p>
-                        <p>
-                            The speed of transmission is an important difference between
-                            the two viruses. Influenza typically has a shorter
-                            incubation period (the time from infection to appearance of
-                            symptoms) than COVID-19. This means that influenza can
-                            spread faster than COVID-19.
-                        </p>
-                        <p>
-                            While the range of symptoms for the two viruses is similar,
-                            the fraction with severe disease appears to be higher for
-                            COVID-19. While most people have mild symptoms,
-                            approximately 15% of people have severe infections and 5%
-                            require intensive care in a hospital ICU. The proportions of
-                            severe and critical COVID-19 infections are higher than for
-                            influenza infections.
+                            Virus ini utamanya menyebar selama interaksi dekat dan melalui
+                            tetesan pernapasan yang dihasilkan ketika orang batuk
+                            atau bersin. Tetesan pernapasan mungkin dihasilkan selama
+                            bernafas tetapi virus umumnya tidak mengudara.
                         </p>
                     </div>
                     <div class="tab-pane fade" id="home2" role="tabpanel" aria-labelledby="home2-tab">
                         <h4>What are coronaviruses? 1</h4>
                         <p>
-                            The first symptoms of COVID-19 and influenza (flu)
-                            infections are often very similar. They both cause fever and
-                            similar respiratory symptoms, which can then range from mild
-                            through to severe disease, and sometimes can be fatal.
+                            Gejala awal infeksi COVID-19 dan influenza (flu)
+                            seringkali sangat mirip. Keduanya menyebabkan demam
+                            dan gejala pernapasan yang serupa ringan hingga parah
+                            dan terkadang dapat berakibat fatal. Kedua virus juga
+                            ditularkan dengan cara yang sama, yaitu batuk, bersin
+                            atau melalui kontak tangan, permukaan, maupun benda
+                            yang terkontaminasi virus.
                         </p>
                         <p>
-                            Both viruses are also transmitted in the same way, by
-                            coughing or sneezing, or by contact with hands, surfaces or
-                            objects contaminated with the virus. As a result, the same
-                            public health measures, such as hand hygiene (hand washing),
-                            good respiratory etiquette (coughing into your elbow or into
-                            a tissue and immediately disposing of the tissue) and good
-                            household cleaning are important actions to prevent both
-                            infections.
-                        </p>
-                        <p>
-                            The speed of transmission is an important difference between
-                            the two viruses. Influenza typically has a shorter
-                            incubation period (the time from infection to appearance of
-                            symptoms) than COVID-19. This means that influenza can
-                            spread faster than COVID-19.
-                        </p>
-                        <p>
-                            While the range of symptoms for the two viruses is similar,
-                            the fraction with severe disease appears to be higher for
-                            COVID-19. While most people have mild symptoms,
-                            approximately 15% of people have severe infections and 5%
-                            require intensive care in a hospital ICU. The proportions of
-                            severe and critical COVID-19 infections are higher than for
-                            influenza infections.
+                            Virus ini utamanya menyebar selama interaksi dekat dan melalui
+                            tetesan pernapasan yang dihasilkan ketika orang batuk
+                            atau bersin. Tetesan pernapasan mungkin dihasilkan selama
+                            bernafas tetapi virus umumnya tidak mengudara.
                         </p>
                     </div>
                     <div class="tab-pane fade" id="profile2" role="tabpanel" aria-labelledby="profile2-tab">
                         <h4>What is the COVID-19 virus? 2</h4>
                         <p>
-                            The first symptoms of COVID-19 and influenza (flu)
-                            infections are often very similar. They both cause fever and
-                            similar respiratory symptoms, which can then range from mild
-                            through to severe disease, and sometimes can be fatal.
+                            Gejala awal infeksi COVID-19 dan influenza (flu)
+                            seringkali sangat mirip. Keduanya menyebabkan demam
+                            dan gejala pernapasan yang serupa ringan hingga parah
+                            dan terkadang dapat berakibat fatal. Kedua virus juga
+                            ditularkan dengan cara yang sama, yaitu batuk, bersin
+                            atau melalui kontak tangan, permukaan, maupun benda
+                            yang terkontaminasi virus.
                         </p>
                         <p>
-                            Both viruses are also transmitted in the same way, by
-                            coughing or sneezing, or by contact with hands, surfaces or
-                            objects contaminated with the virus. As a result, the same
-                            public health measures, such as hand hygiene (hand washing),
-                            good respiratory etiquette (coughing into your elbow or into
-                            a tissue and immediately disposing of the tissue) and good
-                            household cleaning are important actions to prevent both
-                            infections.
-                        </p>
-                        <p>
-                            The speed of transmission is an important difference between
-                            the two viruses. Influenza typically has a shorter
-                            incubation period (the time from infection to appearance of
-                            symptoms) than COVID-19. This means that influenza can
-                            spread faster than COVID-19.
-                        </p>
-                        <p>
-                            While the range of symptoms for the two viruses is similar,
-                            the fraction with severe disease appears to be higher for
-                            COVID-19. While most people have mild symptoms,
-                            approximately 15% of people have severe infections and 5%
-                            require intensive care in a hospital ICU. The proportions of
-                            severe and critical COVID-19 infections are higher than for
-                            influenza infections.
+                            Virus ini utamanya menyebar selama interaksi dekat dan melalui
+                            tetesan pernapasan yang dihasilkan ketika orang batuk
+                            atau bersin. Tetesan pernapasan mungkin dihasilkan selama
+                            bernafas tetapi virus umumnya tidak mengudara.
                         </p>
                     </div>
                     <div class="tab-pane fade" id="contact2" role="tabpanel" aria-labelledby="contact2-tab">
@@ -747,176 +629,91 @@
                             What is the difference between COVID-19 and the flu? 3
                         </h4>
                         <p>
-                            The first symptoms of COVID-19 and influenza (flu)
-                            infections are often very similar. They both cause fever and
-                            similar respiratory symptoms, which can then range from mild
-                            through to severe disease, and sometimes can be fatal.
+                            Gejala awal infeksi COVID-19 dan influenza (flu)
+                            seringkali sangat mirip. Keduanya menyebabkan demam
+                            dan gejala pernapasan yang serupa ringan hingga parah
+                            dan terkadang dapat berakibat fatal. Kedua virus juga
+                            ditularkan dengan cara yang sama, yaitu batuk, bersin
+                            atau melalui kontak tangan, permukaan, maupun benda
+                            yang terkontaminasi virus.
                         </p>
                         <p>
-                            Both viruses are also transmitted in the same way, by
-                            coughing or sneezing, or by contact with hands, surfaces or
-                            objects contaminated with the virus. As a result, the same
-                            public health measures, such as hand hygiene (hand washing),
-                            good respiratory etiquette (coughing into your elbow or into
-                            a tissue and immediately disposing of the tissue) and good
-                            household cleaning are important actions to prevent both
-                            infections.
-                        </p>
-                        <p>
-                            The speed of transmission is an important difference between
-                            the two viruses. Influenza typically has a shorter
-                            incubation period (the time from infection to appearance of
-                            symptoms) than COVID-19. This means that influenza can
-                            spread faster than COVID-19.
-                        </p>
-                        <p>
-                            While the range of symptoms for the two viruses is similar,
-                            the fraction with severe disease appears to be higher for
-                            COVID-19. While most people have mild symptoms,
-                            approximately 15% of people have severe infections and 5%
-                            require intensive care in a hospital ICU. The proportions of
-                            severe and critical COVID-19 infections are higher than for
-                            influenza infections.
+                            Virus ini utamanya menyebar selama interaksi dekat dan melalui
+                            tetesan pernapasan yang dihasilkan ketika orang batuk
+                            atau bersin. Tetesan pernapasan mungkin dihasilkan selama
+                            bernafas tetapi virus umumnya tidak mengudara.
                         </p>
                     </div>
                     <div class="tab-pane fade" id="four2" role="tabpanel" aria-labelledby="four2-tab">
                         <h4>How is the virus spread? 4</h4>
                         <p>
-                            The first symptoms of COVID-19 and influenza (flu)
-                            infections are often very similar. They both cause fever and
-                            similar respiratory symptoms, which can then range from mild
-                            through to severe disease, and sometimes can be fatal.
+                            Gejala awal infeksi COVID-19 dan influenza (flu)
+                            seringkali sangat mirip. Keduanya menyebabkan demam
+                            dan gejala pernapasan yang serupa ringan hingga parah
+                            dan terkadang dapat berakibat fatal. Kedua virus juga
+                            ditularkan dengan cara yang sama, yaitu batuk, bersin
+                            atau melalui kontak tangan, permukaan, maupun benda
+                            yang terkontaminasi virus.
                         </p>
                         <p>
-                            Both viruses are also transmitted in the same way, by
-                            coughing or sneezing, or by contact with hands, surfaces or
-                            objects contaminated with the virus. As a result, the same
-                            public health measures, such as hand hygiene (hand washing),
-                            good respiratory etiquette (coughing into your elbow or into
-                            a tissue and immediately disposing of the tissue) and good
-                            household cleaning are important actions to prevent both
-                            infections.
-                        </p>
-                        <p>
-                            The speed of transmission is an important difference between
-                            the two viruses. Influenza typically has a shorter
-                            incubation period (the time from infection to appearance of
-                            symptoms) than COVID-19. This means that influenza can
-                            spread faster than COVID-19.
-                        </p>
-                        <p>
-                            While the range of symptoms for the two viruses is similar,
-                            the fraction with severe disease appears to be higher for
-                            COVID-19. While most people have mild symptoms,
-                            approximately 15% of people have severe infections and 5%
-                            require intensive care in a hospital ICU. The proportions of
-                            severe and critical COVID-19 infections are higher than for
-                            influenza infections.
+                            Virus ini utamanya menyebar selama interaksi dekat dan melalui
+                            tetesan pernapasan yang dihasilkan ketika orang batuk
+                            atau bersin. Tetesan pernapasan mungkin dihasilkan selama
+                            bernafas tetapi virus umumnya tidak mengudara.
                         </p>
                     </div>
                     <div class="tab-pane fade" id="five2" role="tabpanel" aria-labelledby="five2-tab">
                         <h4>What are the symptoms? 5</h4>
                         <p>
-                            The first symptoms of COVID-19 and influenza (flu)
-                            infections are often very similar. They both cause fever and
-                            similar respiratory symptoms, which can then range from mild
-                            through to severe disease, and sometimes can be fatal.
+                            Gejala awal infeksi COVID-19 dan influenza (flu)
+                            seringkali sangat mirip. Keduanya menyebabkan demam
+                            dan gejala pernapasan yang serupa ringan hingga parah
+                            dan terkadang dapat berakibat fatal. Kedua virus juga
+                            ditularkan dengan cara yang sama, yaitu batuk, bersin
+                            atau melalui kontak tangan, permukaan, maupun benda
+                            yang terkontaminasi virus.
                         </p>
                         <p>
-                            Both viruses are also transmitted in the same way, by
-                            coughing or sneezing, or by contact with hands, surfaces or
-                            objects contaminated with the virus. As a result, the same
-                            public health measures, such as hand hygiene (hand washing),
-                            good respiratory etiquette (coughing into your elbow or into
-                            a tissue and immediately disposing of the tissue) and good
-                            household cleaning are important actions to prevent both
-                            infections.
-                        </p>
-                        <p>
-                            The speed of transmission is an important difference between
-                            the two viruses. Influenza typically has a shorter
-                            incubation period (the time from infection to appearance of
-                            symptoms) than COVID-19. This means that influenza can
-                            spread faster than COVID-19.
-                        </p>
-                        <p>
-                            While the range of symptoms for the two viruses is similar,
-                            the fraction with severe disease appears to be higher for
-                            COVID-19. While most people have mild symptoms,
-                            approximately 15% of people have severe infections and 5%
-                            require intensive care in a hospital ICU. The proportions of
-                            severe and critical COVID-19 infections are higher than for
-                            influenza infections.
+                            Virus ini utamanya menyebar selama interaksi dekat dan melalui
+                            tetesan pernapasan yang dihasilkan ketika orang batuk
+                            atau bersin. Tetesan pernapasan mungkin dihasilkan selama
+                            bernafas tetapi virus umumnya tidak mengudara.
                         </p>
                     </div>
                     <div class="tab-pane fade" id="home3" role="tabpanel" aria-labelledby="home3-tab">
                         <h4>What are coronaviruses? 1</h4>
                         <p>
-                            The first symptoms of COVID-19 and influenza (flu)
-                            infections are often very similar. They both cause fever and
-                            similar respiratory symptoms, which can then range from mild
-                            through to severe disease, and sometimes can be fatal.
+                            Gejala awal infeksi COVID-19 dan influenza (flu)
+                            seringkali sangat mirip. Keduanya menyebabkan demam
+                            dan gejala pernapasan yang serupa ringan hingga parah
+                            dan terkadang dapat berakibat fatal. Kedua virus juga
+                            ditularkan dengan cara yang sama, yaitu batuk, bersin
+                            atau melalui kontak tangan, permukaan, maupun benda
+                            yang terkontaminasi virus.
                         </p>
                         <p>
-                            Both viruses are also transmitted in the same way, by
-                            coughing or sneezing, or by contact with hands, surfaces or
-                            objects contaminated with the virus. As a result, the same
-                            public health measures, such as hand hygiene (hand washing),
-                            good respiratory etiquette (coughing into your elbow or into
-                            a tissue and immediately disposing of the tissue) and good
-                            household cleaning are important actions to prevent both
-                            infections.
-                        </p>
-                        <p>
-                            The speed of transmission is an important difference between
-                            the two viruses. Influenza typically has a shorter
-                            incubation period (the time from infection to appearance of
-                            symptoms) than COVID-19. This means that influenza can
-                            spread faster than COVID-19.
-                        </p>
-                        <p>
-                            While the range of symptoms for the two viruses is similar,
-                            the fraction with severe disease appears to be higher for
-                            COVID-19. While most people have mild symptoms,
-                            approximately 15% of people have severe infections and 5%
-                            require intensive care in a hospital ICU. The proportions of
-                            severe and critical COVID-19 infections are higher than for
-                            influenza infections.
+                            Virus ini utamanya menyebar selama interaksi dekat dan melalui
+                            tetesan pernapasan yang dihasilkan ketika orang batuk
+                            atau bersin. Tetesan pernapasan mungkin dihasilkan selama
+                            bernafas tetapi virus umumnya tidak mengudara.
                         </p>
                     </div>
                     <div class="tab-pane fade" id="profile3" role="tabpanel" aria-labelledby="profile3-tab">
                         <h4>What is the COVID-19 virus? 2</h4>
                         <p>
-                            The first symptoms of COVID-19 and influenza (flu)
-                            infections are often very similar. They both cause fever and
-                            similar respiratory symptoms, which can then range from mild
-                            through to severe disease, and sometimes can be fatal.
+                            Gejala awal infeksi COVID-19 dan influenza (flu)
+                            seringkali sangat mirip. Keduanya menyebabkan demam
+                            dan gejala pernapasan yang serupa ringan hingga parah
+                            dan terkadang dapat berakibat fatal. Kedua virus juga
+                            ditularkan dengan cara yang sama, yaitu batuk, bersin
+                            atau melalui kontak tangan, permukaan, maupun benda
+                            yang terkontaminasi virus.
                         </p>
                         <p>
-                            Both viruses are also transmitted in the same way, by
-                            coughing or sneezing, or by contact with hands, surfaces or
-                            objects contaminated with the virus. As a result, the same
-                            public health measures, such as hand hygiene (hand washing),
-                            good respiratory etiquette (coughing into your elbow or into
-                            a tissue and immediately disposing of the tissue) and good
-                            household cleaning are important actions to prevent both
-                            infections.
-                        </p>
-                        <p>
-                            The speed of transmission is an important difference between
-                            the two viruses. Influenza typically has a shorter
-                            incubation period (the time from infection to appearance of
-                            symptoms) than COVID-19. This means that influenza can
-                            spread faster than COVID-19.
-                        </p>
-                        <p>
-                            While the range of symptoms for the two viruses is similar,
-                            the fraction with severe disease appears to be higher for
-                            COVID-19. While most people have mild symptoms,
-                            approximately 15% of people have severe infections and 5%
-                            require intensive care in a hospital ICU. The proportions of
-                            severe and critical COVID-19 infections are higher than for
-                            influenza infections.
+                            Virus ini utamanya menyebar selama interaksi dekat dan melalui
+                            tetesan pernapasan yang dihasilkan ketika orang batuk
+                            atau bersin. Tetesan pernapasan mungkin dihasilkan selama
+                            bernafas tetapi virus umumnya tidak mengudara.
                         </p>
                     </div>
                     <div class="tab-pane fade" id="contact3" role="tabpanel" aria-labelledby="contact3-tab">
@@ -924,176 +721,91 @@
                             What is the difference between COVID-19 and the flu? 3
                         </h4>
                         <p>
-                            The first symptoms of COVID-19 and influenza (flu)
-                            infections are often very similar. They both cause fever and
-                            similar respiratory symptoms, which can then range from mild
-                            through to severe disease, and sometimes can be fatal.
+                            Gejala awal infeksi COVID-19 dan influenza (flu)
+                            seringkali sangat mirip. Keduanya menyebabkan demam
+                            dan gejala pernapasan yang serupa ringan hingga parah
+                            dan terkadang dapat berakibat fatal. Kedua virus juga
+                            ditularkan dengan cara yang sama, yaitu batuk, bersin
+                            atau melalui kontak tangan, permukaan, maupun benda
+                            yang terkontaminasi virus.
                         </p>
                         <p>
-                            Both viruses are also transmitted in the same way, by
-                            coughing or sneezing, or by contact with hands, surfaces or
-                            objects contaminated with the virus. As a result, the same
-                            public health measures, such as hand hygiene (hand washing),
-                            good respiratory etiquette (coughing into your elbow or into
-                            a tissue and immediately disposing of the tissue) and good
-                            household cleaning are important actions to prevent both
-                            infections.
-                        </p>
-                        <p>
-                            The speed of transmission is an important difference between
-                            the two viruses. Influenza typically has a shorter
-                            incubation period (the time from infection to appearance of
-                            symptoms) than COVID-19. This means that influenza can
-                            spread faster than COVID-19.
-                        </p>
-                        <p>
-                            While the range of symptoms for the two viruses is similar,
-                            the fraction with severe disease appears to be higher for
-                            COVID-19. While most people have mild symptoms,
-                            approximately 15% of people have severe infections and 5%
-                            require intensive care in a hospital ICU. The proportions of
-                            severe and critical COVID-19 infections are higher than for
-                            influenza infections.
+                            Virus ini utamanya menyebar selama interaksi dekat dan melalui
+                            tetesan pernapasan yang dihasilkan ketika orang batuk
+                            atau bersin. Tetesan pernapasan mungkin dihasilkan selama
+                            bernafas tetapi virus umumnya tidak mengudara.
                         </p>
                     </div>
                     <div class="tab-pane fade" id="four3" role="tabpanel" aria-labelledby="four3-tab">
                         <h4>How is the virus spread? 4</h4>
                         <p>
-                            The first symptoms of COVID-19 and influenza (flu)
-                            infections are often very similar. They both cause fever and
-                            similar respiratory symptoms, which can then range from mild
-                            through to severe disease, and sometimes can be fatal.
+                            Gejala awal infeksi COVID-19 dan influenza (flu)
+                            seringkali sangat mirip. Keduanya menyebabkan demam
+                            dan gejala pernapasan yang serupa ringan hingga parah
+                            dan terkadang dapat berakibat fatal. Kedua virus juga
+                            ditularkan dengan cara yang sama, yaitu batuk, bersin
+                            atau melalui kontak tangan, permukaan, maupun benda
+                            yang terkontaminasi virus.
                         </p>
                         <p>
-                            Both viruses are also transmitted in the same way, by
-                            coughing or sneezing, or by contact with hands, surfaces or
-                            objects contaminated with the virus. As a result, the same
-                            public health measures, such as hand hygiene (hand washing),
-                            good respiratory etiquette (coughing into your elbow or into
-                            a tissue and immediately disposing of the tissue) and good
-                            household cleaning are important actions to prevent both
-                            infections.
-                        </p>
-                        <p>
-                            The speed of transmission is an important difference between
-                            the two viruses. Influenza typically has a shorter
-                            incubation period (the time from infection to appearance of
-                            symptoms) than COVID-19. This means that influenza can
-                            spread faster than COVID-19.
-                        </p>
-                        <p>
-                            While the range of symptoms for the two viruses is similar,
-                            the fraction with severe disease appears to be higher for
-                            COVID-19. While most people have mild symptoms,
-                            approximately 15% of people have severe infections and 5%
-                            require intensive care in a hospital ICU. The proportions of
-                            severe and critical COVID-19 infections are higher than for
-                            influenza infections.
+                            Virus ini utamanya menyebar selama interaksi dekat dan melalui
+                            tetesan pernapasan yang dihasilkan ketika orang batuk
+                            atau bersin. Tetesan pernapasan mungkin dihasilkan selama
+                            bernafas tetapi virus umumnya tidak mengudara.
                         </p>
                     </div>
                     <div class="tab-pane fade" id="five3" role="tabpanel" aria-labelledby="five3-tab">
                         <h4>What are the symptoms? 5</h4>
                         <p>
-                            The first symptoms of COVID-19 and influenza (flu)
-                            infections are often very similar. They both cause fever and
-                            similar respiratory symptoms, which can then range from mild
-                            through to severe disease, and sometimes can be fatal.
+                            Gejala awal infeksi COVID-19 dan influenza (flu)
+                            seringkali sangat mirip. Keduanya menyebabkan demam
+                            dan gejala pernapasan yang serupa ringan hingga parah
+                            dan terkadang dapat berakibat fatal. Kedua virus juga
+                            ditularkan dengan cara yang sama, yaitu batuk, bersin
+                            atau melalui kontak tangan, permukaan, maupun benda
+                            yang terkontaminasi virus.
                         </p>
                         <p>
-                            Both viruses are also transmitted in the same way, by
-                            coughing or sneezing, or by contact with hands, surfaces or
-                            objects contaminated with the virus. As a result, the same
-                            public health measures, such as hand hygiene (hand washing),
-                            good respiratory etiquette (coughing into your elbow or into
-                            a tissue and immediately disposing of the tissue) and good
-                            household cleaning are important actions to prevent both
-                            infections.
-                        </p>
-                        <p>
-                            The speed of transmission is an important difference between
-                            the two viruses. Influenza typically has a shorter
-                            incubation period (the time from infection to appearance of
-                            symptoms) than COVID-19. This means that influenza can
-                            spread faster than COVID-19.
-                        </p>
-                        <p>
-                            While the range of symptoms for the two viruses is similar,
-                            the fraction with severe disease appears to be higher for
-                            COVID-19. While most people have mild symptoms,
-                            approximately 15% of people have severe infections and 5%
-                            require intensive care in a hospital ICU. The proportions of
-                            severe and critical COVID-19 infections are higher than for
-                            influenza infections.
+                            Virus ini utamanya menyebar selama interaksi dekat dan melalui
+                            tetesan pernapasan yang dihasilkan ketika orang batuk
+                            atau bersin. Tetesan pernapasan mungkin dihasilkan selama
+                            bernafas tetapi virus umumnya tidak mengudara.
                         </p>
                     </div>
                     <div class="tab-pane fade" id="home4" role="tabpanel" aria-labelledby="home4-tab">
                         <h4>What are coronaviruses? 1</h4>
                         <p>
-                            The first symptoms of COVID-19 and influenza (flu)
-                            infections are often very similar. They both cause fever and
-                            similar respiratory symptoms, which can then range from mild
-                            through to severe disease, and sometimes can be fatal.
+                            Gejala awal infeksi COVID-19 dan influenza (flu)
+                            seringkali sangat mirip. Keduanya menyebabkan demam
+                            dan gejala pernapasan yang serupa ringan hingga parah
+                            dan terkadang dapat berakibat fatal. Kedua virus juga
+                            ditularkan dengan cara yang sama, yaitu batuk, bersin
+                            atau melalui kontak tangan, permukaan, maupun benda
+                            yang terkontaminasi virus.
                         </p>
                         <p>
-                            Both viruses are also transmitted in the same way, by
-                            coughing or sneezing, or by contact with hands, surfaces or
-                            objects contaminated with the virus. As a result, the same
-                            public health measures, such as hand hygiene (hand washing),
-                            good respiratory etiquette (coughing into your elbow or into
-                            a tissue and immediately disposing of the tissue) and good
-                            household cleaning are important actions to prevent both
-                            infections.
-                        </p>
-                        <p>
-                            The speed of transmission is an important difference between
-                            the two viruses. Influenza typically has a shorter
-                            incubation period (the time from infection to appearance of
-                            symptoms) than COVID-19. This means that influenza can
-                            spread faster than COVID-19.
-                        </p>
-                        <p>
-                            While the range of symptoms for the two viruses is similar,
-                            the fraction with severe disease appears to be higher for
-                            COVID-19. While most people have mild symptoms,
-                            approximately 15% of people have severe infections and 5%
-                            require intensive care in a hospital ICU. The proportions of
-                            severe and critical COVID-19 infections are higher than for
-                            influenza infections.
+                            Virus ini utamanya menyebar selama interaksi dekat dan melalui
+                            tetesan pernapasan yang dihasilkan ketika orang batuk
+                            atau bersin. Tetesan pernapasan mungkin dihasilkan selama
+                            bernafas tetapi virus umumnya tidak mengudara.
                         </p>
                     </div>
                     <div class="tab-pane fade" id="profile4" role="tabpanel" aria-labelledby="profile4-tab">
                         <h4>What is the COVID-19 virus? 2</h4>
                         <p>
-                            The first symptoms of COVID-19 and influenza (flu)
-                            infections are often very similar. They both cause fever and
-                            similar respiratory symptoms, which can then range from mild
-                            through to severe disease, and sometimes can be fatal.
+                            Gejala awal infeksi COVID-19 dan influenza (flu)
+                            seringkali sangat mirip. Keduanya menyebabkan demam
+                            dan gejala pernapasan yang serupa ringan hingga parah
+                            dan terkadang dapat berakibat fatal. Kedua virus juga
+                            ditularkan dengan cara yang sama, yaitu batuk, bersin
+                            atau melalui kontak tangan, permukaan, maupun benda
+                            yang terkontaminasi virus.
                         </p>
                         <p>
-                            Both viruses are also transmitted in the same way, by
-                            coughing or sneezing, or by contact with hands, surfaces or
-                            objects contaminated with the virus. As a result, the same
-                            public health measures, such as hand hygiene (hand washing),
-                            good respiratory etiquette (coughing into your elbow or into
-                            a tissue and immediately disposing of the tissue) and good
-                            household cleaning are important actions to prevent both
-                            infections.
-                        </p>
-                        <p>
-                            The speed of transmission is an important difference between
-                            the two viruses. Influenza typically has a shorter
-                            incubation period (the time from infection to appearance of
-                            symptoms) than COVID-19. This means that influenza can
-                            spread faster than COVID-19.
-                        </p>
-                        <p>
-                            While the range of symptoms for the two viruses is similar,
-                            the fraction with severe disease appears to be higher for
-                            COVID-19. While most people have mild symptoms,
-                            approximately 15% of people have severe infections and 5%
-                            require intensive care in a hospital ICU. The proportions of
-                            severe and critical COVID-19 infections are higher than for
-                            influenza infections.
+                            Virus ini utamanya menyebar selama interaksi dekat dan melalui
+                            tetesan pernapasan yang dihasilkan ketika orang batuk
+                            atau bersin. Tetesan pernapasan mungkin dihasilkan selama
+                            bernafas tetapi virus umumnya tidak mengudara.
                         </p>
                     </div>
                     <div class="tab-pane fade" id="contact4" role="tabpanel" aria-labelledby="contact4-tab">
@@ -1101,176 +813,91 @@
                             What is the difference between COVID-19 and the flu? 3
                         </h4>
                         <p>
-                            The first symptoms of COVID-19 and influenza (flu)
-                            infections are often very similar. They both cause fever and
-                            similar respiratory symptoms, which can then range from mild
-                            through to severe disease, and sometimes can be fatal.
+                            Gejala awal infeksi COVID-19 dan influenza (flu)
+                            seringkali sangat mirip. Keduanya menyebabkan demam
+                            dan gejala pernapasan yang serupa ringan hingga parah
+                            dan terkadang dapat berakibat fatal. Kedua virus juga
+                            ditularkan dengan cara yang sama, yaitu batuk, bersin
+                            atau melalui kontak tangan, permukaan, maupun benda
+                            yang terkontaminasi virus.
                         </p>
                         <p>
-                            Both viruses are also transmitted in the same way, by
-                            coughing or sneezing, or by contact with hands, surfaces or
-                            objects contaminated with the virus. As a result, the same
-                            public health measures, such as hand hygiene (hand washing),
-                            good respiratory etiquette (coughing into your elbow or into
-                            a tissue and immediately disposing of the tissue) and good
-                            household cleaning are important actions to prevent both
-                            infections.
-                        </p>
-                        <p>
-                            The speed of transmission is an important difference between
-                            the two viruses. Influenza typically has a shorter
-                            incubation period (the time from infection to appearance of
-                            symptoms) than COVID-19. This means that influenza can
-                            spread faster than COVID-19.
-                        </p>
-                        <p>
-                            While the range of symptoms for the two viruses is similar,
-                            the fraction with severe disease appears to be higher for
-                            COVID-19. While most people have mild symptoms,
-                            approximately 15% of people have severe infections and 5%
-                            require intensive care in a hospital ICU. The proportions of
-                            severe and critical COVID-19 infections are higher than for
-                            influenza infections.
+                            Virus ini utamanya menyebar selama interaksi dekat dan melalui
+                            tetesan pernapasan yang dihasilkan ketika orang batuk
+                            atau bersin. Tetesan pernapasan mungkin dihasilkan selama
+                            bernafas tetapi virus umumnya tidak mengudara.
                         </p>
                     </div>
                     <div class="tab-pane fade" id="four4" role="tabpanel" aria-labelledby="four4-tab">
                         <h4>How is the virus spread? 4</h4>
                         <p>
-                            The first symptoms of COVID-19 and influenza (flu)
-                            infections are often very similar. They both cause fever and
-                            similar respiratory symptoms, which can then range from mild
-                            through to severe disease, and sometimes can be fatal.
+                            Gejala awal infeksi COVID-19 dan influenza (flu)
+                            seringkali sangat mirip. Keduanya menyebabkan demam
+                            dan gejala pernapasan yang serupa ringan hingga parah
+                            dan terkadang dapat berakibat fatal. Kedua virus juga
+                            ditularkan dengan cara yang sama, yaitu batuk, bersin
+                            atau melalui kontak tangan, permukaan, maupun benda
+                            yang terkontaminasi virus.
                         </p>
                         <p>
-                            Both viruses are also transmitted in the same way, by
-                            coughing or sneezing, or by contact with hands, surfaces or
-                            objects contaminated with the virus. As a result, the same
-                            public health measures, such as hand hygiene (hand washing),
-                            good respiratory etiquette (coughing into your elbow or into
-                            a tissue and immediately disposing of the tissue) and good
-                            household cleaning are important actions to prevent both
-                            infections.
-                        </p>
-                        <p>
-                            The speed of transmission is an important difference between
-                            the two viruses. Influenza typically has a shorter
-                            incubation period (the time from infection to appearance of
-                            symptoms) than COVID-19. This means that influenza can
-                            spread faster than COVID-19.
-                        </p>
-                        <p>
-                            While the range of symptoms for the two viruses is similar,
-                            the fraction with severe disease appears to be higher for
-                            COVID-19. While most people have mild symptoms,
-                            approximately 15% of people have severe infections and 5%
-                            require intensive care in a hospital ICU. The proportions of
-                            severe and critical COVID-19 infections are higher than for
-                            influenza infections.
+                            Virus ini utamanya menyebar selama interaksi dekat dan melalui
+                            tetesan pernapasan yang dihasilkan ketika orang batuk
+                            atau bersin. Tetesan pernapasan mungkin dihasilkan selama
+                            bernafas tetapi virus umumnya tidak mengudara.
                         </p>
                     </div>
                     <div class="tab-pane fade" id="five4" role="tabpanel" aria-labelledby="five4-tab">
                         <h4>What are the symptoms? 5</h4>
                         <p>
-                            The first symptoms of COVID-19 and influenza (flu)
-                            infections are often very similar. They both cause fever and
-                            similar respiratory symptoms, which can then range from mild
-                            through to severe disease, and sometimes can be fatal.
+                            Gejala awal infeksi COVID-19 dan influenza (flu)
+                            seringkali sangat mirip. Keduanya menyebabkan demam
+                            dan gejala pernapasan yang serupa ringan hingga parah
+                            dan terkadang dapat berakibat fatal. Kedua virus juga
+                            ditularkan dengan cara yang sama, yaitu batuk, bersin
+                            atau melalui kontak tangan, permukaan, maupun benda
+                            yang terkontaminasi virus.
                         </p>
                         <p>
-                            Both viruses are also transmitted in the same way, by
-                            coughing or sneezing, or by contact with hands, surfaces or
-                            objects contaminated with the virus. As a result, the same
-                            public health measures, such as hand hygiene (hand washing),
-                            good respiratory etiquette (coughing into your elbow or into
-                            a tissue and immediately disposing of the tissue) and good
-                            household cleaning are important actions to prevent both
-                            infections.
-                        </p>
-                        <p>
-                            The speed of transmission is an important difference between
-                            the two viruses. Influenza typically has a shorter
-                            incubation period (the time from infection to appearance of
-                            symptoms) than COVID-19. This means that influenza can
-                            spread faster than COVID-19.
-                        </p>
-                        <p>
-                            While the range of symptoms for the two viruses is similar,
-                            the fraction with severe disease appears to be higher for
-                            COVID-19. While most people have mild symptoms,
-                            approximately 15% of people have severe infections and 5%
-                            require intensive care in a hospital ICU. The proportions of
-                            severe and critical COVID-19 infections are higher than for
-                            influenza infections.
+                            Virus ini utamanya menyebar selama interaksi dekat dan melalui
+                            tetesan pernapasan yang dihasilkan ketika orang batuk
+                            atau bersin. Tetesan pernapasan mungkin dihasilkan selama
+                            bernafas tetapi virus umumnya tidak mengudara.
                         </p>
                     </div>
                     <div class="tab-pane fade" id="home5" role="tabpanel" aria-labelledby="home5-tab">
                         <h4>What are coronaviruses? 1</h4>
                         <p>
-                            The first symptoms of COVID-19 and influenza (flu)
-                            infections are often very similar. They both cause fever and
-                            similar respiratory symptoms, which can then range from mild
-                            through to severe disease, and sometimes can be fatal.
+                            Gejala awal infeksi COVID-19 dan influenza (flu)
+                            seringkali sangat mirip. Keduanya menyebabkan demam
+                            dan gejala pernapasan yang serupa ringan hingga parah
+                            dan terkadang dapat berakibat fatal. Kedua virus juga
+                            ditularkan dengan cara yang sama, yaitu batuk, bersin
+                            atau melalui kontak tangan, permukaan, maupun benda
+                            yang terkontaminasi virus.
                         </p>
                         <p>
-                            Both viruses are also transmitted in the same way, by
-                            coughing or sneezing, or by contact with hands, surfaces or
-                            objects contaminated with the virus. As a result, the same
-                            public health measures, such as hand hygiene (hand washing),
-                            good respiratory etiquette (coughing into your elbow or into
-                            a tissue and immediately disposing of the tissue) and good
-                            household cleaning are important actions to prevent both
-                            infections.
-                        </p>
-                        <p>
-                            The speed of transmission is an important difference between
-                            the two viruses. Influenza typically has a shorter
-                            incubation period (the time from infection to appearance of
-                            symptoms) than COVID-19. This means that influenza can
-                            spread faster than COVID-19.
-                        </p>
-                        <p>
-                            While the range of symptoms for the two viruses is similar,
-                            the fraction with severe disease appears to be higher for
-                            COVID-19. While most people have mild symptoms,
-                            approximately 15% of people have severe infections and 5%
-                            require intensive care in a hospital ICU. The proportions of
-                            severe and critical COVID-19 infections are higher than for
-                            influenza infections.
+                            Virus ini utamanya menyebar selama interaksi dekat dan melalui
+                            tetesan pernapasan yang dihasilkan ketika orang batuk
+                            atau bersin. Tetesan pernapasan mungkin dihasilkan selama
+                            bernafas tetapi virus umumnya tidak mengudara.
                         </p>
                     </div>
                     <div class="tab-pane fade" id="profile5" role="tabpanel" aria-labelledby="profile5-tab">
                         <h4>What is the COVID-19 virus? 2</h4>
                         <p>
-                            The first symptoms of COVID-19 and influenza (flu)
-                            infections are often very similar. They both cause fever and
-                            similar respiratory symptoms, which can then range from mild
-                            through to severe disease, and sometimes can be fatal.
+                            Gejala awal infeksi COVID-19 dan influenza (flu)
+                            seringkali sangat mirip. Keduanya menyebabkan demam
+                            dan gejala pernapasan yang serupa ringan hingga parah
+                            dan terkadang dapat berakibat fatal. Kedua virus juga
+                            ditularkan dengan cara yang sama, yaitu batuk, bersin
+                            atau melalui kontak tangan, permukaan, maupun benda
+                            yang terkontaminasi virus.
                         </p>
                         <p>
-                            Both viruses are also transmitted in the same way, by
-                            coughing or sneezing, or by contact with hands, surfaces or
-                            objects contaminated with the virus. As a result, the same
-                            public health measures, such as hand hygiene (hand washing),
-                            good respiratory etiquette (coughing into your elbow or into
-                            a tissue and immediately disposing of the tissue) and good
-                            household cleaning are important actions to prevent both
-                            infections.
-                        </p>
-                        <p>
-                            The speed of transmission is an important difference between
-                            the two viruses. Influenza typically has a shorter
-                            incubation period (the time from infection to appearance of
-                            symptoms) than COVID-19. This means that influenza can
-                            spread faster than COVID-19.
-                        </p>
-                        <p>
-                            While the range of symptoms for the two viruses is similar,
-                            the fraction with severe disease appears to be higher for
-                            COVID-19. While most people have mild symptoms,
-                            approximately 15% of people have severe infections and 5%
-                            require intensive care in a hospital ICU. The proportions of
-                            severe and critical COVID-19 infections are higher than for
-                            influenza infections.
+                            Virus ini utamanya menyebar selama interaksi dekat dan melalui
+                            tetesan pernapasan yang dihasilkan ketika orang batuk
+                            atau bersin. Tetesan pernapasan mungkin dihasilkan selama
+                            bernafas tetapi virus umumnya tidak mengudara.
                         </p>
                     </div>
                     <div class="tab-pane fade" id="contact5" role="tabpanel" aria-labelledby="contact5-tab">
@@ -1278,176 +905,91 @@
                             What is the difference between COVID-19 and the flu? 3
                         </h4>
                         <p>
-                            The first symptoms of COVID-19 and influenza (flu)
-                            infections are often very similar. They both cause fever and
-                            similar respiratory symptoms, which can then range from mild
-                            through to severe disease, and sometimes can be fatal.
+                            Gejala awal infeksi COVID-19 dan influenza (flu)
+                            seringkali sangat mirip. Keduanya menyebabkan demam
+                            dan gejala pernapasan yang serupa ringan hingga parah
+                            dan terkadang dapat berakibat fatal. Kedua virus juga
+                            ditularkan dengan cara yang sama, yaitu batuk, bersin
+                            atau melalui kontak tangan, permukaan, maupun benda
+                            yang terkontaminasi virus.
                         </p>
                         <p>
-                            Both viruses are also transmitted in the same way, by
-                            coughing or sneezing, or by contact with hands, surfaces or
-                            objects contaminated with the virus. As a result, the same
-                            public health measures, such as hand hygiene (hand washing),
-                            good respiratory etiquette (coughing into your elbow or into
-                            a tissue and immediately disposing of the tissue) and good
-                            household cleaning are important actions to prevent both
-                            infections.
-                        </p>
-                        <p>
-                            The speed of transmission is an important difference between
-                            the two viruses. Influenza typically has a shorter
-                            incubation period (the time from infection to appearance of
-                            symptoms) than COVID-19. This means that influenza can
-                            spread faster than COVID-19.
-                        </p>
-                        <p>
-                            While the range of symptoms for the two viruses is similar,
-                            the fraction with severe disease appears to be higher for
-                            COVID-19. While most people have mild symptoms,
-                            approximately 15% of people have severe infections and 5%
-                            require intensive care in a hospital ICU. The proportions of
-                            severe and critical COVID-19 infections are higher than for
-                            influenza infections.
+                            Virus ini utamanya menyebar selama interaksi dekat dan melalui
+                            tetesan pernapasan yang dihasilkan ketika orang batuk
+                            atau bersin. Tetesan pernapasan mungkin dihasilkan selama
+                            bernafas tetapi virus umumnya tidak mengudara.
                         </p>
                     </div>
                     <div class="tab-pane fade" id="four5" role="tabpanel" aria-labelledby="four5-tab">
                         <h4>How is the virus spread? 4</h4>
                         <p>
-                            The first symptoms of COVID-19 and influenza (flu)
-                            infections are often very similar. They both cause fever and
-                            similar respiratory symptoms, which can then range from mild
-                            through to severe disease, and sometimes can be fatal.
+                            Gejala awal infeksi COVID-19 dan influenza (flu)
+                            seringkali sangat mirip. Keduanya menyebabkan demam
+                            dan gejala pernapasan yang serupa ringan hingga parah
+                            dan terkadang dapat berakibat fatal. Kedua virus juga
+                            ditularkan dengan cara yang sama, yaitu batuk, bersin
+                            atau melalui kontak tangan, permukaan, maupun benda
+                            yang terkontaminasi virus.
                         </p>
                         <p>
-                            Both viruses are also transmitted in the same way, by
-                            coughing or sneezing, or by contact with hands, surfaces or
-                            objects contaminated with the virus. As a result, the same
-                            public health measures, such as hand hygiene (hand washing),
-                            good respiratory etiquette (coughing into your elbow or into
-                            a tissue and immediately disposing of the tissue) and good
-                            household cleaning are important actions to prevent both
-                            infections.
-                        </p>
-                        <p>
-                            The speed of transmission is an important difference between
-                            the two viruses. Influenza typically has a shorter
-                            incubation period (the time from infection to appearance of
-                            symptoms) than COVID-19. This means that influenza can
-                            spread faster than COVID-19.
-                        </p>
-                        <p>
-                            While the range of symptoms for the two viruses is similar,
-                            the fraction with severe disease appears to be higher for
-                            COVID-19. While most people have mild symptoms,
-                            approximately 15% of people have severe infections and 5%
-                            require intensive care in a hospital ICU. The proportions of
-                            severe and critical COVID-19 infections are higher than for
-                            influenza infections.
+                            Virus ini utamanya menyebar selama interaksi dekat dan melalui
+                            tetesan pernapasan yang dihasilkan ketika orang batuk
+                            atau bersin. Tetesan pernapasan mungkin dihasilkan selama
+                            bernafas tetapi virus umumnya tidak mengudara.
                         </p>
                     </div>
                     <div class="tab-pane fade" id="five5" role="tabpanel" aria-labelledby="five5-tab">
                         <h4>What are the symptoms? 5</h4>
                         <p>
-                            The first symptoms of COVID-19 and influenza (flu)
-                            infections are often very similar. They both cause fever and
-                            similar respiratory symptoms, which can then range from mild
-                            through to severe disease, and sometimes can be fatal.
+                            Gejala awal infeksi COVID-19 dan influenza (flu)
+                            seringkali sangat mirip. Keduanya menyebabkan demam
+                            dan gejala pernapasan yang serupa ringan hingga parah
+                            dan terkadang dapat berakibat fatal. Kedua virus juga
+                            ditularkan dengan cara yang sama, yaitu batuk, bersin
+                            atau melalui kontak tangan, permukaan, maupun benda
+                            yang terkontaminasi virus.
                         </p>
                         <p>
-                            Both viruses are also transmitted in the same way, by
-                            coughing or sneezing, or by contact with hands, surfaces or
-                            objects contaminated with the virus. As a result, the same
-                            public health measures, such as hand hygiene (hand washing),
-                            good respiratory etiquette (coughing into your elbow or into
-                            a tissue and immediately disposing of the tissue) and good
-                            household cleaning are important actions to prevent both
-                            infections.
-                        </p>
-                        <p>
-                            The speed of transmission is an important difference between
-                            the two viruses. Influenza typically has a shorter
-                            incubation period (the time from infection to appearance of
-                            symptoms) than COVID-19. This means that influenza can
-                            spread faster than COVID-19.
-                        </p>
-                        <p>
-                            While the range of symptoms for the two viruses is similar,
-                            the fraction with severe disease appears to be higher for
-                            COVID-19. While most people have mild symptoms,
-                            approximately 15% of people have severe infections and 5%
-                            require intensive care in a hospital ICU. The proportions of
-                            severe and critical COVID-19 infections are higher than for
-                            influenza infections.
+                            Virus ini utamanya menyebar selama interaksi dekat dan melalui
+                            tetesan pernapasan yang dihasilkan ketika orang batuk
+                            atau bersin. Tetesan pernapasan mungkin dihasilkan selama
+                            bernafas tetapi virus umumnya tidak mengudara.
                         </p>
                     </div>
                     <div class="tab-pane fade" id="home6" role="tabpanel" aria-labelledby="home6-tab">
                         <h4>What are coronaviruses? 1</h4>
                         <p>
-                            The first symptoms of COVID-19 and influenza (flu)
-                            infections are often very similar. They both cause fever and
-                            similar respiratory symptoms, which can then range from mild
-                            through to severe disease, and sometimes can be fatal.
+                            Gejala awal infeksi COVID-19 dan influenza (flu)
+                            seringkali sangat mirip. Keduanya menyebabkan demam
+                            dan gejala pernapasan yang serupa ringan hingga parah
+                            dan terkadang dapat berakibat fatal. Kedua virus juga
+                            ditularkan dengan cara yang sama, yaitu batuk, bersin
+                            atau melalui kontak tangan, permukaan, maupun benda
+                            yang terkontaminasi virus.
                         </p>
                         <p>
-                            Both viruses are also transmitted in the same way, by
-                            coughing or sneezing, or by contact with hands, surfaces or
-                            objects contaminated with the virus. As a result, the same
-                            public health measures, such as hand hygiene (hand washing),
-                            good respiratory etiquette (coughing into your elbow or into
-                            a tissue and immediately disposing of the tissue) and good
-                            household cleaning are important actions to prevent both
-                            infections.
-                        </p>
-                        <p>
-                            The speed of transmission is an important difference between
-                            the two viruses. Influenza typically has a shorter
-                            incubation period (the time from infection to appearance of
-                            symptoms) than COVID-19. This means that influenza can
-                            spread faster than COVID-19.
-                        </p>
-                        <p>
-                            While the range of symptoms for the two viruses is similar,
-                            the fraction with severe disease appears to be higher for
-                            COVID-19. While most people have mild symptoms,
-                            approximately 15% of people have severe infections and 5%
-                            require intensive care in a hospital ICU. The proportions of
-                            severe and critical COVID-19 infections are higher than for
-                            influenza infections.
+                            Virus ini utamanya menyebar selama interaksi dekat dan melalui
+                            tetesan pernapasan yang dihasilkan ketika orang batuk
+                            atau bersin. Tetesan pernapasan mungkin dihasilkan selama
+                            bernafas tetapi virus umumnya tidak mengudara.
                         </p>
                     </div>
                     <div class="tab-pane fade" id="profile6" role="tabpanel" aria-labelledby="profile6-tab">
                         <h4>What is the COVID-19 virus? 2</h4>
                         <p>
-                            The first symptoms of COVID-19 and influenza (flu)
-                            infections are often very similar. They both cause fever and
-                            similar respiratory symptoms, which can then range from mild
-                            through to severe disease, and sometimes can be fatal.
+                            Gejala awal infeksi COVID-19 dan influenza (flu)
+                            seringkali sangat mirip. Keduanya menyebabkan demam
+                            dan gejala pernapasan yang serupa ringan hingga parah
+                            dan terkadang dapat berakibat fatal. Kedua virus juga
+                            ditularkan dengan cara yang sama, yaitu batuk, bersin
+                            atau melalui kontak tangan, permukaan, maupun benda
+                            yang terkontaminasi virus.
                         </p>
                         <p>
-                            Both viruses are also transmitted in the same way, by
-                            coughing or sneezing, or by contact with hands, surfaces or
-                            objects contaminated with the virus. As a result, the same
-                            public health measures, such as hand hygiene (hand washing),
-                            good respiratory etiquette (coughing into your elbow or into
-                            a tissue and immediately disposing of the tissue) and good
-                            household cleaning are important actions to prevent both
-                            infections.
-                        </p>
-                        <p>
-                            The speed of transmission is an important difference between
-                            the two viruses. Influenza typically has a shorter
-                            incubation period (the time from infection to appearance of
-                            symptoms) than COVID-19. This means that influenza can
-                            spread faster than COVID-19.
-                        </p>
-                        <p>
-                            While the range of symptoms for the two viruses is similar,
-                            the fraction with severe disease appears to be higher for
-                            COVID-19. While most people have mild symptoms,
-                            approximately 15% of people have severe infections and 5%
-                            require intensive care in a hospital ICU. The proportions of
-                            severe and critical COVID-19 infections are higher than for
-                            influenza infections.
+                            Virus ini utamanya menyebar selama interaksi dekat dan melalui
+                            tetesan pernapasan yang dihasilkan ketika orang batuk
+                            atau bersin. Tetesan pernapasan mungkin dihasilkan selama
+                            bernafas tetapi virus umumnya tidak mengudara.
                         </p>
                     </div>
                     <div class="tab-pane fade" id="contact6" role="tabpanel" aria-labelledby="contact6-tab">
@@ -1455,176 +997,91 @@
                             What is the difference between COVID-19 and the flu? 3
                         </h4>
                         <p>
-                            The first symptoms of COVID-19 and influenza (flu)
-                            infections are often very similar. They both cause fever and
-                            similar respiratory symptoms, which can then range from mild
-                            through to severe disease, and sometimes can be fatal.
+                            Gejala awal infeksi COVID-19 dan influenza (flu)
+                            seringkali sangat mirip. Keduanya menyebabkan demam
+                            dan gejala pernapasan yang serupa ringan hingga parah
+                            dan terkadang dapat berakibat fatal. Kedua virus juga
+                            ditularkan dengan cara yang sama, yaitu batuk, bersin
+                            atau melalui kontak tangan, permukaan, maupun benda
+                            yang terkontaminasi virus.
                         </p>
                         <p>
-                            Both viruses are also transmitted in the same way, by
-                            coughing or sneezing, or by contact with hands, surfaces or
-                            objects contaminated with the virus. As a result, the same
-                            public health measures, such as hand hygiene (hand washing),
-                            good respiratory etiquette (coughing into your elbow or into
-                            a tissue and immediately disposing of the tissue) and good
-                            household cleaning are important actions to prevent both
-                            infections.
-                        </p>
-                        <p>
-                            The speed of transmission is an important difference between
-                            the two viruses. Influenza typically has a shorter
-                            incubation period (the time from infection to appearance of
-                            symptoms) than COVID-19. This means that influenza can
-                            spread faster than COVID-19.
-                        </p>
-                        <p>
-                            While the range of symptoms for the two viruses is similar,
-                            the fraction with severe disease appears to be higher for
-                            COVID-19. While most people have mild symptoms,
-                            approximately 15% of people have severe infections and 5%
-                            require intensive care in a hospital ICU. The proportions of
-                            severe and critical COVID-19 infections are higher than for
-                            influenza infections.
+                            Virus ini utamanya menyebar selama interaksi dekat dan melalui
+                            tetesan pernapasan yang dihasilkan ketika orang batuk
+                            atau bersin. Tetesan pernapasan mungkin dihasilkan selama
+                            bernafas tetapi virus umumnya tidak mengudara.
                         </p>
                     </div>
                     <div class="tab-pane fade" id="four6" role="tabpanel" aria-labelledby="four6-tab">
                         <h4>How is the virus spread? 4</h4>
                         <p>
-                            The first symptoms of COVID-19 and influenza (flu)
-                            infections are often very similar. They both cause fever and
-                            similar respiratory symptoms, which can then range from mild
-                            through to severe disease, and sometimes can be fatal.
+                            Gejala awal infeksi COVID-19 dan influenza (flu)
+                            seringkali sangat mirip. Keduanya menyebabkan demam
+                            dan gejala pernapasan yang serupa ringan hingga parah
+                            dan terkadang dapat berakibat fatal. Kedua virus juga
+                            ditularkan dengan cara yang sama, yaitu batuk, bersin
+                            atau melalui kontak tangan, permukaan, maupun benda
+                            yang terkontaminasi virus.
                         </p>
                         <p>
-                            Both viruses are also transmitted in the same way, by
-                            coughing or sneezing, or by contact with hands, surfaces or
-                            objects contaminated with the virus. As a result, the same
-                            public health measures, such as hand hygiene (hand washing),
-                            good respiratory etiquette (coughing into your elbow or into
-                            a tissue and immediately disposing of the tissue) and good
-                            household cleaning are important actions to prevent both
-                            infections.
-                        </p>
-                        <p>
-                            The speed of transmission is an important difference between
-                            the two viruses. Influenza typically has a shorter
-                            incubation period (the time from infection to appearance of
-                            symptoms) than COVID-19. This means that influenza can
-                            spread faster than COVID-19.
-                        </p>
-                        <p>
-                            While the range of symptoms for the two viruses is similar,
-                            the fraction with severe disease appears to be higher for
-                            COVID-19. While most people have mild symptoms,
-                            approximately 15% of people have severe infections and 5%
-                            require intensive care in a hospital ICU. The proportions of
-                            severe and critical COVID-19 infections are higher than for
-                            influenza infections.
+                            Virus ini utamanya menyebar selama interaksi dekat dan melalui
+                            tetesan pernapasan yang dihasilkan ketika orang batuk
+                            atau bersin. Tetesan pernapasan mungkin dihasilkan selama
+                            bernafas tetapi virus umumnya tidak mengudara.
                         </p>
                     </div>
                     <div class="tab-pane fade" id="five6" role="tabpanel" aria-labelledby="five6-tab">
                         <h4>What are the symptoms? 5</h4>
                         <p>
-                            The first symptoms of COVID-19 and influenza (flu)
-                            infections are often very similar. They both cause fever and
-                            similar respiratory symptoms, which can then range from mild
-                            through to severe disease, and sometimes can be fatal.
+                            Gejala awal infeksi COVID-19 dan influenza (flu)
+                            seringkali sangat mirip. Keduanya menyebabkan demam
+                            dan gejala pernapasan yang serupa ringan hingga parah
+                            dan terkadang dapat berakibat fatal. Kedua virus juga
+                            ditularkan dengan cara yang sama, yaitu batuk, bersin
+                            atau melalui kontak tangan, permukaan, maupun benda
+                            yang terkontaminasi virus.
                         </p>
                         <p>
-                            Both viruses are also transmitted in the same way, by
-                            coughing or sneezing, or by contact with hands, surfaces or
-                            objects contaminated with the virus. As a result, the same
-                            public health measures, such as hand hygiene (hand washing),
-                            good respiratory etiquette (coughing into your elbow or into
-                            a tissue and immediately disposing of the tissue) and good
-                            household cleaning are important actions to prevent both
-                            infections.
-                        </p>
-                        <p>
-                            The speed of transmission is an important difference between
-                            the two viruses. Influenza typically has a shorter
-                            incubation period (the time from infection to appearance of
-                            symptoms) than COVID-19. This means that influenza can
-                            spread faster than COVID-19.
-                        </p>
-                        <p>
-                            While the range of symptoms for the two viruses is similar,
-                            the fraction with severe disease appears to be higher for
-                            COVID-19. While most people have mild symptoms,
-                            approximately 15% of people have severe infections and 5%
-                            require intensive care in a hospital ICU. The proportions of
-                            severe and critical COVID-19 infections are higher than for
-                            influenza infections.
+                            Virus ini utamanya menyebar selama interaksi dekat dan melalui
+                            tetesan pernapasan yang dihasilkan ketika orang batuk
+                            atau bersin. Tetesan pernapasan mungkin dihasilkan selama
+                            bernafas tetapi virus umumnya tidak mengudara.
                         </p>
                     </div>
                     <div class="tab-pane fade" id="home7" role="tabpanel" aria-labelledby="home7-tab">
                         <h4>What are coronaviruses? 1</h4>
                         <p>
-                            The first symptoms of COVID-19 and influenza (flu)
-                            infections are often very similar. They both cause fever and
-                            similar respiratory symptoms, which can then range from mild
-                            through to severe disease, and sometimes can be fatal.
+                            Gejala awal infeksi COVID-19 dan influenza (flu)
+                            seringkali sangat mirip. Keduanya menyebabkan demam
+                            dan gejala pernapasan yang serupa ringan hingga parah
+                            dan terkadang dapat berakibat fatal. Kedua virus juga
+                            ditularkan dengan cara yang sama, yaitu batuk, bersin
+                            atau melalui kontak tangan, permukaan, maupun benda
+                            yang terkontaminasi virus.
                         </p>
                         <p>
-                            Both viruses are also transmitted in the same way, by
-                            coughing or sneezing, or by contact with hands, surfaces or
-                            objects contaminated with the virus. As a result, the same
-                            public health measures, such as hand hygiene (hand washing),
-                            good respiratory etiquette (coughing into your elbow or into
-                            a tissue and immediately disposing of the tissue) and good
-                            household cleaning are important actions to prevent both
-                            infections.
-                        </p>
-                        <p>
-                            The speed of transmission is an important difference between
-                            the two viruses. Influenza typically has a shorter
-                            incubation period (the time from infection to appearance of
-                            symptoms) than COVID-19. This means that influenza can
-                            spread faster than COVID-19.
-                        </p>
-                        <p>
-                            While the range of symptoms for the two viruses is similar,
-                            the fraction with severe disease appears to be higher for
-                            COVID-19. While most people have mild symptoms,
-                            approximately 15% of people have severe infections and 5%
-                            require intensive care in a hospital ICU. The proportions of
-                            severe and critical COVID-19 infections are higher than for
-                            influenza infections.
+                            Virus ini utamanya menyebar selama interaksi dekat dan melalui
+                            tetesan pernapasan yang dihasilkan ketika orang batuk
+                            atau bersin. Tetesan pernapasan mungkin dihasilkan selama
+                            bernafas tetapi virus umumnya tidak mengudara.
                         </p>
                     </div>
                     <div class="tab-pane fade" id="profile7" role="tabpanel" aria-labelledby="profile7-tab">
                         <h4>What is the COVID-19 virus? 2</h4>
                         <p>
-                            The first symptoms of COVID-19 and influenza (flu)
-                            infections are often very similar. They both cause fever and
-                            similar respiratory symptoms, which can then range from mild
-                            through to severe disease, and sometimes can be fatal.
+                            Gejala awal infeksi COVID-19 dan influenza (flu)
+                            seringkali sangat mirip. Keduanya menyebabkan demam
+                            dan gejala pernapasan yang serupa ringan hingga parah
+                            dan terkadang dapat berakibat fatal. Kedua virus juga
+                            ditularkan dengan cara yang sama, yaitu batuk, bersin
+                            atau melalui kontak tangan, permukaan, maupun benda
+                            yang terkontaminasi virus.
                         </p>
                         <p>
-                            Both viruses are also transmitted in the same way, by
-                            coughing or sneezing, or by contact with hands, surfaces or
-                            objects contaminated with the virus. As a result, the same
-                            public health measures, such as hand hygiene (hand washing),
-                            good respiratory etiquette (coughing into your elbow or into
-                            a tissue and immediately disposing of the tissue) and good
-                            household cleaning are important actions to prevent both
-                            infections.
-                        </p>
-                        <p>
-                            The speed of transmission is an important difference between
-                            the two viruses. Influenza typically has a shorter
-                            incubation period (the time from infection to appearance of
-                            symptoms) than COVID-19. This means that influenza can
-                            spread faster than COVID-19.
-                        </p>
-                        <p>
-                            While the range of symptoms for the two viruses is similar,
-                            the fraction with severe disease appears to be higher for
-                            COVID-19. While most people have mild symptoms,
-                            approximately 15% of people have severe infections and 5%
-                            require intensive care in a hospital ICU. The proportions of
-                            severe and critical COVID-19 infections are higher than for
-                            influenza infections.
+                            Virus ini utamanya menyebar selama interaksi dekat dan melalui
+                            tetesan pernapasan yang dihasilkan ketika orang batuk
+                            atau bersin. Tetesan pernapasan mungkin dihasilkan selama
+                            bernafas tetapi virus umumnya tidak mengudara.
                         </p>
                     </div>
                     <div class="tab-pane fade" id="contact7" role="tabpanel" aria-labelledby="contact7-tab">
@@ -1632,106 +1089,55 @@
                             What is the difference between COVID-19 and the flu? 3
                         </h4>
                         <p>
-                            The first symptoms of COVID-19 and influenza (flu)
-                            infections are often very similar. They both cause fever and
-                            similar respiratory symptoms, which can then range from mild
-                            through to severe disease, and sometimes can be fatal.
+                            Gejala awal infeksi COVID-19 dan influenza (flu)
+                            seringkali sangat mirip. Keduanya menyebabkan demam
+                            dan gejala pernapasan yang serupa ringan hingga parah
+                            dan terkadang dapat berakibat fatal. Kedua virus juga
+                            ditularkan dengan cara yang sama, yaitu batuk, bersin
+                            atau melalui kontak tangan, permukaan, maupun benda
+                            yang terkontaminasi virus.
                         </p>
                         <p>
-                            Both viruses are also transmitted in the same way, by
-                            coughing or sneezing, or by contact with hands, surfaces or
-                            objects contaminated with the virus. As a result, the same
-                            public health measures, such as hand hygiene (hand washing),
-                            good respiratory etiquette (coughing into your elbow or into
-                            a tissue and immediately disposing of the tissue) and good
-                            household cleaning are important actions to prevent both
-                            infections.
-                        </p>
-                        <p>
-                            The speed of transmission is an important difference between
-                            the two viruses. Influenza typically has a shorter
-                            incubation period (the time from infection to appearance of
-                            symptoms) than COVID-19. This means that influenza can
-                            spread faster than COVID-19.
-                        </p>
-                        <p>
-                            While the range of symptoms for the two viruses is similar,
-                            the fraction with severe disease appears to be higher for
-                            COVID-19. While most people have mild symptoms,
-                            approximately 15% of people have severe infections and 5%
-                            require intensive care in a hospital ICU. The proportions of
-                            severe and critical COVID-19 infections are higher than for
-                            influenza infections.
+                            Virus ini utamanya menyebar selama interaksi dekat dan melalui
+                            tetesan pernapasan yang dihasilkan ketika orang batuk
+                            atau bersin. Tetesan pernapasan mungkin dihasilkan selama
+                            bernafas tetapi virus umumnya tidak mengudara.
                         </p>
                     </div>
                     <div class="tab-pane fade" id="four7" role="tabpanel" aria-labelledby="four7-tab">
                         <h4>How is the virus spread? 4</h4>
                         <p>
-                            The first symptoms of COVID-19 and influenza (flu)
-                            infections are often very similar. They both cause fever and
-                            similar respiratory symptoms, which can then range from mild
-                            through to severe disease, and sometimes can be fatal.
+                            Gejala awal infeksi COVID-19 dan influenza (flu)
+                            seringkali sangat mirip. Keduanya menyebabkan demam
+                            dan gejala pernapasan yang serupa ringan hingga parah
+                            dan terkadang dapat berakibat fatal. Kedua virus juga
+                            ditularkan dengan cara yang sama, yaitu batuk, bersin
+                            atau melalui kontak tangan, permukaan, maupun benda
+                            yang terkontaminasi virus.
                         </p>
                         <p>
-                            Both viruses are also transmitted in the same way, by
-                            coughing or sneezing, or by contact with hands, surfaces or
-                            objects contaminated with the virus. As a result, the same
-                            public health measures, such as hand hygiene (hand washing),
-                            good respiratory etiquette (coughing into your elbow or into
-                            a tissue and immediately disposing of the tissue) and good
-                            household cleaning are important actions to prevent both
-                            infections.
-                        </p>
-                        <p>
-                            The speed of transmission is an important difference between
-                            the two viruses. Influenza typically has a shorter
-                            incubation period (the time from infection to appearance of
-                            symptoms) than COVID-19. This means that influenza can
-                            spread faster than COVID-19.
-                        </p>
-                        <p>
-                            While the range of symptoms for the two viruses is similar,
-                            the fraction with severe disease appears to be higher for
-                            COVID-19. While most people have mild symptoms,
-                            approximately 15% of people have severe infections and 5%
-                            require intensive care in a hospital ICU. The proportions of
-                            severe and critical COVID-19 infections are higher than for
-                            influenza infections.
+                            Virus ini utamanya menyebar selama interaksi dekat dan melalui
+                            tetesan pernapasan yang dihasilkan ketika orang batuk
+                            atau bersin. Tetesan pernapasan mungkin dihasilkan selama
+                            bernafas tetapi virus umumnya tidak mengudara.
                         </p>
                     </div>
                     <div class="tab-pane fade" id="five7" role="tabpanel" aria-labelledby="five7-tab">
                         <h4>What are the symptoms? 5</h4>
                         <p>
-                            The first symptoms of COVID-19 and influenza (flu)
-                            infections are often very similar. They both cause fever and
-                            similar respiratory symptoms, which can then range from mild
-                            through to severe disease, and sometimes can be fatal.
+                            Gejala awal infeksi COVID-19 dan influenza (flu)
+                            seringkali sangat mirip. Keduanya menyebabkan demam
+                            dan gejala pernapasan yang serupa ringan hingga parah
+                            dan terkadang dapat berakibat fatal. Kedua virus juga
+                            ditularkan dengan cara yang sama, yaitu batuk, bersin
+                            atau melalui kontak tangan, permukaan, maupun benda
+                            yang terkontaminasi virus.
                         </p>
                         <p>
-                            Both viruses are also transmitted in the same way, by
-                            coughing or sneezing, or by contact with hands, surfaces or
-                            objects contaminated with the virus. As a result, the same
-                            public health measures, such as hand hygiene (hand washing),
-                            good respiratory etiquette (coughing into your elbow or into
-                            a tissue and immediately disposing of the tissue) and good
-                            household cleaning are important actions to prevent both
-                            infections.
-                        </p>
-                        <p>
-                            The speed of transmission is an important difference between
-                            the two viruses. Influenza typically has a shorter
-                            incubation period (the time from infection to appearance of
-                            symptoms) than COVID-19. This means that influenza can
-                            spread faster than COVID-19.
-                        </p>
-                        <p>
-                            While the range of symptoms for the two viruses is similar,
-                            the fraction with severe disease appears to be higher for
-                            COVID-19. While most people have mild symptoms,
-                            approximately 15% of people have severe infections and 5%
-                            require intensive care in a hospital ICU. The proportions of
-                            severe and critical COVID-19 infections are higher than for
-                            influenza infections.
+                            Virus ini utamanya menyebar selama interaksi dekat dan melalui
+                            tetesan pernapasan yang dihasilkan ketika orang batuk
+                            atau bersin. Tetesan pernapasan mungkin dihasilkan selama
+                            bernafas tetapi virus umumnya tidak mengudara.
                         </p>
                     </div>
                 </div>
@@ -1751,7 +1157,13 @@
                 dan cara menghadapi COVID-19.
             </p>
         </div>
+
         <div class="row l_blog_inner">
+            <?php
+            $date = date('j F Y', strtotime(str_replace("-", "/", $data['blogs'][0]['date'])));
+            $data['users'] = $this->model('User_model')->getAllUsersNameById($data['blogs'][0]['authId']);
+            $author_name = $data['users']['full_name'];
+            ?>
             <div class="col-lg-8">
                 <div class="big_l_blog_item">
                     <div class="l_blog_img">
@@ -1759,149 +1171,66 @@
                     </div>
                     <div class="l_blog_text">
                         <div class="date">
-                            <a href="#"><i class="linearicons-calendar-full"></i> Apr 12, 2020</a>
-                            <a href="#"><i class="linearicons-bubbles"></i> 22</a>
+                            <a><i class="linearicons-calendar-full"></i><?= $date; ?></a>
+                            <a><i class="linearicons-bubbles"></i> 22</a>
                         </div>
                         <div class="blog_btm_text">
-                            <div class="tag">Quarantine</div>
+                            <div class="tag"><?= $data['blogs'][0]['category']; ?></div>
                             <div class="author">
-                                <a href="#">by Sheryl Smith</a>
-                                <a href="#"><i class="linearicons-radio-button"></i> 4 min read</a>
+                                <a>by <?= $author_name; ?></a>
+                                <a><i class="linearicons-radio-button"></i> 4 min read</a>
                             </div>
-                            <a href="#">
-                                <h3>How to treat COVID-19 <br/>coronavirus at home?</h3>
+                            <a href="<?= BASEURL; ?>/Blog/single_blog/<?= $data['blogs'][0]['id']; ?>">
+                                <h3><?=$data['blogs'][0]['title'];?></h3>
                             </a>
-                            <a class="text_btn" href="#">Read more <i class="linearicons-arrow-right"></i></a>
+                            <a class="text_btn" href="<?= BASEURL; ?>/Blog/single_blog/<?= $data['blogs'][0]['id']; ?>">Read
+                                more <i class="linearicons-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
+
             <div class="col-lg-4">
+                <?php
+                $date = date('j F Y', strtotime(str_replace("-", "/", $data['blogs'][1]['date'])));
+                ?>
                 <div class="small_l_blog_item">
                     <div class="l_blog_img">
-                        <img class="img-fluid" src="<?= BASEURL; ?>/assets/images/blog/latest-blog/l-blog-2.jpg" alt=""/>
+                        <img class="img-fluid" src="<?= BASEURL; ?>/assets/images/blog/latest-blog/l-blog-2.jpg"
+                             alt=""/>
                     </div>
                     <div class="l_blog_text">
                         <div class="date">
-                            <a href="#"><i class="linearicons-calendar-full"></i> Apr 11, 2020</a>
-                            <a href="#"><i class="linearicons-bubbles"></i> 39</a>
+                            <a><i class="linearicons-calendar-full"></i><?= $date; ?></a>
+                            <a><i class="linearicons-bubbles"></i> 39</a>
                         </div>
-                        <a href="#">
-                            <h3>What is an underlying health condition?</h3>
+                        <a href="<?= BASEURL; ?>/Blog/single_blog/<?= $data['blogs'][1]['id']; ?>">
+                            <h3><?=$data['blogs'][1]['title'];?></h3>
                         </a>
-                        <a class="text_btn" href="#">Read more <i class="linearicons-arrow-right"></i></a>
+                        <a class="text_btn" href="<?= BASEURL; ?>/Blog/single_blog/<?= $data['blogs'][1]['id']; ?>">Baca selengkapnya <i class="linearicons-arrow-right"></i></a>
                     </div>
                 </div>
+
+                <?php
+                $date = date('j F Y', strtotime(str_replace("-", "/", $data['blogs'][2]['date'])));
+                ?>
                 <div class="small_l_blog_item">
                     <div class="l_blog_img">
-                        <img class="img-fluid" src="<?= BASEURL; ?>/assets/images/blog/latest-blog/l-blog-3.jpg" alt=""/>
+                        <img class="img-fluid" src="<?= BASEURL; ?>/assets/images/blog/latest-blog/l-blog-3.jpg"
+                             alt=""/>
                     </div>
                     <div class="l_blog_text">
                         <div class="date">
-                            <a href="#"><i class="linearicons-calendar-full"></i> Apr 11, 2020</a>
-                            <a href="#"><i class="linearicons-bubbles"></i> 39</a>
+                            <a><i class="linearicons-calendar-full"></i><?= $date; ?></a>
+                            <a><i class="linearicons-bubbles"></i> 39</a>
                         </div>
-                        <a href="#">
-                            <h3>What is an underlying health condition?</h3>
+                        <a href="<?= BASEURL; ?>/Blog/single_blog/<?= $data['blogs'][2]['id']; ?>">
+                            <h3><?=$data['blogs'][2]['title'];?></h3>
                         </a>
-                        <a class="text_btn" href="#">Read more <i class="linearicons-arrow-right"></i></a>
+                        <a class="text_btn" href="<?= BASEURL; ?>/Blog/single_blog/<?= $data['blogs'][2]['id']; ?>">Baca selengkapnya <i class="linearicons-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-
-
-<!-- <section class="client_logo_area">
-    <div class="container">
-        <div class="client_slider">
-            <div class="item">
-                <img src="<?= BASEURL; ?>/assets/images/client-logo/client-logo-1.png" alt=""/>
-            </div>
-            <div class="item">
-                <img src="<?= BASEURL; ?>/assets/images/client-logo/client-logo-2.png" alt=""/>
-            </div>
-            <div class="item">
-                <img src="<?= BASEURL; ?>/assets/images/client-logo/client-logo-3.png" alt=""/>
-            </div>
-            <div class="item">
-                <img src="<?= BASEURL; ?>/assets/images/client-logo/client-logo-4.png" alt=""/>
-            </div>
-            <div class="item">
-                <img src="<?= BASEURL; ?>/assets/images/client-logo/client-logo-5.png" alt=""/>
-            </div>
-            <div class="item">
-                <img src="<?= BASEURL; ?>/assets/images/client-logo/client-logo-6.png" alt=""/>
-            </div>
-            <div class="item">
-                <img src="<?= BASEURL; ?>/assets/images/client-logo/client-logo-1.png" alt=""/>
-            </div>
-            <div class="item">
-                <img src="<?= BASEURL; ?>/assets/images/client-logo/client-logo-2.png" alt=""/>
-            </div>
-            <div class="item">
-                <img src="<?= BASEURL; ?>/assets/images/client-logo/client-logo-3.png" alt=""/>
-            </div>
-            <div class="item">
-                <img src="<?= BASEURL; ?>/assets/images/client-logo/client-logo-4.png" alt=""/>
-            </div>
-            <div class="item">
-                <img src="<?= BASEURL; ?>/assets/images/client-logo/client-logo-5.png" alt=""/>
-            </div>
-            <div class="item">
-                <img src="<?= BASEURL; ?>/assets/images/client-logo/client-logo-6.png" alt=""/>
-            </div>
-        </div>
-    </div>
-</section> -->
-
-
-<!-- <section class="app_area">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="app_text">
-                    <h2>Get <span>epidemic</span> app!</h2>
-                    <p>
-                        Download our app now, track Coronavirus cases real-time and
-                        follow instant updates.
-                    </p>
-                    <a href="#"><img src="<?= BASEURL; ?>/assets/images/apple-btn.png" alt=""/></a>
-                    <a href="#"><img src="<?= BASEURL; ?>/assets/images/google-btn.png" alt=""/></a>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="app_mobile">
-                    <div class="mobile_image">
-                        <img src="<?= BASEURL; ?>/assets/images/mobile-1.png" alt=""/>
-                        <img src="<?= BASEURL; ?>/assets/images/mobile-2.png" alt=""/>
-                    </div>
-                    <ul class="corona_img nav">
-                        <li>
-                            <img src="<?= BASEURL; ?>/assets/images/icon/app-virus-1.png" alt=""/>
-                        </li>
-                        <li>
-                            <img src="<?= BASEURL; ?>/assets/images/icon/app-virus-2.png" alt=""/>
-                        </li>
-                        <li>
-                            <img src="<?= BASEURL; ?>/assets/images/icon/app-virus-3.png" alt=""/>
-                        </li>
-                        <li>
-                            <img src="<?= BASEURL; ?>/assets/images/icon/app-virus-4.png" alt=""/>
-                        </li>
-                        <li data-parallax='{"y": 100}'>
-                            <img src="<?= BASEURL; ?>/assets/images/icon/app-virus-5.png" alt=""/>
-                        </li>
-                        <li>
-                            <img src="<?= BASEURL; ?>/assets/images/icon/app-virus-6.png" alt=""/>
-                        </li>
-                        <li>
-                            <img src="<?= BASEURL; ?>/assets/images/icon/app-virus-7.png" alt=""/>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</section> -->

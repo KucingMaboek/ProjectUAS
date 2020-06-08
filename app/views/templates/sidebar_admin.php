@@ -70,6 +70,12 @@
                 <span>Appointment</span></a>
         </li>
 
+        <li class="nav-item">
+            <a class="nav-link collapsed" href="<?= BASEURL; ?>/Admin/messages_list">
+                <i class="fas fa-mail-bulk"></i>
+                <span>Message</span></a>
+        </li>
+
         <!-- Divider -->
         <hr class="sidebar-divider">
 

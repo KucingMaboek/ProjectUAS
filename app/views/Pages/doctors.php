@@ -19,10 +19,7 @@
                 <div class="doctors_bio_text text-left wow fadeInUp" data-wow-delay="400ms">
                     <h5>Pendiri dan Pemilik</h5>
                     <h3>Dr Pamela Santoso</h3>
-                    <!-- <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id
-                        quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor
-                        repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum
-                        necessitatibus.</p> -->
+                    <p>Tetap di rumah bantu kami, memutus rantai virus corona, #stopliburan #dirumahaja</p>
                     <img src="<?= BASEURL; ?>/assets/images/doctors/signature.png" alt="">
                 </div>
             </div>
@@ -42,12 +39,11 @@
                     <div class="doctors_text">
                         <h6>Dokter Spesialis Syaraf</h6>
                         <h3>Dr Herman</h3>
-                        <!-- <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia.
-                        </p> -->
+                        <p>Tetap di rumah bantu kami, memutus rantai virus corona, #stopliburan #dirumahaja</p>
                         <ul class="nav">
-                            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a></li>
+                            <li><a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -60,12 +56,11 @@
                     <div class="doctors_text">
                         <h6>Dokter Spesialis Paru</h6>
                         <h3>Dr Reta Andini</h3>
-                        <!-- <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia.
-                        </p> -->
+                        <p>Tetap di rumah bantu kami, memutus rantai virus corona, #stopliburan #dirumahaja</p>
                         <ul class="nav">
-                            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a></li>
+                            <li><a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -78,12 +73,11 @@
                     <div class="doctors_text">
                         <h6>Perawat</h6>
                         <h3>Dini Rahandi</h3>
-                        <!-- <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia.
-                        </p> -->
+                        <p>Tetap di rumah bantu kami, memutus rantai virus corona, #stopliburan #dirumahaja</p>
                         <ul class="nav">
-                            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a></li>
+                            <li><a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -96,12 +90,11 @@
                     <div class="doctors_text">
                         <h6>Terapis Rehabilitasi</h6>
                         <h3>Siska Dewanti</h3>
-                        <!-- <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia.
-                        </p> -->
+                        <p>Tetap di rumah bantu kami, memutus rantai virus corona, #stopliburan #dirumahaja</p>
                         <ul class="nav">
-                            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a></li>
+                            <li><a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -113,44 +106,6 @@
 
 <section class="client_logo_area pad_top">
     <div class="container">
-        <!-- <div class="client_slider">
-            <div class="item">
-                <img src="<?= BASEURL; ?>/assets/images/client-logo/client-logo-1.png" alt=""/>
-            </div>
-            <div class="item">
-                <img src="<?= BASEURL; ?>/assets/images/client-logo/client-logo-2.png" alt=""/>
-            </div>
-            <div class="item">
-                <img src="<?= BASEURL; ?>/assets/images/client-logo/client-logo-3.png" alt=""/>
-            </div>
-            <div class="item">
-                <img src="<?= BASEURL; ?>/assets/images/client-logo/client-logo-4.png" alt=""/>
-            </div>
-            <div class="item">
-                <img src="<?= BASEURL; ?>/assets/images/client-logo/client-logo-5.png" alt=""/>
-            </div>
-            <div class="item">
-                <img src="<?= BASEURL; ?>/assets/images/client-logo/client-logo-6.png" alt=""/>
-            </div>
-            <div class="item">
-                <img src="<?= BASEURL; ?>/assets/images/client-logo/client-logo-1.png" alt=""/>
-            </div>
-            <div class="item">
-                <img src="<?= BASEURL; ?>/assets/images/client-logo/client-logo-2.png" alt=""/>
-            </div>
-            <div class="item">
-                <img src="<?= BASEURL; ?>/assets/images/client-logo/client-logo-3.png" alt=""/>
-            </div>
-            <div class="item">
-                <img src="<?= BASEURL; ?>/assets/images/client-logo/client-logo-4.png" alt=""/>
-            </div>
-            <div class="item">
-                <img src="<?= BASEURL; ?>/assets/images/client-logo/client-logo-5.png" alt=""/>
-            </div>
-            <div class="item">
-                <img src="<?= BASEURL; ?>/assets/images/client-logo/client-logo-6.png" alt=""/>
-            </div>
-        </div> -->
         <div class="check_now_area check_now_box">
             <div class="row m-0 justify-content-between">
                 <div class="left">
@@ -169,7 +124,7 @@
                     </div>
                 </div>
                 <div class="right">
-                    <a class="icon_btn" href="#">Cek Sekarang <i class="linearicons-arrow-right"></i></a>
+                    <a class="icon_btn" href=""<?= BASEURL; ?>/Prevention/symptom_checker">Cek Sekarang <i class="linearicons-arrow-right"></i></a>
                 </div>
             </div>
         </div>

@@ -4,15 +4,19 @@
     <list default="true" id="0d87ad2f-a6aa-43bd-af30-c217667def42" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/Admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/Admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/Blog_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Blog_model.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/User_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/User_model.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/Admin/blog_details.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Admin/blog_details.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/Admin/create_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Admin/create_user.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/Home.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/Home.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/Admin/dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Admin/dashboard.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/Admin/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Admin/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/Admin/user_details.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Admin/user_details.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/Admin/users_list.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Admin/users_list.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/Appointment/appointment.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Appointment/appointment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/Blog/blog.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Blog/blog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/Contact/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Contact/contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/Home/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Home/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/Pages/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Pages/about.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/Pages/doctors.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Pages/doctors.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/Prevention/faq.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Prevention/faq.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/Prevention/prevention.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Prevention/prevention.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/templates/footer_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/templates/footer_user.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/templates/header_a.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/templates/header_a.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/templates/header_b.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/templates/header_b.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/templates/sidebar_admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/templates/sidebar_admin.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +92,7 @@
       <workItem from="1591532289978" duration="21082000" />
       <workItem from="1591585332857" duration="646000" />
       <workItem from="1591586039144" duration="14613000" />
-      <workItem from="1591610765897" duration="24129000" />
+      <workItem from="1591610765897" duration="38274000" />
     </task>
     <task id="LOCAL-00001" summary="update views">
       <created>1590849267974</created>
@@ -136,18 +140,18 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1590947140954" />
-    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1591610878942">
+    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1591646252447">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1591610878942" />
+    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1591646252447" />
     <state x="456" y="183" key="NewPhpClassDialog" timestamp="1591449814883">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="456" y="183" key="NewPhpClassDialog/0.0.1366.738@0.0.1366.738" timestamp="1591449814883" />
-    <state x="517" y="292" key="NewPhpFileDialog" timestamp="1591631635165">
+    <state x="517" y="292" key="NewPhpFileDialog" timestamp="1591650755744">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="517" y="292" key="NewPhpFileDialog/0.0.1366.738@0.0.1366.738" timestamp="1591631635165" />
+    <state x="517" y="292" key="NewPhpFileDialog/0.0.1366.738@0.0.1366.738" timestamp="1591650755744" />
     <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1590947145827">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -164,14 +168,14 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="92" y="92" width="1182" height="554" key="dock-window-1/0.0.1366.738@0.0.1366.738" timestamp="1590349990161" />
-    <state x="392" y="52" width="742" height="686" key="find.popup" timestamp="1591640455173">
+    <state x="392" y="52" width="807" height="686" key="find.popup" timestamp="1591658528521">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="392" y="52" width="742" height="686" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1591640455173" />
-    <state x="324" y="95" width="700" height="530" key="recent.locations.popup" timestamp="1591603465779">
+    <state x="392" y="52" width="807" height="686" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1591658528521" />
+    <state x="324" y="95" width="700" height="530" key="recent.locations.popup" timestamp="1591645370536">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="324" y="95" width="700" height="530" key="recent.locations.popup/0.0.1366.738@0.0.1366.738" timestamp="1591603465779" />
+    <state x="324" y="95" width="700" height="530" key="recent.locations.popup/0.0.1366.738@0.0.1366.738" timestamp="1591645370536" />
     <state x="339" y="165" key="run.anything.popup" timestamp="1591563801189">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

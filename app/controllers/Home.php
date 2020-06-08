@@ -20,9 +20,9 @@ class Home extends Controller {
         $deaths = $json_data[0]['deaths'];
         $active = $json_data[0]['active'];
 
-
+        $data['blogs'] = $this->model('Blog_model')->getBlogsByPage(0, 10);
         $this->view('templates/header_a');
-        $this->view('home/index');
+        $this->view('home/index', $data);
         $this->view('templates/footer_user');
     }
 

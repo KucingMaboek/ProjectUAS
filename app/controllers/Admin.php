@@ -6,6 +6,8 @@ class Admin extends Controller
     {
         $data['total_users'] = count($this->model('User_model')->getAllUsers());
         $data['total_blogs'] = count($this->model('Blog_model')->getAllBlogs());
+        $data['total_appointment'] = count($this->model('Appointment_model')->getAllAppointments());
+        $data['total_message'] = count($this->model('Message_model')->getAllMessages());
         $this->view('templates/auth');
         $this->view('templates/header_admin');
         $this->view('templates/sidebar_admin');
@@ -150,6 +152,38 @@ class Admin extends Controller
         try {
             $this->model('Appointment_model')->deleteAppointment($id);
             header("Location: " . BASEURL . "/Admin/appointments_list");
+        } catch (Exception $e) {
+            $this->blogs_list();
+            echo '<script type="text/javascript">alert("Failed to execute delete");</script>';
+        }
+    }
+
+    public function messages_list()
+    {
+        $this->view('templates/auth');
+        $data['messages'] = $this->model('Message_model')->getAllMessages();
+        $this->view('templates/header_admin');
+        $this->view('templates/sidebar_admin');
+        $this->view('admin/messages_list', $data);
+        $this->view('templates/footer_admin');
+    }
+
+    public function message_details($id)
+    {
+        $this->view('templates/auth');
+        $data['messages'] = $this->model('Message_model')->getAllMessagesById($id);
+        $this->view('templates/header_admin');
+        $this->view('templates/sidebar_admin');
+        $this->view('admin/message_details', $data);
+        $this->view('templates/footer_admin');
+    }
+
+    public function deleteMessage($id)
+    {
+        $this->view('templates/auth');
+        try {
+            $this->model('Message_model')->deleteMessage($id);
+            header("Location: " . BASEURL . "/Admin/messages_list");
         } catch (Exception $e) {
             $this->blogs_list();
             echo '<script type="text/javascript">alert("Failed to execute delete");</script>';

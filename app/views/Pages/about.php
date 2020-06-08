@@ -6,7 +6,7 @@
             <ul class="nav justify-content-center wow fadeInUp" data-wow-delay="0.3s">
                 <li><a href="<?= BASEURL; ?>/Home">Beranda</a></li>
                 <li><a href="<?= BASEURL; ?>/Pages">Tentang</a></li>
-                <li><a href="#">Terkait COVID-19</a></li>
+                <li><a href="<?= BASEURL; ?>/Pages/doctors">Dokter Kami</a></li>
             </ul>
         </div>
     </div>
@@ -35,7 +35,7 @@
                                 wabah ini menjadi Darurat Kesehatan Masyarakat Masalah Internasional tanggal
                                 30 Januari 2020 dan dinyatakan sebagai pandemi pada 11 Maret.
                             </p>
-                            <a class="text_btn wow fadeInUp" data-wow-delay="0.3s" href="#">Baca selengkapnya <i
+                            <a class="text_btn wow fadeInUp" data-wow-delay="0.3s" href="<?= BASEURL; ?>/Prevention/faq">Baca selengkapnya <i
                                         class="linearicons-arrow-right"></i></a>
                         </div>
                     </div>
@@ -125,7 +125,7 @@
                         genom sampai saat ini ditemukan paling banyak 92 % ...
 
                     </p>
-                    <a class="text_btn" href="#">Baca selengkapnya <i class="linearicons-arrow-right"></i></a>
+                    <a class="text_btn" href="<?= BASEURL; ?>/Prevention/faq">Baca selengkapnya <i class="linearicons-arrow-right"></i></a>
                 </div>
             </div>
         </div>
@@ -180,7 +180,7 @@
                                             yang terkontaminasi virus.
 
                                         </p>
-                                        <a class="text_btn" href="#">Baca selengkapnya
+                                        <a class="text_btn" href="<?= BASEURL; ?>/Prevention/faq">Baca selengkapnya
                                             <i class="linearicons-arrow-right"></i></a>
                                     </div>
                                 </div>
@@ -208,7 +208,7 @@
                                             atau melalui kontak tangan, permukaan, maupun benda
                                             yang terkontaminasi virus.
                                         </p>
-                                        <a class="text_btn" href="#">Baca selengkapnya
+                                        <a class="text_btn" href="<?= BASEURL; ?>/Prevention/faq">Baca selengkapnya
                                             <i class="linearicons-arrow-right"></i></a>
                                     </div>
                                 </div>
@@ -236,7 +236,7 @@
                                             atau melalui kontak tangan, permukaan, maupun benda
                                             yang terkontaminasi virus.
                                         </p>
-                                        <a class="text_btn" href="#">Baca selengkapnya
+                                        <a class="text_btn" href="<?= BASEURL; ?>/Prevention/faq">Baca selengkapnya
                                             <i class="linearicons-arrow-right"></i></a>
                                     </div>
                                 </div>
@@ -264,7 +264,7 @@
                                             atau melalui kontak tangan, permukaan, maupun benda
                                             yang terkontaminasi virus.
                                         </p>
-                                        <a class="text_btn" href="#">Baca selengkapnya
+                                        <a class="text_btn" href="<?= BASEURL; ?>/Prevention/faq">Baca selengkapnya
                                             <i class="linearicons-arrow-right"></i></a>
                                     </div>
                                 </div>
@@ -292,7 +292,7 @@
                                             atau melalui kontak tangan, permukaan, maupun benda
                                             yang terkontaminasi virus.
                                         </p>
-                                        <a class="text_btn" href="#">Baca selengkapnya
+                                        <a class="text_btn" href="<?= BASEURL; ?>/Prevention/faq">Baca selengkapnya
                                             <i class="linearicons-arrow-right"></i></a>
                                     </div>
                                 </div>
@@ -322,7 +322,7 @@
                         atau bersin. Tetesan pernapasan mungkin dihasilkan selama
                         bernafas tetapi virus umumnya tidak mengudara.
                     </p>
-                    <a class="text_btn" href="#">Baca selengkapnya <i class="linearicons-arrow-right"></i></a>
+                    <a class="text_btn" href="<?= BASEURL; ?>/Prevention/faq">Baca selengkapnya <i class="linearicons-arrow-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="500ms">
@@ -338,7 +338,7 @@
                         atau bersin. Tetesan pernapasan mungkin dihasilkan selama
                         bernafas tetapi virus umumnya tidak mengudara.
                     </p>
-                    <a class="text_btn" href="#">Baca selengkapnya <i class="linearicons-arrow-right"></i></a>
+                    <a class="text_btn" href="<?= BASEURL; ?>/Prevention/Prevention/symptoms">Baca selengkapnya <i class="linearicons-arrow-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="600ms">
@@ -354,7 +354,7 @@
                         atau bersin. Tetesan pernapasan mungkin dihasilkan selama
                         bernafas tetapi virus umumnya tidak mengudara.
                     </p>
-                    <a class="text_btn" href="#">Baca selengkapnya <i class="linearicons-arrow-right"></i></a>
+                    <a class="text_btn" href="<?= BASEURL; ?>/Prevention">Baca selengkapnya <i class="linearicons-arrow-right"></i></a>
                 </div>
             </div>
         </div>
@@ -382,7 +382,7 @@
                     </div>
                 </div>
                 <div class="right">
-                    <a class="icon_btn wow fadeInRight" data-wow-delay="400ms" href="#">Cek Sekarang<i
+                    <a class="icon_btn wow fadeInRight" data-wow-delay="400ms" href="<?= BASEURL; ?>/Prevention/symptom_checker">Cek Sekarang<i
                                 class="linearicons-arrow-right"></i></a>
                 </div>
             </div>

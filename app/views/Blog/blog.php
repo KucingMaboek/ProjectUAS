@@ -63,7 +63,7 @@
                                 <a href="<?= BASEURL; ?>/Blog/single_blog/<?= $blog['id'] ?>">
                                     <h3><?= $blog['title'] ?></h3>
                                 </a>
-                                <a class="text_btn" href="<?= BASEURL; ?>/Blog/single_blog/<?= $blog['id'] ?>">Read more
+                                <a class="text_btn" href="<?= BASEURL;?>/Blog/single_blog/<?= $blog['id'];?>">Read more
                                     <i class="linearicons-arrow-right"></i></a>
                             </div>
                         </div>
@@ -155,57 +155,7 @@
                 </div>
             </div>
             <div class="right">
-                <a class="icon_btn" href="#">Check now <i class="linearicons-arrow-right"></i></a>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<section class="app_area">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="app_text">
-                    <h2>Get <span>epidemic</span> app!</h2>
-                    <p>
-                        Download our app now, track Coronavirus cases real-time and
-                        follow instant updates.
-                    </p>
-                    <a href="#"><img src="<?= BASEURL; ?>/assets/images/apple-btn.png" alt=""/></a>
-                    <a href="#"><img src="<?= BASEURL; ?>/assets/images/google-btn.png" alt=""/></a>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="app_mobile">
-                    <div class="mobile_image">
-                        <img src="<?= BASEURL; ?>/assets/images/mobile-1.png" alt=""/>
-                        <img src="<?= BASEURL; ?>/assets/images/mobile-2.png" alt=""/>
-                    </div>
-                    <ul class="corona_img nav">
-                        <li>
-                            <img src="<?= BASEURL; ?>/assets/images/icon/app-virus-1.png" alt=""/>
-                        </li>
-                        <li>
-                            <img src="<?= BASEURL; ?>/assets/images/icon/app-virus-2.png" alt=""/>
-                        </li>
-                        <li>
-                            <img src="<?= BASEURL; ?>/assets/images/icon/app-virus-3.png" alt=""/>
-                        </li>
-                        <li>
-                            <img src="<?= BASEURL; ?>/assets/images/icon/app-virus-4.png" alt=""/>
-                        </li>
-                        <li data-parallax='{"y": 100}'>
-                            <img src="<?= BASEURL; ?>/assets/images/icon/app-virus-5.png" alt=""/>
-                        </li>
-                        <li>
-                            <img src="<?= BASEURL; ?>/assets/images/icon/app-virus-6.png" alt=""/>
-                        </li>
-                        <li>
-                            <img src="<?= BASEURL; ?>/assets/images/icon/app-virus-7.png" alt=""/>
-                        </li>
-                    </ul>
-                </div>
+                <a class="icon_btn" href="<?= BASEURL; ?>/Prevention/symptom_checker">Check now <i class="linearicons-arrow-right"></i></a>
             </div>
         </div>
     </div>

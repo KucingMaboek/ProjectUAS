@@ -36,8 +36,9 @@ class Prevention extends Controller {
 
     public function faq()
     {
+        $data['blogs'] = $this->model('Blog_model')->getBlogsByPage(0, 10);
         $this->view('templates/header_b');
-        $this->view('prevention/faq');
+        $this->view('prevention/faq', $data);
         $this->view('templates/footer_user');
     }
 }

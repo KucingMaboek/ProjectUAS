@@ -10,7 +10,7 @@
                     <br/>bersama-sama menghentikan penyebaran virus corona<br/>
                     yang secara resmi telah mencapai titik pandemi.
                 </p>
-                <a class="main_btn wow fadeInLeft" data-wow-delay="300ms" href="#">Yuk, cegah bersama!</a>
+                <a class="main_btn wow fadeInLeft" data-wow-delay="300ms" href="<?= BASEURL; ?>/Prevention/">Yuk, cegah bersama!</a>
                 <div class="row home_option">
                     <div class="col-lg-6 wow fadeIn" data-wow-delay="300ms">
                         <div class="media">
@@ -86,7 +86,7 @@
                 </div>
             </div>
             <div class="right">
-                <a class="icon_btn wow fadeInRight" data-wow-delay="400ms" href="#">Cek Sekarang <i
+                <a class="icon_btn wow fadeInRight" data-wow-delay="400ms" href="<?= BASEURL; ?>/Prevention/symptom_checker">Cek Sekarang <i
                             class="linearicons-arrow-right"></i></a>
             </div>
         </div>
@@ -125,7 +125,8 @@
                                 di Wuhan, Provinsi Hubei, Cina, di mana telah menyebabkan
                                 wabah besar dan berkelanjutan. Sejak itu menyebar lebih luas di Cina.
                             </p>
-                            <a class="text_btn" href="#">Read more about <i class="linearicons-arrow-right"></i></a>
+                            <a class="text_btn" href="<?= BASEURL; ?>/Prevention/faq">Baca selengkapnya <i
+                                        class="linearicons-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -188,12 +189,6 @@
                 </div>
             </div>
         </div>
-        <!-- <div class="tracker_btn">
-            <a class="green_btn wow fadeInUp" data-wow-delay="500" href="#"><i class="linearicons-earth-lock"></i>
-                See
-                Live
-                Track</a>
-        </div> -->
     </div>
 </section>
 
@@ -357,7 +352,8 @@
                         Jika Anda perlu melakukan isolasi mandiri, Anda harus segera bertindak.
                         Tetaplah di dalam rumah dan hindari semua kontak langsung dengan orang lain.
                     </p>
-                    <a class="text_btn" href="#">Bagaimana cara lain untuk melindungi diri Anda?
+                    <a class="text_btn" href="<?= BASEURL; ?>/Prevention">Bagaimana cara lain untuk melindungi diri
+                        Anda?
                         <i class="linearicons-arrow-right"></i></a>
                 </div>
             </div>
@@ -563,7 +559,8 @@
                             di dekatnya atau mungkin terhirup ke dalam paru-paru.
                             Beberapa prosedur medis seperti intubasi dan ...
                         </p>
-                        <a class="green_btn" href="#"><i class="linearicons-shield-check"></i> Baca Lebih Lanjut terkait Pencegahan</a>
+                        <a class="green_btn" href="<?= BASEURL; ?>/Prevention"><i class="linearicons-shield-check"></i>
+                            Baca Lebih Lanjut terkait Pencegahan</a>
                     </div>
                 </div>
             </div>
@@ -582,7 +579,13 @@
                 dan cara menghadapi COVID-19.
             </p>
         </div>
+
         <div class="row l_blog_inner">
+            <?php
+            $date = date('j F Y', strtotime(str_replace("-", "/", $data['blogs'][0]['date'])));
+            $data['users'] = $this->model('User_model')->getAllUsersNameById($data['blogs'][0]['authId']);
+            $author_name = $data['users']['full_name'];
+            ?>
             <div class="col-lg-8">
                 <div class="big_l_blog_item">
                     <div class="l_blog_img">
@@ -590,24 +593,29 @@
                     </div>
                     <div class="l_blog_text">
                         <div class="date">
-                            <a href="#"><i class="linearicons-calendar-full"></i> Apr 12, 2020</a>
-                            <a href="#"><i class="linearicons-bubbles"></i> 22</a>
+                            <a><i class="linearicons-calendar-full"></i><?= $date; ?></a>
+                            <a><i class="linearicons-bubbles"></i> 22</a>
                         </div>
                         <div class="blog_btm_text">
-                            <div class="tag">Quarantine</div>
+                            <div class="tag"><?= $data['blogs'][0]['category']; ?></div>
                             <div class="author">
-                                <a href="#">by Sheryl Smith</a>
-                                <a href="#"><i class="linearicons-radio-button"></i> 4 min read</a>
+                                <a>by <?= $author_name; ?></a>
+                                <a><i class="linearicons-radio-button"></i> 4 min read</a>
                             </div>
-                            <a href="#">
-                                <h3>How to treat COVID-19 <br/>coronavirus at home?</h3>
+                            <a href="<?= BASEURL; ?>/Blog/single_blog/<?= $data['blogs'][0]['id']; ?>">
+                                <h3><?=$data['blogs'][0]['title'];?></h3>
                             </a>
-                            <a class="text_btn" href="#">Read more <i class="linearicons-arrow-right"></i></a>
+                            <a class="text_btn" href="<?= BASEURL; ?>/Blog/single_blog/<?= $data['blogs'][0]['id']; ?>">Read
+                                more <i class="linearicons-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
+
             <div class="col-lg-4">
+                <?php
+                $date = date('j F Y', strtotime(str_replace("-", "/", $data['blogs'][1]['date'])));
+                ?>
                 <div class="small_l_blog_item">
                     <div class="l_blog_img">
                         <img class="img-fluid" src="<?= BASEURL; ?>/assets/images/blog/latest-blog/l-blog-2.jpg"
@@ -615,15 +623,19 @@
                     </div>
                     <div class="l_blog_text">
                         <div class="date">
-                            <a href="#"><i class="linearicons-calendar-full"></i> Apr 11, 2020</a>
-                            <a href="#"><i class="linearicons-bubbles"></i> 39</a>
+                            <a><i class="linearicons-calendar-full"></i><?= $date; ?></a>
+                            <a><i class="linearicons-bubbles"></i> 39</a>
                         </div>
-                        <a href="#">
-                            <h3>What is an underlying health condition?</h3>
+                        <a href="<?= BASEURL; ?>/Blog/single_blog/<?= $data['blogs'][1]['id']; ?>">
+                            <h3><?=$data['blogs'][1]['title'];?></h3>
                         </a>
-                        <a class="text_btn" href="#">Read more <i class="linearicons-arrow-right"></i></a>
+                        <a class="text_btn" href="<?= BASEURL; ?>/Blog/single_blog/<?= $data['blogs'][1]['id']; ?>">Baca selengkapnya <i class="linearicons-arrow-right"></i></a>
                     </div>
                 </div>
+
+                <?php
+                $date = date('j F Y', strtotime(str_replace("-", "/", $data['blogs'][2]['date'])));
+                ?>
                 <div class="small_l_blog_item">
                     <div class="l_blog_img">
                         <img class="img-fluid" src="<?= BASEURL; ?>/assets/images/blog/latest-blog/l-blog-3.jpg"
@@ -631,155 +643,16 @@
                     </div>
                     <div class="l_blog_text">
                         <div class="date">
-                            <a href="#"><i class="linearicons-calendar-full"></i> Apr 11, 2020</a>
-                            <a href="#"><i class="linearicons-bubbles"></i> 39</a>
+                            <a><i class="linearicons-calendar-full"></i><?= $date; ?></a>
+                            <a><i class="linearicons-bubbles"></i> 39</a>
                         </div>
-                        <a href="#">
-                            <h3>What is an underlying health condition?</h3>
+                        <a href="<?= BASEURL; ?>/Blog/single_blog/<?= $data['blogs'][2]['id']; ?>">
+                            <h3><?=$data['blogs'][2]['title'];?></h3>
                         </a>
-                        <a class="text_btn" href="#">Read more <i class="linearicons-arrow-right"></i></a>
+                        <a class="text_btn" href="<?= BASEURL; ?>/Blog/single_blog/<?= $data['blogs'][2]['id']; ?>">Baca selengkapnya <i class="linearicons-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-
-<!-- <section class="client_logo_area">
-    <div class="container">
-        <div class="client_slider">
-            <div class="item">
-                <img src="<?= BASEURL; ?>/assets/images/client-logo/client-logo-1.png" alt=""/>
-            </div>
-            <div class="item">
-                <img src="<?= BASEURL; ?>/assets/images/client-logo/client-logo-2.png" alt=""/>
-            </div>
-            <div class="item">
-                <img src="<?= BASEURL; ?>/assets/images/client-logo/client-logo-3.png" alt=""/>
-            </div>
-            <div class="item">
-                <img src="<?= BASEURL; ?>/assets/images/client-logo/client-logo-4.png" alt=""/>
-            </div>
-            <div class="item">
-                <img src="<?= BASEURL; ?>/assets/images/client-logo/client-logo-5.png" alt=""/>
-            </div>
-            <div class="item">
-                <img src="<?= BASEURL; ?>/assets/images/client-logo/client-logo-6.png" alt=""/>
-            </div>
-            <div class="item">
-                <img src="<?= BASEURL; ?>/assets/images/client-logo/client-logo-1.png" alt=""/>
-            </div>
-            <div class="item">
-                <img src="<?= BASEURL; ?>/assets/images/client-logo/client-logo-2.png" alt=""/>
-            </div>
-            <div class="item">
-                <img src="<?= BASEURL; ?>/assets/images/client-logo/client-logo-3.png" alt=""/>
-            </div>
-            <div class="item">
-                <img src="<?= BASEURL; ?>/assets/images/client-logo/client-logo-4.png" alt=""/>
-            </div>
-            <div class="item">
-                <img src="<?= BASEURL; ?>/assets/images/client-logo/client-logo-5.png" alt=""/>
-            </div>
-            <div class="item">
-                <img src="<?= BASEURL; ?>/assets/images/client-logo/client-logo-6.png" alt=""/>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<section class="app_area">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="app_text">
-                    <h2>Get <span>epidemic</span> app!</h2>
-                    <p>
-                        Download our app now, track Coronavirus cases real-time and
-                        follow instant updates.
-                    </p>
-                    <a class="wow fadeIn" data-wow-delay="400" href="#"><img src="<?= BASEURL; ?>/assets/images/apple-btn.png"
-                                                                             alt=""/></a>
-                    <a class="wow fadeIn" data-wow-delay="500" href="#"><img src="<?= BASEURL; ?>/assets/images/google-btn.png"
-                                                                             alt=""/></a>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="app_mobile">
-                    <div class="mobile_image">
-                        <img src="<?= BASEURL; ?>/assets/images/mobile-1.png" alt=""/>
-                        <img class="wow fadeInUp" data-wow-delay="500ms" src="<?= BASEURL; ?>/assets/images/mobile-2.png" alt=""/>
-                    </div>
-                    <ul class="corona_img nav">
-                        <li>
-                            <img src="<?= BASEURL; ?>/assets/images/icon/app-virus-1.png" alt=""/>
-                        </li>
-                        <li>
-                            <img src="<?= BASEURL; ?>/assets/images/icon/app-virus-2.png" alt=""/>
-                        </li>
-                        <li>
-                            <img src="<?= BASEURL; ?>/assets/images/icon/app-virus-3.png" alt=""/>
-                        </li>
-                        <li data-parallax='{"y": -100}'>
-                            <img src="<?= BASEURL; ?>/assets/images/icon/app-virus-4.png" alt=""/>
-                        </li>
-                        <li data-parallax='{"y": 100}'>
-                            <img src="<?= BASEURL; ?>/assets/images/icon/app-virus-5.png" alt=""/>
-                        </li>
-                        <li>
-                            <img src="<?= BASEURL; ?>/assets/images/icon/app-virus-6.png" alt=""/>
-                        </li>
-                        <li data-parallax='{"y": -200}'>
-                            <img src="<?= BASEURL; ?>/assets/images/icon/app-virus-7.png" alt=""/>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<section class="subscribe_area apps_craft_animation">
-    <ul class="nav">
-        <li><img class="layer layer2" data-depth="0.5" src="<?= BASEURL; ?>/assets/images/icon/subs-1.png" alt=""></li>
-        <li><img src="<?= BASEURL; ?>/assets/images/icon/subs-2.png" alt=""></li>
-        <li><img src="<?= BASEURL; ?>/assets/images/icon/subs-3.png" alt=""></li>
-    </ul>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="media">
-                    <div class="d-flex">
-                        <i class="linearicons-mailbox-full"></i>
-                    </div>
-                    <div class="media-body">
-                        <h4>Subscribe our newsletter</h4>
-                        <p>
-                            Join our subscribers list to get latest news and updates
-                            about COVID-19 delivered directly in your inbox.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="mail_box">
-                    <div class="input-group">
-                        <input type="text" class="form-control" placeholder="&#xe997; Enter your email"
-                               aria-label="Recipient's username" aria-describedby="button-addon2"/>
-                        <div class="input-group-append">
-                            <button class="btn btn-outline-secondary" type="button" id="button-addon2">
-                                <i class="linearicons-arrow-right"></i>
-                            </button>
-                        </div>
-                    </div>
-                    <label class="container-checkbox">I accept the <span>Privacy Policy.</span>
-                        <input type="checkbox"/>
-                        <span class="checkmark"></span>
-                    </label>
-                </div>
-            </div>
-        </div>
-    </div>
-</section> -->
