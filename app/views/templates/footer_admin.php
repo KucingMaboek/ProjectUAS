@@ -2,11 +2,13 @@
 <!-- End of Main Content -->
 
 <!-- Bootstrap core JavaScript-->
-<script src="<?= BASEURL; ?>/admin_assets/vendor/jquery/jquery.min.js"></script>
-<script src="<?= BASEURL; ?>/admin_assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 
 <!-- Core plugin JavaScript-->
-<script src="<?= BASEURL; ?>/admin_assets/vendor/jquery-easing/jquery.easing.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
 
 <!-- Custom scripts for all pages-->
 <script src="<?= BASEURL; ?>/admin_assets/js/sb-admin-2.min.js"></script>

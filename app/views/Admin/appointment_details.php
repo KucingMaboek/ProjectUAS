@@ -1,4 +1,4 @@
-<script type="text/javascript" src="<?= BASEURL; ?>/admin_assets/ckeditor/ckeditor.js"></script>
+<script src="https://cdn.ckeditor.com/4.14.0/standard/ckeditor.js"></script>
 
 <div class="container-fluid">
     <div class="card mb-4">
